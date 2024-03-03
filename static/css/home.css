@@ -1,8 +1,11 @@
 .subscribe-btn {
+	display: block;
+	width: 100%;
 }
 
 .news-btn-font{
-	font-weight: 700;	
+	font-size: 16px;	
+	font-weight: bold;
 }
 
 .news-view-all-font{
@@ -10,5 +13,8 @@
 }
 
 .subscribe-footer {
-	padding: 5px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
 }
