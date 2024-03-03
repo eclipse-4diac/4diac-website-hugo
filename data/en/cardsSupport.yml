@@ -2,7 +2,7 @@ style: vertical
 items:
   - heading: Github
     fullCardLink: https://github.com/eclipse-4diac
-    content: 4diac bugs and enhancements are maintained using Github. Please submit issues and suggestions on 4diac IDE, 4diac FORTE, libraries, examples as well as the web page here.
+    content: Eclipse 4diac bugs and enhancements are maintained und discussed using Github. Please submit issues and suggestions on 4diac IDE, 4diac FORTE, libraries, examples as well as the web page here.
   
   - heading: Project Mailing List
     fullCardLink: https://dev.eclipse.org/mailman/listinfo/4diac-dev

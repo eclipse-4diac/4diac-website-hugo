@@ -3,8 +3,12 @@ title: "Eclipse 4diac"
 date: 2020-03-01T16:09:45-04:00
 headline: > 
   What is <span class="white">Eclipse 4diac™</span>?
-tagline: "Eclipse 4diac™ provides an open source infrastructure for distributed industrial process measurement and control systems
-based on the IEC 61499 standard."
+
+tagline: "Eclipse 4diac™ provides an open source infrastructure for distributed industrial process measurement and control systems based on the IEC 61499 standard."
+
+
+
+
 hide_page_title: true
 hide_breadcrumb: true
 main_content_class: "col-md-25 padding-bottom-30"
