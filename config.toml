@@ -57,7 +57,7 @@ pluralizeListTitles = false
   hrefTargetBlank = true
 
 [[menu.main]]
-  name = "4diac"
+  name = "Eclipse 4diac"
   weight = 1
   identifier = "fordiac"
   [menu.main.params]
