@@ -18,7 +18,7 @@ hide_breadcrumb: true
 {{< supportCards useMatchHeight="true" source="cardsSupport" containerClass="col-xs-24 col-sm-7">}}
 
 # Background
-In order to understand the modelling concepts used in Eclipse 4diac it is advisable to get familiar with the IEC 61499 reference model. The following resources provide more information about the IEC 61499 concept and the 4diac implementation:
+In order to understand the modelling concepts used in Eclipse 4diac™ it is advisable to get familiar with the IEC 61499 reference model. The following resources provide more information about the IEC 61499 concept and the Eclipse 4diac™ implementation:
 - [Wikipedia article on IEC 61499](https://en.wikipedia.org/wiki/IEC_61499)
 - [Introduction to IEC 61499 in the Eclipse 4diac documentation](/4diac/documentation)
 - [Modelling Control Systems Using IEC 61499 by Robert W. Lewis and Alois Zoitl](https://digital-library.theiet.org/content/books/ce/pbce095e)

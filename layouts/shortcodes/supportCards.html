@@ -34,7 +34,7 @@
       <div class="glyph-bottom"></div>
     </div>
     {{ end }}
-    <div class="card-panel panel panel-default{{ if $glyphSet }} with-glyph{{ end }}{{ if eq $cardStyle "horizontal" }} horizontal-card{{ end }}{{ with .class }} {{ . }}{{ end }}" style="background-color: #f5f5f5;">
+    <div class="card-panel panel panel-default{{ if $glyphSet }} with-glyph{{ end }}{{ if eq $cardStyle "horizontal" }} horizontal-card{{ end }}{{ with .class }} {{ . }}{{ end }}" style="background-color: #fff3e3;">
       {{ if isset . "imgSrc" }}
       <div class="panel-heading" aria-hidden="true">
         <img class="img {{ .imgClass | default "img-responsive margin-auto" }}" src="{{ .imgSrc }}" alt="{{ .imgAlt }}"/>
