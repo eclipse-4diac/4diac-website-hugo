@@ -1,0 +1,13 @@
+style: vertical
+items:
+  - heading: Discussion Forum
+    fullCardLink: https://eclipse.org/forums/eclipse.4diac
+    content: For asking questions and discussing 4diac related issues the 4diac discussion forum is here for you.
+  
+  - heading: Project Mailing List
+    fullCardLink: https://dev.eclipse.org/mailman/listinfo/4diac-dev
+    content: Follow and participate in discussions on 4diac. You can subscribe here.
+
+  - heading: Bugzilla
+    fullCardLink: https://bugs.eclipse.org/bugs/enter_bug.cgi?product=4DIAC
+    content: 4diac bugs and enhancements are maintained using Bugzilla. Please submit issues and suggestions on 4diac IDE, 4diac FORTE, libraries, examples as well as the web page here.

@@ -1,0 +1,27 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" -}}
+{{- $width := .Get "width" -}}
+{{- $height := .Get "height" -}}
+{{- $class := .Get "class" -}}
+{{- $margin := .Get "margin" -}}
+{{- $marginTop := .Get "margin-top" | default "" -}}
+{{- $marginLeft := .Get "margin-left" | default "" -}}
+{{- $marginRight := .Get "margin-right" | default "" -}}
+{{- $marginBottom := .Get "margin-bottom" | default "" -}}
+{{- $display := .Get "display" }}
+
+<img 
+    src="/4diac/img/news/{{ $src }}" 
+    alt="{{ $alt }}" 
+    style="
+        max-width: {{ $width }}; 
+        max-height: {{ $height }}; 
+        margin: {{ $margin }}; 
+        margin-top {{ $marginTop }}; 
+        margin-left: {{ $marginLeft }}; 
+        margin-right: {{ $marginRight }};
+        margin-bottom: {{ $marginBottom }}; 
+        display: {{ $display }};" 
+    class="{{ $class }}"
+>
+
