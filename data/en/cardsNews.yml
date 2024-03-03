@@ -1,18 +1,21 @@
 style: vertical
 items:
-  - heading: 
+  - imgSrc: "/4diac/img/news.jpeg"
+    imgClass: "cover-image"
 
   - heading: Eclipse 4diac in Elektor mag
-    fullCardLink: ./news/2023/12/06/guest-post-eclipse-4diac-in-elektor-mag
+    fullCardLink: ./news/2023/guest-post-eclipse-4diac-in-elektor-mag
     cardDate: December 06, 2023
     content: there is a featured Article in Elektor about Eclipse 4diac and logiBUS
   
   - heading: Eclipse 4diac for Agrimechatronics - The Project logiBUS
-    fullCardLink: ./news/2023/08/19/guest-post-eclipse-4diac-for-agrimechatronics-the-project-logibusreg
+    fullCardLink: ./news/2023/guest-post-eclipse-4diac-for-agrimechatronics-the-project-logibusreg
     cardDate: August 19, 2023
     content: The folks at HR Agrartechnik GmbH have been busy to port Eclipse 4diac&trade; FORTE to the ESP32 and integrate the ISOBUS (ISO 11783) protocol over the last year. 
 
   - heading: You Can't Make an Omelet Without Breaking Eggs!
     fullCardLink: ./news/
     cardDate: May 31, 2023
-    content: For 4diac FORTE, API stability was always our major concern. However, this came at a cost (e.g., performance, memory usage, memory-safety). Therefore, we decided that we need to do a major rework of 4diac FORTE for the next release! 
+    content: For 4diac FORTE, API stability was always our major concern. However, this came at a cost (e.g., performance, memory usage, memory-safety). Therefore, we decided that we need to do a major rework of 4diac FORTE for the next release!
+    
+ 
