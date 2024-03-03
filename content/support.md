@@ -22,5 +22,5 @@ In order to understand the modelling concepts used in Eclipse 4diac™ it is adv
 - [Wikipedia article on IEC 61499](https://en.wikipedia.org/wiki/IEC_61499)
 - [Introduction to IEC 61499 in the Eclipse 4diac documentation](/4diac/documentation)
 - [Modelling Control Systems Using IEC 61499 by Robert W. Lewis and Alois Zoitl](https://digital-library.theiet.org/content/books/ce/pbce095e)
-- [Real-Time-Execution-61499-Alois-Zoitl](https://www.isa.org/products/real-time-execution-for-iec-61499)
+- [Real-Time Execution for IEC 61499 by Alois Zoitl](https://www.isa.org/products/real-time-execution-for-iec-61499)
 - [Distributed Control Applications by Alois Zoitl and Thomas Strasser](https://www.crcpress.com/Distributed-Control-Applications-Guidelines-Design-Patterns-and-Application/Zoitl-Strasser/9781482259056)
