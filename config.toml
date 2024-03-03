@@ -41,17 +41,16 @@ pluralizeListTitles = false
   participation_level = "participation_levels"
 
 [Author]
-  name = "Andrea Zoitl"
+  name = "Eclipse 4diac Team"
   website = "https://eclipse.dev/4diac/"
-  email = "webdev@eclipse-foundation.org"
+  email = "4diac-dev@eclipse.org"
   facebook = "eclipse.org"
   twitter = "ECDTools"
   youtube = "EclipseFdn"
-  googleplus = "+Eclipse"
   linkedin = "company/eclipse-foundation/"
 
 [permalinks]
-  news = "/:sections/:year/:month/:day/:slug/"
+  news = "/:sections/:year/:slug/"
 
 [blackfriday]
   plainIDAnchors = true
