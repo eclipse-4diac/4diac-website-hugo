@@ -1,8 +1,19 @@
 .subscribe-btn {
 	display: block;
 	width: 100%;
-	background-color: #ff950e;
 }
+
+.view-all-btn{
+	display: block;
+	width: 100%;
+	background-color: #012269;
+	border: 0px;
+}
+
+.view-all-btn:hover {
+	background-color: #99a6c3;
+	}
+	
 
 .news-btn-font{
 	font-size: 16px;	
@@ -13,9 +24,3 @@
 	color: #012269;
 }
 
-.subscribe-footer {
-	padding-top: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	padding-bottom: 5px;
-}
