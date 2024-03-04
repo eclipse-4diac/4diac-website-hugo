@@ -6,8 +6,8 @@ headline: >
 tagline: "Thanks for your interest to support 4diac. There are multiple ways to contribute"
 hide_page_title: true
 page_css_file: /4diac/css/contribute.css
+hide_breadcrumb: true
 #hide_sidebar: true
-#hide_breadcrumb: true
 #show_featured_story: true
 #layout: "single"
 #links: [[href: "/projects/", text: "Projects"],[href: "/org/workinggroups/", text: "Working Group"],[href: "/membership/", text: "Members"],[href: "/org/value", text: "Business Value"]]
