@@ -50,7 +50,8 @@ pluralizeListTitles = false
   linkedin = "company/eclipse-foundation/"
 
 [permalinks]
-  news = "/:sections/:year/:slug/"
+  news = "/:sections/:slug/"
+  # news = "/:sections/:year/:month/:day/:slug/"
 
 [blackfriday]
   plainIDAnchors = true

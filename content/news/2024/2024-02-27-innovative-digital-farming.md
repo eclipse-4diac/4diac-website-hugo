@@ -12,8 +12,8 @@ Now logiBUS&reg; won a prestigious award: "Award for innovative digital farming"
 {{< image src="/4diac/img/news/IMG_20240227_100459_022.jpg" alt="logiBUS" height="400px" >}}
 {{< image src="/4diac/img/news/16F0AB7B-BE87-4614-8CD5-C6F7C2AE31B9_1_105_c.jpeg" alt="logiBUS" height="400px" >}}
 {{< image src="/4diac/img/news/DBE0CE80-CD68-40E3-A701-E6AE181896AE_1_105_c.jpeg" alt="logiBUS" height="400px" >}}
-{{< image src="/4diac/img/news/95B57F5B-7F53-419D-9C21-3873A6022D4C_1_105_c.jpeg" alt="logiBUS" height="335px" >}}
-{{< image src="/4diac/img/news/F734F58A-2682-41E6-8CA8-4C466FF9B6B7_1_105_c.jpeg" alt="logiBUS" height="335px" >}}
+{{< image src="/4diac/img/news/95B57F5B-7F53-419D-9C21-3873A6022D4C_1_105_c.jpeg" alt="logiBUS" height="332px" >}}
+{{< image src="/4diac/img/news/F734F58A-2682-41E6-8CA8-4C466FF9B6B7_1_105_c.jpeg" alt="logiBUS" height="332px" >}}
 
 Cheers, {{< br >}}
 Franz Höpfinger on behalf of HR Agrartechnik GmbH
