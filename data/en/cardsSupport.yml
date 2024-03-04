@@ -3,7 +3,8 @@ items:
   - heading: Github
     fullCardLink: https://github.com/eclipse-4diac
     content: Eclipse 4diac bugs and enhancements are maintained und discussed using Github. Please submit issues and suggestions on 4diac IDE, 4diac FORTE, libraries, examples as well as the website here.
-  
+    glyph: fa-globe  
+
   - heading: Project Mailing List
     fullCardLink: https://dev.eclipse.org/mailman/listinfo/4diac-dev
     content: Follow and participate in discussions on 4diac. You can subscribe here.
