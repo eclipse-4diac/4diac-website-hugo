@@ -3,7 +3,7 @@ title: "Contribute to 4diac"
 date: 2020-03-01T16:09:45-04:00
 headline: > 
   Contribute to <span class="white">Eclipse 4diac™</span>
-tagline: >
+subtitle: >
   <span class="white">Thanks for your interest to support</span> Eclipse 4diac™ <span class="white">. <br>There are multiple ways to contribute.</span>
 hide_page_title: true
 page_css_file: /4diac/css/contribute.css
