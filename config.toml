@@ -50,7 +50,7 @@ pluralizeListTitles = false
   linkedin = "company/eclipse-foundation/"
 
 [permalinks]
-  news = "/:sections/:slug/"
+  news = "/:sections/:year/:slug/"
   # news = "/:sections/:year/:month/:day/:slug/"
 
 [blackfriday]
@@ -76,7 +76,7 @@ pluralizeListTitles = false
 
 [[menu.main]]
   name = "4diac IDE"
-  url = "/fordiac/ide.php"
+  url = "/4diac_IDE"
   weight = 1
   parent = "fordiac-ide"
 
@@ -88,7 +88,7 @@ pluralizeListTitles = false
 
 [[menu.main]]
   name = "4diac FORTE"
-  url = "/fordiac/forte.php"
+  url = "/4diac_FORTE"
   weight = 2
   parent = "fordiac-forte"
 
@@ -100,7 +100,7 @@ pluralizeListTitles = false
 
 [[menu.main]]
   name = "4diac LIB"
-  url = "/fordiac/lib.php"
+  url = "/4diac_LIB"
   weight = 3
   parent = "fordiac-lib"
 
@@ -112,7 +112,7 @@ pluralizeListTitles = false
 
 [[menu.main]]
   name = "4diac SYS"
-  url = "/fordiac/sys.php"
+  url = "/4diac_SYS"
   weight = 4
   parent = "fordiac-sys"
 

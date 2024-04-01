@@ -22,4 +22,21 @@
 .view-all-btn:hover {
 	background-color: #99a6c3;
 	}
-	
+
+
+.featured-jumbotron .btn {
+	min-width:200px;
+	padding-left:0px;
+	padding-right:0px
+}
+				
+.featured-jumbotron.featured-jumbotron-dark .btn-primary {
+	background-color:#fff;
+	font-size:16px;
+	border:2px;
+	border-color:#ffb85e;
+	color:#012269;
+
+}
+				
+		

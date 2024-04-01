@@ -12,12 +12,15 @@ hide_page_title: true
 hide_breadcrumb: true
 main_content_class: "col-md-25 padding-bottom-30"
 page_css_file: /4diac/css/home.css
-#hide_sidebar: true
+hide_sidebar: false
 #show_featured_story: true
 #layout: "single"
 #container: "container-fluid"
-#links: [[href: "/projects/", text: "Projects"],[href: "/org/workinggroups/", text: "Working Group"],[href: "/membership/", text: "Members"],[href: "/org/value", text: "Business Value"]]
+links: [[href: "/4diac/4diac_ide/", text: "4diac IDE"],[href: "/4diac/4diac_forte/", text: "4diac FORTE"],[href: "/4diac/4diac_lib/", text: "4diac LIB"],[href: "/4diac/4diac_sys/", text: "4diac SYS"]]
 ---
+
+
+
 
 <!-- Currently the project is maintained by the Eclipse Foundation web development team, but like other projects under the Eclipse Foundation umbrella is open to community input and development. -->
 
