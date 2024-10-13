@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on Eclipse 4diac</title>
+    <link>http://localhost:1313/4diac/news/</link>
+    <description>Recent content in News on Eclipse 4diac</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>4diac-dev@eclipse.org (Eclipse 4diac Team)</managingEditor>
+    <webMaster>4diac-dev@eclipse.org (Eclipse 4diac Team)</webMaster>
+    <lastBuildDate>Thu, 15 Feb 2024 10:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/4diac/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test test test</title>
+      <link>http://localhost:1313/4diac/news/2024/test-test-test/</link>
+      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
+      
+        <author>4diac-dev@eclipse.org (Eclipse 4diac Team)</author>
+      
+      <guid>http://localhost:1313/4diac/news/2024/test-test-test/</guid>
+      <description>Testsite to test the test is the Fusion of IEC 61499 programming and ISO 11783 compatibiltiy.
+Now logiBUS® won a prestigious award: &amp;ldquo;Award for innovative digital farming&amp;rdquo; it was awarded at the 44th Annual Conference at the University of Hohenheim of the Society for Information Technology in Agriculture, Forestry and the Food Industry e.V.
+Cheers, Franz Höpfinger on behalf of HR Agrartechnik GmbH</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eclipse 4diac</title>
+    <link>http://localhost:1313/4diac/</link>
+    <description>Recent content on Eclipse 4diac</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>4diac-dev@eclipse.org (Eclipse 4diac Team)</managingEditor>
+    <webMaster>4diac-dev@eclipse.org (Eclipse 4diac Team)</webMaster>
+    <lastBuildDate>Sun, 01 Mar 2020 16:09:45 -0400</lastBuildDate><atom:link href="http://localhost:1313/4diac/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Guest Post: Eclipse 4diac for Agrimechatronics: The Project logiBUS won a prestigious award</title>
+      <link>http://localhost:1313/4diac/news/2024/2024/guest-post-eclipse-4diac-for-agrimechatronics-the-project-logibus-won-a-prestigious-award/</link>
+      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
+      
+        <author>4diac-dev@eclipse.org (Eclipse 4diac Team)</author>
+      
+      <guid>http://localhost:1313/4diac/news/2024/2024/guest-post-eclipse-4diac-for-agrimechatronics-the-project-logibus-won-a-prestigious-award/</guid>
+      <description>is the Fusion of IEC 61499 programming and ISO 11783 compatibiltiy.
+Now logiBUS® won a prestigious award: &amp;ldquo;Award for innovative digital farming&amp;rdquo; it was awarded at the 44th Annual Conference at the University of Hohenheim of the Society for Information Technology in Agriculture, Forestry and the Food Industry e.V.
+Cheers, Franz Höpfinger on behalf of HR Agrartechnik GmbH</description>
+    </item>
+    
+    <item>
+      <title>Test test test</title>
+      <link>http://localhost:1313/4diac/news/2024/test-test-test/</link>
+      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
+      
+        <author>4diac-dev@eclipse.org (Eclipse 4diac Team)</author>
+      
+      <guid>http://localhost:1313/4diac/news/2024/test-test-test/</guid>
+      <description>Testsite to test the test is the Fusion of IEC 61499 programming and ISO 11783 compatibiltiy.
+Now logiBUS® won a prestigious award: &amp;ldquo;Award for innovative digital farming&amp;rdquo; it was awarded at the 44th Annual Conference at the University of Hohenheim of the Society for Information Technology in Agriculture, Forestry and the Food Industry e.V.
+Cheers, Franz Höpfinger on behalf of HR Agrartechnik GmbH</description>
+    </item>
+    
+    <item>
+      <title>4diac FORTE</title>
+      <link>http://localhost:1313/4diac/4diac_forte/</link>
+      <pubDate>Thu, 15 Feb 2024 10:00:00 -0400</pubDate>
+      
+        <author>4diac-dev@eclipse.org (Eclipse 4diac Team)</author>
+      
+      <guid>http://localhost:1313/4diac/4diac_forte/</guid>
+      <description>coming soon: 4diac FORTE</description>
+    </item>
+    
+    <item>
+      <title>4diac IDE</title>
+      <link>http://localhost:1313/4diac/4diac_ide/</link>
+      <pubDate>Thu, 15 Feb 2024 10:00:00 -0400</pubDate>
+      
+        <author>4diac-dev@eclipse.org (Eclipse 4diac Team)</author>
+      
+      <guid>http://localhost:1313/4diac/4diac_ide/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>4diac LIB</title>
+      <link>http://localhost:1313/4diac/4diac_lib/</link>
+      <pubDate>Thu, 15 Feb 2024 10:00:00 -0400</pubDate>
+      
+        <author>4diac-dev@eclipse.org (Eclipse 4diac Team)</author>
+      
+      <guid>http://localhost:1313/4diac/4diac_lib/</guid>
+      <description>coming soon: 4diac LIB</description>
+    </item>
+    
+    <item>
+      <title>4diac SYS</title>
+      <link>http://localhost:1313/4diac/4diac_sys/</link>
+      <pubDate>Thu, 15 Feb 2024 10:00:00 -0400</pubDate>
+      
+        <author>4diac-dev@eclipse.org (Eclipse 4diac Team)</author>
+      
+      <guid>http://localhost:1313/4diac/4diac_sys/</guid>
+      <description>coming soon: 4diac SYS</description>
+    </item>
+    
+    <item>
+      <title>3rd 4diac Users&#39; Workshop @ ETFA 2012</title>
+      <link>http://localhost:1313/4diac/events/etfa/etfa2012/</link>
+      <pubDate>Tue, 13 Feb 2024 17:42:00 +0000</pubDate>
+      
+        <author>4diac-dev@eclipse.org (Eclipse 4diac Team)</author>
+      
+      <guid>http://localhost:1313/4diac/events/etfa/etfa2012/</guid>
+      <description>The 3rd Users&amp;rsquo; Workshop has been hold in conjunction with the 17th IEEE International Conference on Emerging Technologies and Factory Automation (ETFA) in Kraków.
+Workshop Date: 21th September 2012
+Workshop Organizers Alois Zoitl, fortiss GmbH, Germany Gerhard Ebenhofer, PROFACTOR GmbH, Austria Thomas Strasser, AIT Austrian Institute of Technology, Austria Workshop Program: Morning Session Welcome and Recent Activities of the 4DIAC Open Source Initiative A. Zoitl (Vienna University of Technology) Integration of IEC 61131-3 and IEC 61499 control logic using FORTE and ProConOS S.</description>
+    </item>
+    
+    <item>
+      <title>4days of 4diac</title>
+      <link>http://localhost:1313/4diac/events/workshops/2019_4days_of_4diac/</link>
+      <pubDate>Tue, 13 Feb 2024 17:42:00 +0000</pubDate>
+      
+        <author>4diac-dev@eclipse.org (Eclipse 4diac Team)</author>
+      
+      <guid>http://localhost:1313/4diac/events/workshops/2019_4days_of_4diac/</guid>
+      <description>4 days for the 4diac community to meet and exchange!
+What is 4days of 4diac? It is a place for bringing 4diac users and contributors together to show, discuss and program with each other on new 4diac topics and applications.
+Where will 4days of 4diac take place? LIT Open Innovation Center @ JKU Linz
+When are the 4days of 4diac? Start: Nov. 11th 2019, 1pm End: Nov. 14th 2019, 3pm Where to register for 4days of 4diac?</description>
+    </item>
+    
+    <item>
+      <title>4th 4diac Users&#39; Workshop @ ETFA 2013</title>
+      <link>http://localhost:1313/4diac/events/etfa/etfa2013/</link>
+      <pubDate>Tue, 13 Feb 2024 17:42:00 +0000</pubDate>
+      
+        <author>4diac-dev@eclipse.org (Eclipse 4diac Team)</author>
+      
+      <guid>http://localhost:1313/4diac/events/etfa/etfa2013/</guid>
+      <description>The 4th Users&amp;rsquo; Workshop has been hold in conjunction with the 18th IEEE International Conference on Emerging Technologies and Factory Automation (ETFA) in Cagliari, Italy.
+Workshop Date: 10th September 2013
+Workshop Organizers Alois Zoitl, fortiss GmbH, Germany Gerhard Ebenhofer, PROFACTOR GmbH, Austria Thomas Strasser, AIT Austrian Institute of Technology, Austria Workshop Program: Morning Session Welcome and Recent Activities of the 4DIAC Open Source Initiative G. Ebenhofer (Profactor GmbH), A. Zoitl (fortiss GmbH) Application Experiences Challenges and experiences using 4DIAC for Smart Grid laboratory automation F.</description>
+    </item>
+    
+    <item>
+      <title>5th 4diac Users&#39; Workshop @ ETFA 2014</title>
+      <link>http://localhost:1313/4diac/events/etfa/etfa2014/</link>
+      <pubDate>Tue, 13 Feb 2024 17:42:00 +0000</pubDate>
+      
+        <author>4diac-dev@eclipse.org (Eclipse 4diac Team)</author>
+      
+      <guid>http://localhost:1313/4diac/events/etfa/etfa2014/</guid>
+      <description>The 5th Users&amp;rsquo; Workshop has been hold in conjunction with the 19th IEEE International Conference on Emerging Technologies and Factory Automation (ETFA) in Barcelona.
+Workshop Date: 16th September 2014
+Workshop Organizers Alois Zoitl, fortiss GmbH, Germany Gerhard Ebenhofer, PROFACTOR GmbH, Austria Thomas Strasser, AIT Austrian Institute of Technology, Austria Workshop Program: Morning Session Welcome and Recent Activities of the 4DIAC Open Source Initiative A. Zoitl (fortiss GmbH) Infrastructure Enhancements Extending 4DIAC with a partitioning and scheduling tool M.</description>
+    </item>
+    
+    <item>
+      <title>6th 4diac Users&#39; Workshop @ ETFA 2015</title>
+      <link>http://localhost:1313/4diac/events/etfa/etfa2015/</link>
+      <pubDate>Tue, 13 Feb 2024 17:42:00 +0000</pubDate>
+      
+        <author>4diac-dev@eclipse.org (Eclipse 4diac Team)</author>
+      
+      <guid>http://localhost:1313/4diac/events/etfa/etfa2015/</guid>
+      <description>The 6th Users&amp;rsquo; Workshop is held in conjunction with the 20th IEEE International Conference on Emerging Technologies and Factory Automation (ETFA) in Luxembourg.
+Workshop Date: 8th September 2015
+Workshop Organizers Alois Zoitl, fortiss GmbH, Germany Gerhard Ebenhofer, PROFACTOR GmbH, Austria Thomas Strasser, AIT Austrian Institute of Technology, Austria Workshop Program: Morning Session Welcome and Recent Activities of the 4DIAC Open Source Initiative A. Zoitl (fortiss GmbH) Using IEC 61499 for Virtual Commissioning Dr.</description>
+    </item>
+    
+    <item>
+      <title>7th 4diac Users&#39; Workshop @ ETFA 2016</title>
+      <link>http://localhost:1313/4diac/events/etfa/etfa2016/</link>
+      <pubDate>Tue, 13 Feb 2024 17:42:00 +0000</pubDate>
+      
+        <author>4diac-dev@eclipse.org (Eclipse 4diac Team)</author>
+      
+      <guid>http://localhost:1313/4diac/events/etfa/etfa2016/</guid>
+      <description>The 7th Users&amp;rsquo; Workshop is held in conjunction with the 21th IEEE International Conference on Emerging Technologies and Factory Automation (ETFA) in Berlin.
+Workshop Date: 6th September 2016
+Registration Information: Registration details for the workshop can be found at the ETFA web-page.
+Workshop Organizers Alois Zoitl, fortiss GmbH, Germany Gerhard Ebenhofer, PROFACTOR GmbH, Austria Thomas Strasser, AIT Austrian Institute of Technology, Austria Workshop Program: Morning Session Welcome and Recent Activities of the 4DIAC Open Source Initiative A.</description>
+    </item>
+    
+    <item>
+      <title>Eclipse Insight: Cross Domain Engineering</title>
+      <link>http://localhost:1313/4diac/events/workshops/2019_eclipse_insight/</link>
+      <pubDate>Tue, 13 Feb 2024 17:42:00 +0000</pubDate>
+      
+        <author>4diac-dev@eclipse.org (Eclipse 4diac Team)</author>
+      
+      <guid>http://localhost:1313/4diac/events/workshops/2019_eclipse_insight/</guid>
+      <description>What is an Eclipse Insight? Like an Eclipse DemoCamp, an Eclipse Insight is a collaborative event featuring technical talks and demonstrations from the Eclipse community. The topic of the event will be more focused on a certain technology area of the Eclipse ecosystem.
+Eclipse Insight: Cross Domain Engineering The software amount in all engineering domains is rapidly increasing as well as the complexity of today&amp;rsquo;s software applications. To manage future software systems new engineering methods are required.</description>
+    </item>
+    
+    <item>
+      <title>1st 4diac Users&#39; Workshop @ ETFA 2010</title>
+      <link>http://localhost:1313/4diac/events/etfa/etfa2010/</link>
+      <pubDate>Mon, 12 Feb 2024 17:42:00 +0000</pubDate>
+      
+        <author>4diac-dev@eclipse.org (Eclipse 4diac Team)</author>
+      
+      <guid>http://localhost:1313/4diac/events/etfa/etfa2010/</guid>
+      <description>The 1st Users&amp;rsquo; Workshop has been hold in conjunction with the 15th IEEE International Conference on Emerging Technologies and Factory Automation (ETFA) in Bilbao.
+Workshop Date: 16th September 2010
+Workshop Organizers: Alois Zoitl, Vienna University of Technology, Austria Martijn Rooker, Profactor GmbH, Austria Antonio Valentini, O3neida Europe, Belgium Workshop Program: Morning Session Welcome Antonio Valentini (O3neida Europe) Introduction to 4DIAC Ingo Hegny (Vienna University of Technology) Implementation of Control Systems and Future Trends at the Martin-Luther University using 4DIAC Christian Gerber (Martin-Luther-University) Using FORTE in Infomechatronics lab, The University of Auckland William Dai (University of Auckland Utilizing Lego Mindstorms nxt(tm) as teaching and training platform for IEC 61499 Alois Zoitl (Vienna University of Technology) SIFB Development Approach to Provide Control and Real Time Communication Federico Perez (University of the Basque Country) 4DIAC and wireless sensor networks for factory automation Robert Brennan (University of Calgary) 4DIAC Initiative near future plans Alois Zoitl (Vienna University of Technology, Austria) Open discussion Moderator: Antonio Valentini, O3neida Europe </description>
+    </item>
+    
+    <item>
+      <title>2nd 4diac Users&#39; Workshop @ ETFA 2011</title>
+      <link>http://localhost:1313/4diac/events/etfa/etfa2011/</link>
+      <pubDate>Mon, 12 Feb 2024 17:42:00 +0000</pubDate>
+      
+        <author>4diac-dev@eclipse.org (Eclipse 4diac Team)</author>
+      
+      <guid>http://localhost:1313/4diac/events/etfa/etfa2011/</guid>
+      <description>The 2nd Users&amp;rsquo; Workshop has been hold in conjunction with the 16th IEEE International Conference on Emerging Technologies and Factory Automation (ETFA) in Toulouse.
+Workshop Date: 9th September 2011
+Workshop Organizers: Alois Zoitl, fortiss GmbH Antonio Valentini, O3NEIDA Europe Thomas Strasser, AIT Austrian Institute of Technology Workshop Program: Morning Session Welcome Antonio Valentini (O3NEIDA Europe, Belgium) Overview and Update Alois Zoitl (Vienna University of Technology, Austria) Communication Integration New FORTE Communication Infrastructure Michael Hofmann (Profactor GmbH, Austria) EtherNet/IP as communication infrastructure for distributed control applications Alois Zoitl (Vienna University of Technology, Austria) Accessing remote I/Os with Ethernet POWERLINK and 4DIAC Filip Andrén (Austrian Institute of Technology, Austria) SIFB set for accessing Beckhoff controllers using ADS protocol Federico Pérez (Escuele Superior de Ingenieros, Bilbao, Spain) Application Modelling Coordination control of a bin picking application Michael Hofmann (Profactor GmbH, Austria) Supervisory control of an injection molding machine Alois Zoitl (Vienna University of Technology, Austria) 4DIAC for Smart Grids Applications Thomas Strasser (Austrian Institute of Technology, Austria) Plenary Discussion - Future Development of 4diac: Goals and Targets </description>
+    </item>
+    
+    <item>
+      <title>Guest Post: Eclipse 4diac in Elektor mag</title>
+      <link>http://localhost:1313/4diac/news/2023/2023/guest-post-eclipse-4diac-in-elektor-mag/</link>
+      <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
+      
+        <author>4diac-dev@eclipse.org (Eclipse 4diac Team)</author>
+      
+      <guid>http://localhost:1313/4diac/news/2023/2023/guest-post-eclipse-4diac-in-elektor-mag/</guid>
+      <description>Guest Post: Eclipse 4diac™ in Elektor mag there is a featured Article in Elektor about Eclipse 4diac™ and logiBUS®
+News in German News in English youtube News in English Magazine in German Magazine in English Article in German Article in English Cheers, Franz Höpfinger on behalf of HR Agrartechnik GmbH</description>
+    </item>
+    
+    <item>
+      <title>Guest Post: Eclipse 4diac for Agrimechatronics: The Project logiBUS&amp;reg;</title>
+      <link>http://localhost:1313/4diac/news/2023/2023/guest-post-eclipse-4diac-for-agrimechatronics-the-project-logibusreg/</link>
+      <pubDate>Sat, 19 Aug 2023 00:00:00 +0000</pubDate>
+      
+        <author>4diac-dev@eclipse.org (Eclipse 4diac Team)</author>
+      
+      <guid>http://localhost:1313/4diac/news/2023/2023/guest-post-eclipse-4diac-for-agrimechatronics-the-project-logibusreg/</guid>
+      <description>The folks at HR Agrartechnik GmbH have been busy to port Eclipse 4diac™ FORTE to the ESP32 and integrate the ISOBUS (ISO 11783) protocol over the last year.
+is the Fusion of IEC 61499 programming and ISO 11783 compatibiltiy.
+ISOBUS, also known as ISO 11783, is a communication protocol standard developed for agricultural equipment to facilitate the exchange of data between different types of farm machinery and implements. The term &amp;ldquo;ISOBUS&amp;rdquo; stands for &amp;ldquo;ISO Bus,&amp;rdquo; where ISO refers to the International Organization for Standardization, and &amp;ldquo;Bus&amp;rdquo; refers to a system of communication between multiple devices.</description>
+    </item>
+    
+    <item>
+      <title>You Can&#39;t Make an Omelet Without Breaking Eggs!</title>
+      <link>http://localhost:1313/4diac/news/2023/2023/you-cant-make-an-omelet-without-breaking-eggs/</link>
+      <pubDate>Wed, 31 May 2023 00:00:00 +0000</pubDate>
+      
+        <author>4diac-dev@eclipse.org (Eclipse 4diac Team)</author>
+      
+      <guid>http://localhost:1313/4diac/news/2023/2023/you-cant-make-an-omelet-without-breaking-eggs/</guid>
+      <description>For 4diac FORTE, API stability was always our major concern.
+However, this came at a cost (e.g., performance, memory usage, memory-safety). Therefore, we decided that we need to do a major rework of 4diac FORTE for the next release!
+The first results are already looking very promising. We get twice the speed for FB algorithm execution and reduced the runtime overhead (event and connection processing) by 30%. We hope for more progress to come in the next weeks.</description>
+    </item>
+    
+    <item>
+      <title>Contribute to 4diac</title>
+      <link>http://localhost:1313/4diac/contribute/</link>
+      <pubDate>Sun, 01 Mar 2020 16:09:45 -0400</pubDate>
+      
+        <author>4diac-dev@eclipse.org (Eclipse 4diac Team)</author>
+      
+      <guid>http://localhost:1313/4diac/contribute/</guid>
+      <description>Documentation, Marketing, and Supporting new Users Improve and extend the existing documentation Write new tutorials Support the forums: Answer questions in the different forums Spread the word: link to 4diac, use 4diac logo on your web page, write articles, blog entries, etc. Bug Wrangling and Testing Find and report bugs to ensure the quality of 4diac. Submit ideas for improvement via 4diac&amp;rsquo;s Bugzilla Review and verify reported bugs. Sometimes there is not enough info attached to a bug report or it is hard to reproduce.</description>
+    </item>
+    
+    <item>
+      <title>Support</title>
+      <link>http://localhost:1313/4diac/support/</link>
+      <pubDate>Sun, 01 Mar 2020 16:09:45 -0400</pubDate>
+      
+        <author>4diac-dev@eclipse.org (Eclipse 4diac Team)</author>
+      
+      <guid>http://localhost:1313/4diac/support/</guid>
+      <description>Communication Channels Github Eclipse 4diac bugs and enhancements are maintained und discussed using Github. Please submit issues and suggestions on 4diac IDE, 4diac FORTE, libraries, examples as well as the website here.
+Project Mailing List Follow and participate in discussions on 4diac. You can subscribe here.
+Chat For a more interactive interaction please try our Matrix channels.
+Background In order to understand the modelling concepts used in Eclipse 4diac™ it is advisable to get familiar with the IEC 61499 reference model.</description>
+    </item>
+    
+  </channel>
+</rss>
