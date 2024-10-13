@@ -1,0 +1,53 @@
+{{/* 
+  Copyright (c) 2023, 2024 Eclipse Foundation, Inc., Andrea Zoitl
+
+  This program and the accompanying materials are made available under the
+  terms of the Eclipse Public License v. 2.0 which is available at
+  http://www.eclipse.org/legal/epl-2.0.
+
+  Contributors:
+    Olivier Goulet <olivier.goulet@eclipse-foundation.org>
+    Andrea Zoitl <andrea.f.zoitl@gmail.com>
+
+  SPDX-License-Identifier: EPL-2.0
+*/}}
+
+{{ $main_menu := .Page.Params.main_menu | default "main" }}
+
+{{ $current_page := . }}
+
+<nav class="header-navbar-nav">
+    <ul class="header-navbar-nav-links">
+        {{ range (index .Site.Menus $main_menu) }}
+            {{ $menu_id := .Identifier | default (lower .Name) }}
+            {{ $target_menu := printf "%s-menu" $menu_id }}   
+            {{ $active_class := "" }}
+            {{ if $current_page.IsMenuCurrent $main_menu . }}
+                {{ $active_class = "active" }}
+            {{ end }}
+
+            <li class="navbar-nav-links-item {{ $active_class }}">
+
+                {{ if .HasChildren }}
+                    <button 
+                        class="nav-link-js btn-link link-unstyled" 
+                        type="button"
+                        aria-expanded="true" 
+                        data-menu-target="{{ $target_menu }}"
+                        style = "font-size: large; color: rgba(1,34,105,1.0); font-weight: bold;"
+                    >
+                        {{ .Name }}
+                    </button>
+                {{else}}
+                    <a class="nav-link-js btn-link link-unstyled" href="{{.URL}}" style = "font-size: large; color: rgba(1,34,105,1.0); font-weight: bold;">
+                        
+                    {{ .Name }}
+                    </a>
+                {{end}}
+            </li>
+        {{ end }}
+    </ul>
+</nav>
+
+
+

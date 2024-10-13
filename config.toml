@@ -1,0 +1,271 @@
+baseurl = "https://eclipse.dev/4diac"
+DefaultContentLanguage = "en"
+title = "Eclipse 4diac"
+theme = "hugo-solstice-theme"
+metaDataFormat = "yaml"
+disableKinds = []
+enableRobotsTXT = true
+pluralizeListTitles = false
+
+[Params]
+  google_tag_manager = "GTM-5WLCZXC"
+  description = "The Eclipse Foundation provides our global community of individuals and organizations with a mature, scalable, and business-friendly environment for open source software collaboration and innovation."
+  seo_title_suffix = " | The Eclipse Foundation"
+  keywords = ["eclipse", "project", "plug-ins", "plugins", "java", "ide", "swt", "refactoring", "free java ide", "tools", "platform", "open source", "development environment", "development", "ide"]
+  news_count = 3
+  gcse = "011805775785170369411:p3ec0igo0qq"
+  header_wrapper_class = "header-wrapper header-default-bg-img featured-jumbotron-bottom-shape"
+  call_for_action_text = "Download"
+  call_for_action_url = "//https://eclipse.dev/4diac/download/"
+  call_for_action_icon = "fa-download"
+  logo = "/4diac/img/4diac_Logo_2024.svg"
+  logo_url = "/4diac"
+  logo_width = "55%"
+  layout_style = "astro"
+  styles = "css/astro.css"
+  js = "js/astro.js"
+# sidebar_layout = "default"
+# featured_content_publish_target = "eclipse_org"
+# js = ""
+# favicon = ""
+# share_img = ""
+# header_left_classes = ""
+# main_menu_wrapper_classes = ""
+# projects_working_group = ""
+
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  membership_level = "membership_levels"
+  participation_level = "participation_levels"
+
+[Author]
+  name = "Eclipse 4diac Team"
+  website = "https://eclipse.dev/4diac/"
+  email = "4diac-dev@eclipse.org"
+  facebook = "eclipse.org"
+  twitter = "ECDTools"
+  youtube = "EclipseFdn"
+  linkedin = "company/eclipse-foundation/"
+
+[permalinks]
+  news = "/:sections/:year/:slug/"
+  # news = "/:sections/:year/:month/:day/:slug/"
+
+[blackfriday]
+  plainIDAnchors = true
+  hrefTargetBlank = true
+
+[[menu.main]]
+  name = "Eclipse 4diac"
+  weight = 1
+  identifier = "fordiac"
+  [menu.main.params]
+    description = """
+      Eclipse 4diac™ provides an open source infrastructure
+      for distributed industrial process measurement and control systems
+      based on the IEC 61499 standard.
+    """
+
+[[menu.main]]
+  name = "Development Environment"
+  weight = 1
+  identifier = "fordiac-ide"
+  parent = "fordiac"
+
+[[menu.main]]
+  name = "4diac IDE"
+  url = "/4diac_IDE"
+  weight = 1
+  parent = "fordiac-ide"
+
+[[menu.main]]
+  name = "Run-Time Environment"
+  weight = 2
+  identifier = "fordiac-forte"
+  parent = "fordiac"
+
+[[menu.main]]
+  name = "4diac FORTE"
+  url = "/4diac_FORTE"
+  weight = 2
+  parent = "fordiac-forte"
+
+[[menu.main]]
+  name = "Function Block Library"
+  weight = 3
+  identifier = "fordiac-lib"
+  parent = "fordiac"
+
+[[menu.main]]
+  name = "4diac LIB"
+  url = "/4diac_LIB"
+  weight = 3
+  parent = "fordiac-lib"
+
+[[menu.main]]
+  name = "Example Projects"
+  weight = 4
+  identifier = "fordiac-sys"
+  parent = "fordiac"
+
+[[menu.main]]
+  name = "4diac SYS"
+  url = "/4diac_SYS"
+  weight = 4
+  parent = "fordiac-sys"
+
+
+[[menu.main]]
+  name = "News"
+  weight = 2
+  identifier = "news"
+  url = "/news"
+
+[[menu.main]]
+  name = "Events"
+  weight = 3
+  identifier = "events"
+  [menu.main.params]
+    description = """
+    Eclipse 4diac™ has been founded to support research activities and industrial adoption of distributed automation systems. 
+    Over time 4diac grew with new versions, improvements and new features for the modeling of distributed automation systems. 
+    Moreover, a special focus was the performance improvement of the runtime system. Even more important, 4diac as an 
+    IEC 61499-compliant distributed control environment for industrial and research applications has proven 
+    to be a stable basis for further research towards the next generation of distributed automation and control systems based 
+    on open standards. To get in contact with its users and share results and future plans 4diac participates at different events, 
+    which are collected here:
+    """
+
+[[menu.main]]
+  name = "Workshops"
+  weight = 1
+  identifier = "events-workshops"
+  parent = "events"
+
+[[menu.main]]
+  name = "4days of 4diac"
+  url = "/events/workshops/2019_4days_of_4diac"
+  weight = 1
+  parent = "events-workshops"
+
+[[menu.main]]
+  name = "Eclipse Insight: Cross Domain Engineering"
+  url = "/events/workshops/2019_eclipse_insight"
+  weight = 2
+  parent = "events-workshops"
+
+[[menu.main]]
+  name = "ETFA Workshops"
+  weight = 2
+  identifier = "events-etfa_workshops"
+  parent = "events"
+
+[[menu.main]]
+  name = "7th 4diac Users' Workshop @ ETFA 2016"
+  url = "/events/etfa/etfa2016"
+  weight = 1
+  parent = "events-etfa_workshops"
+
+[[menu.main]]
+  name = "6th 4diac Users' Workshop @ ETFA 2015"
+  url = "/events/etfa/etfa2015"
+  weight = 2
+  parent = "events-etfa_workshops"
+
+[[menu.main]]
+  name = "5th 4diac Users' Workshop @ ETFA 2014"
+  url = "/events/etfa/etfa2014"
+  weight = 3
+  parent = "events-etfa_workshops"
+
+[[menu.main]]
+  name = "4th 4diac Users' Workshop @ ETFA 2013"
+  url = "/events/etfa/etfa2013"
+  weight = 4
+  parent = "events-etfa_workshops"
+
+[[menu.main]]
+  name = "3rd 4diac Users' Workshop @ ETFA 2012"
+  url = "/events/etfa/etfa2012"
+  weight = 5
+  parent = "events-etfa_workshops"
+
+[[menu.main]]
+  name = "2nd 4diac Users' Workshop @ ETFA 2011"
+  url = "/events/etfa/etfa2011"
+  weight = 6
+  parent = "events-etfa_workshops"
+
+[[menu.main]]
+  name = "1st 4diac Users' Workshop @ ETFA 2010"
+  url = "/events/etfa/etfa2010"
+  weight = 7
+  parent = "events-etfa_workshops"
+
+
+  [[menu.main]]
+  name = "Support"
+  weight = 4
+  identifier = "support"
+  url = "/support"
+  [menu.main.params]
+    description = """
+    support 4diac.
+    """
+
+  [[menu.main]]
+  name = "Contribute"
+  weight = 5
+  identifier = "contribute"
+  url = "/contribute"
+  [menu.main.params]
+    description = """
+    contribute to 4diac.
+    """
+
+  [[menu.main]]
+  name = "Documentation"
+  weight = 6
+  identifier = "documentation"
+  [menu.main.params]
+    description = """
+    4diac documentation. 
+    """
+
+
+[[sidebar]]
+    name = "News"
+    url = "/news/"
+    weight = 2
+    pre = "<i class=\"sidebar-menu-icon\" data-feather=\"github\"></i>"
+    identifier = "news_sidebar"
+
+[[sidebar]]
+    name = "2024"
+    url = "/news/2024/"
+    weight = 1
+    parent = "news_sidebar"
+    pre = "<i class=\"fa fa-chevron-right fa-fw\"></i>"
+    identifier = "2024"
+
+[[sidebar]]
+    name = "2023"
+    url = "/news/2023/"
+    weight = 2
+    parent = "news_sidebar"
+    pre = "<i class=\"fa fa-chevron-right fa-fw\"></i>"
+    identifier = "2023"
+
+[[sidebar]]
+    name = "News of 2024"
+    url = "/third-parent/test-children/test-children-children/"
+    weight = 1
+    parent = "news_sidebar-2024"
+
+[[sidebar]]
+    name = "News of 2023"
+    url = "/third-parent/test-children/test-children-children/"
+    weight = 2
+    parent = "news_sidebar-2023"

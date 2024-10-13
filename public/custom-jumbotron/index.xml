@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Custom Jumbotron von Andrea on Eclipse 4diac</title>
+    <link>http://localhost:1313/4diac/custom-jumbotron/</link>
+    <description>Recent content in Custom Jumbotron von Andrea on Eclipse 4diac</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>4diac-dev@eclipse.org (Eclipse 4diac Team)</managingEditor>
+    <webMaster>4diac-dev@eclipse.org (Eclipse 4diac Team)</webMaster>
+    <lastBuildDate>Mon, 07 Mar 2022 08:00:00 -2400</lastBuildDate><atom:link href="http://localhost:1313/4diac/custom-jumbotron/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
