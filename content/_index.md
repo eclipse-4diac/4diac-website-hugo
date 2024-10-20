@@ -14,19 +14,11 @@ main_content_class: "col-md-25 padding-bottom-30"
 page_css_file: /4diac/css/home.css
 hide_sidebar: false
 #show_featured_story: true
-#layout: "single"
+layout: "single"
 #container: "container-fluid"
 links: [[href: "/4diac/4diac_ide/", text: "4diac IDE"],[href: "/4diac/4diac_forte/", text: "4diac FORTE"],[href: "/4diac/4diac_lib/", text: "4diac LIB"],[href: "/4diac/4diac_sys/", text: "4diac SYS"]]
 ---
 
-
-
-
-<!-- Currently the project is maintained by the Eclipse Foundation web development team, but like other projects under the Eclipse Foundation umbrella is open to community input and development. -->
-
-<!-- {{< starterkit/example >}} -->
-
-<!-- For more information, see our documentation for the [hugo-solstice-theme](https://eclipsefdn-hugo-solstice-theme.netlify.app/). -->
  
 ## News
 {{< newsCards useMatchHeight="true" source="cardsNews" containerClass="col-xs-24 col-sm-5">}}

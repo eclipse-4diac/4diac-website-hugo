@@ -32,6 +32,11 @@ pluralizeListTitles = false
 # header_left_classes = ""
 # main_menu_wrapper_classes = ""
 # projects_working_group = ""
+  show_featured_footer = false
+  hide_footer_newsletter = true
+  twitter_url = "https://x.com/4diac"
+  youtube_url = "https://www.youtube.com/@4diac177" 
+  linkedin_url = "https://www.linkedin.com/groups/6949091/"
 
 
 [taxonomies]
