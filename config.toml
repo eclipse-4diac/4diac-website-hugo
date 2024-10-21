@@ -225,14 +225,93 @@ pluralizeListTitles = false
     contribute to 4diac.
     """
 
-  [[menu.main]]
+[[menu.main]]
   name = "Documentation"
   weight = 6
   identifier = "documentation"
   [menu.main.params]
     description = """
-    4diac documentation. 
+    Documentation for Eclipse 4diac. 
     """
+
+[[menu.main]]
+  name = "Getting Started"
+  weight = 1
+  identifier = "doc-getting_started"
+  parent = "documentation"
+
+[[menu.main]]
+  name = "Documentation Start"
+  url = "https://github.com/eclipse-4diac/4diac-documentation/blob/main/src/index.adoc"
+  weight = 1
+  parent = "doc-getting_started"
+
+[[menu.main]]
+  name = "Learn about IEC 61499"
+  url = "https://github.com/eclipse-4diac/4diac-documentation/blob/main/src/intro/iec61499.adoc"
+  weight = 2
+  parent = "doc-getting_started"
+
+[[menu.main]]
+  name = "Understand the Eclipse 4diac Framework"
+  url = "https://github.com/eclipse-4diac/4diac-documentation/blob/main/src/intro/4diacFramework.adoc"
+  weight = 3
+  parent = "doc-getting_started"
+
+[[menu.main]]
+  name = "Using Eclipse 4diac"
+  weight = 2
+  identifier = "doc-using"
+  parent = "documentation"
+
+[[menu.main]]
+  name = "Step by Step Tutorials"
+  url = "https://github.com/eclipse-4diac/4diac-documentation/blob/main/src/tutorials/index.adoc"
+  weight = 1
+  parent = "doc-using"
+
+[[menu.main]]
+  name = "Install Eclipse 4diac"
+  url = "https://github.com/eclipse-4diac/4diac-documentation/blob/main/src/installation/index.adoc"
+  weight = 2
+  parent = "doc-using"
+
+[[menu.main]]
+  name = "4diac IDE Examples"
+  url = "https://github.com/eclipse-4diac/4diac-documentation/blob/main/src/examples/index.adoc"
+  weight = 3
+  parent = "doc-using"
+
+[[menu.main]]
+  name = "Frequently Asked Questions"
+  url = "https://github.com/eclipse-4diac/4diac-documentation/blob/main/src/faq.adoc"
+  weight = 4
+  parent = "doc-using"
+  
+[[menu.main]]
+  name = "Details"
+  weight = 3
+  identifier = "doc-details"
+  parent = "documentation" 
+
+[[menu.main]]
+  name = "IO Configuration for the Different Platforms"
+  url = "https://github.com/eclipse-4diac/4diac-documentation/blob/main/src/io_config/index.adoc"
+  weight = 1
+  parent = "doc-details"
+
+[[menu.main]]
+  name = "Communication Protocols"
+  url = "https://github.com/eclipse-4diac/4diac-documentation/blob/main/src/communication/index.adoc"
+  weight = 2
+  parent = "doc-details"
+
+[[menu.main]]
+  name = "Development of 4diac FORTE and 4diac IDE"
+  url = "https://github.com/eclipse-4diac/4diac-documentation/blob/main/src/development/index.adoc"
+  weight = 2
+  parent = "doc-details"
+
 
 
 [[sidebar]]
