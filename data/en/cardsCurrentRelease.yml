@@ -1,0 +1,54 @@
+style: vertical
+items:
+  - heading: 4diac IDE 2.0.1
+    content: "Development environment without 4diac FORTE executables:"
+    links:
+      - url: "https://www.eclipse.org/downloads/download.php?file=/4diac/releases/2.0/4diac-ide/4diac-ide_2.0.1-linux.gtk.x86_64.tar.gz"
+        text: Linux 64-bit
+        style: text
+      - url: "https://www.eclipse.org/downloads/download.php?file=/4diac/releases/2.0/4diac-ide/4diac-ide_2.0.1-macosx.cocoa.x86_64.dmg"
+        text: Mac OS X
+        style: text
+      - url: "https://www.eclipse.org/downloads/download.php?file=/4diac/releases/2.0/4diac-ide/4diac-ide_2.0.1-win32.win32.x86_64.zip"
+        text: Windows 64-bit
+        style: text
+
+  - heading: 4diac FORTE 2.0.1
+    content: "Packaged source code and selected binaries of 4diac FORTE:"
+    links:
+      - url: "https://www.eclipse.org/downloads/download.php?file=/4diac/releases/2.0/forte/forte_2.0.1.zip"
+        text: Source
+        style: text
+      - url: "https://www.eclipse.org/downloads/download.php?file=/4diac/releases/2.0/forte/forte_2.0.1.linux.x86_64.zip"
+        text: Linux x86 64-bit
+        style: text
+      - url: "https://www.eclipse.org/downloads/download.php?file=/4diac/releases/2.0/forte/forte_2.0.1.linux.arm.zip"
+        text: Linux ARM
+        style: text
+      - url: "https://www.eclipse.org/downloads/download.php?file=/4diac/releases/2.0/forte/forte_2.0.1.win32.zip"
+        text: Windows
+        style: text
+
+  - heading: 4diac Repositories
+    glyphLink: https://github.com/eclipse-4diac
+    content: "Sources for 4diac IDE, 4diac FORTE, and systems:" 
+    glyph: fa-github
+    links:
+      - url: "https://github.com/eclipse-4diac/4diac-ide"
+        text: 4diac IDE source
+        style: text
+      - url: "https://github.com/eclipse-4diac/4diac-forte"
+        text: 4diac FORTE source
+        style: text
+      - url: "https://github.com/eclipse-4diac/4diac-fbe"
+        text: 4diac FORTE build system
+        style: text
+      - url: "https://github.com/eclipse-4diac/4diac-examples"
+        text: 4diac example systems
+        style: text
+      - url: "https://github.com/eclipse-4diac/4diac-documentation"
+        text: 4diac documentation
+        style: text
+      - url: "https://github.com/eclipse-4diac/4diac-website-hugo"
+        text: 4diac website
+        style: text
