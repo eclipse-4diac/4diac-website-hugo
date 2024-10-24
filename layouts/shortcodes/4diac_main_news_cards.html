@@ -1,18 +1,6 @@
 
-<!-- Allow for alt sources and languages -->
-{{ $source := .Get "source" | default "cards" }}
-{{ $languageBase := index .Site.Data .Site.Language.Lang }}
-<!-- Get the base of the testimonials by checking existence in localized section -->
-{{ $base := index .Site.Data $source}}
-{{ if and (ne $languageBase nil) (isset $languageBase $source)  }} 
-  {{ $base = index $languageBase $source }}
-{{ end }}
-
-
-{{ $containerClass := .Get "containerClass" | default "col-xs-24 col-sm-8" }}
+{{ $containerClass := "col-xs-24 col-sm-5"}}
 {{ $useMatchHeight := .Get "useMatchHeight" | default "false" }}
-{{ $cardStyle := .Get "cardStyle" | default $base.style | default "vertical" }}
-{{ $cardDate := .Get "cardDate" | default "July 07" }}
 
 <!--  <div class="col-md-25 padding-bottom-30"> -->
 <div class="row" >
@@ -29,18 +17,21 @@
 	  </div>
       <div class="text-center vertical-align">
         <a class="btn btn-primary view-all-btn news-btn-font" 
-        	href="/4diac/news">View all
+        	href="news">View all
         </a>
       </div>
+      <div class="text-center vertical-align">
+        <a class="btn btn-primary subscribe-btn news-btn-font" 
+            href="index.xml" title="RSS Feed"><i class="fa fa-rss">&nbsp;</i>Subscribe to our RSS feed
+		</a>
+	  </div>
     </div>
   </div>
 
 
-  {{ range $base.items }}
-  {{ if .fullCardLink }}
-  <a href="{{ .fullCardLink }}">
-  {{ end }}
-  <div class="card-container{{ with $containerClass }} {{ . }}{{ end }}{{ if eq $useMatchHeight "true" }} match-height-item-by-row{{ end }}" >
+  {{ range first 3 (sort (where .Site.RegularPages "Section" "news") "Date" "desc") }} <!-- get the newest 3 news items --> 
+  <a href="{{ .Permalink }}">
+  <div class="card-container{{ with $containerClass }} {{ . }}{{ end }} match-height-item-by-row" >
     {{ $glyphSet := false }}
     {{ if or (isset . "glyph") (isset . "glyphSrc") }}
     {{ $glyphSet = true }}
@@ -55,18 +46,16 @@
       <div class="glyph-bottom"></div>
     </div>
     {{ end }}
-    <div class="card-panel panel panel-default{{ if $glyphSet }} with-glyph{{ end }}{{ if eq $cardStyle "horizontal" }} horizontal-card{{ end }}{{ with .class }} {{ . }}{{ end }}" style="background-color: #fff3e3;">
+    <div class="card-panel panel panel-default{{ if $glyphSet }} with-glyph{{ end }}" style="background-color: #fff3e3;">
       {{ if isset . "imgSrc" }}
       <div class="panel-heading" aria-hidden="true">
         <img class="img {{ .imgClass | default "img-responsive margin-auto" }}" src="{{ .imgSrc }}" alt="{{ .imgAlt }}"/>
       </div>
       {{ end }}
       <div class="panel-body">
-        {{ if isset . "heading" }}
-        <h3 class="fw-700{{ with .headingClass }} {{ . }}{{ end }}" style="font-size: larger;">{{ .heading }}</h3>
-        {{ end }}
-        <p><span style="color: #99a6c3; font-weight: bold;">{{ .cardDate }}</span></p>
-        <p>{{ .content }}</p>
+        <h3 class="fw-700" style="font-size: larger;">{{ .Title }}</h3>
+        <p><span style="color: #99a6c3; font-weight: bold;">{{ .Date.Format "2 January, 2006" }}</span></p>
+        <p>{{ .Params.description }}</p>
       </div>
       {{ if isset . "links" }}
       <div class="panel-footer text-center vertical-align">
@@ -78,8 +67,6 @@
       {{ end }}
     </div>
   </div>
-  {{ if .fullCardLink }}
   </a>
-  {{ end }}
   {{ end }}
 </div>

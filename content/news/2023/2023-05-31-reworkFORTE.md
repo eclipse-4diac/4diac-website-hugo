@@ -3,6 +3,7 @@ title: "You Can't Make an Omelet Without Breaking Eggs!"
 date: 2023-05-31T00:00:00-00:00
 #redirect_url: "4diac/news/2023-12-06-Elektor"
 categories: ["announcements"]
+fordiacTeamGreating: true
 ---
 
 For 4diac FORTE, API stability was always our major concern.  
@@ -19,5 +20,3 @@ What does that mean for you?
 
 Given the gains that you will get from this rework, we believe that this is a small price to pay. 
 If you have any questions regarding this change, do not hesitate to contact us!
-
-{{< greeting >}}
