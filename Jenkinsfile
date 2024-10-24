@@ -1,5 +1,5 @@
 pipeline {
- 
+
   agent {
     kubernetes {
       label 'hugo-agent'
@@ -19,7 +19,7 @@ spec:
       - name: "HOME"
         value: "/home/jenkins"
     - name: hugo
-      image: eclipsecbi/hugo:0.81.0
+      image: eclipsecbi/hugo_extended:0.110.0
       command:
       - cat
       tty: true
@@ -30,29 +30,31 @@ spec:
 """
     }
   }
- 
+
   environment {
-    PROJECT_NAME = "<project_name>" // must be all lowercase.
-    PROJECT_BOT_NAME = "<Project_name> Bot" // Capitalize the name
+    PROJECT_NAME = "4diac-website-hugo" // must be all lowercase.
+    PROJECT_BOT_NAME = "4diac Website Bot" // Capitalize the name
+    PROJECT_GH_ORG = "eclipse-4diac" // e.g. eclipse-hono
+    PROJECT_WEBSITE_REPO = "4diac-website" // e.g. hono-website
   }
- 
-  triggers { pollSCM('H/10 * * * *') 
- 
+
+  triggers { pollSCM('H/10 * * * *')
+
  }
- 
+
   options {
     buildDiscarder(logRotator(numToKeepStr: '5'))
     checkoutToSubdirectory('hugo')
     timeout(time: 60, unit: 'MINUTES')
   }
- 
+
   stages {
     stage('Checkout www repo') {
       steps {
         dir('www') {
-            sshagent(['git.eclipse.org-bot-ssh']) {
+            sshagent(['github-bot-ssh']) {
                 sh '''
-                    git clone ssh://genie.${PROJECT_NAME}@git.eclipse.org:29418/www.eclipse.org/${PROJECT_NAME}.git .
+                    git clone ssh://git@github.com/${PROJECT_GH_ORG}/${PROJECT_WEBSITE_REPO}.git .
                     if [ "${BRANCH_NAME}" = "main" ]; then
                       git checkout master
                     else
@@ -70,19 +72,7 @@ spec:
       steps {
         container('hugo') {
             dir('hugo') {
-                sh 'hugo -b https://www.eclipse.org/${PROJECT_NAME}/'
-            }
-        }
-      }
-    }
-    stage('Build website (staging) with Hugo') {
-      when {
-        branch 'staging'
-      }
-      steps {
-        container('hugo') {
-            dir('hugo') {
-                sh 'hugo -b https://staging.eclipse.org/${PROJECT_NAME}/'
+                sh 'hugo -b https://eclipse.dev/${PROJECT_NAME}/'
             }
         }
       }
@@ -91,17 +81,16 @@ spec:
       when {
         anyOf {
           branch "main"
-          branch "staging"
         }
       }
       steps {
         sh 'rm -rf www/* && cp -Rvf hugo/public/* www/'
         dir('www') {
-            sshagent(['git.eclipse.org-bot-ssh']) {
+            sshagent(['github-bot-ssh']) {
                 sh '''
                 git add -A
                 if ! git diff --cached --exit-code; then
-                  echo "Changes have been detected, publishing to repo 'www.eclipse.org/${PROJECT_NAME}'"
+                  echo "Changes have been detected, publishing to repo '${PROJECT_GH_ORG}/${PROJECT_WEBSITE_REPO}'"
                   git config user.email "${PROJECT_NAME}-bot@eclipse.org"
                   git config user.name "${PROJECT_BOT_NAME}"
                   git commit -m "Website build ${JOB_NAME}-${BUILD_NUMBER}"
