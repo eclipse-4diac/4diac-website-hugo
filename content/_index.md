@@ -20,9 +20,5 @@ links: [[href: "/4diac/4diac_ide/", text: "4diac IDE"],[href: "/4diac/4diac_fort
 ---
 
  
-## News
-{{< newsCards useMatchHeight="true" source="cardsNews" containerClass="col-xs-24 col-sm-5">}}
-
-
-
-
+## Latest News
+{{< 4diac_main_news_cards >}}

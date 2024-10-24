@@ -38,6 +38,9 @@ pluralizeListTitles = false
   youtube_url = "https://www.youtube.com/@4diac177" 
   linkedin_url = "https://www.linkedin.com/groups/6949091/"
 
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML"]
 
 [taxonomies]
   category = "categories"

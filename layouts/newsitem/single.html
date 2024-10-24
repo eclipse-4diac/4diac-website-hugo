@@ -1,0 +1,16 @@
+{{ define "main" }}
+<!-- a template for news items to  -->
+  
+<!-- Only add the description if it is set -->
+{{ with .Params.description }}
+  <p>{{ . }}</p> 
+{{ end }}
+
+{{ .Content }} 
+{{ if .Params.fordiacTeamGreating }}
+<p>Cheers,<br>
+      The Eclipse 4diac Team
+</p>
+ {{ end }}
+  
+{{ end }}
