@@ -49,6 +49,13 @@ spec:
   }
 
   stages {
+    stage('Update and fetch submodules') {
+		dir('hugo') {
+	        steps {
+	            sh 'git submodule update --init --recursive'
+	        }
+        }
+    }
     stage('Checkout www repo') {
       steps {
         dir('www') {
