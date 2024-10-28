@@ -50,8 +50,8 @@ spec:
 
   stages {
     stage('Update and fetch submodules') {
-		dir('hugo') {
-	        steps {
+        steps {
+			dir('hugo') {
 	            sh 'git submodule update --init --recursive'
 	        }
         }
