@@ -32,7 +32,7 @@ spec:
   }
 
   environment {
-    PROJECT_NAME = "4diac-website-hugo" // must be all lowercase.
+    PROJECT_NAME = "4diac" // must be all lowercase.
     PROJECT_BOT_NAME = "4diac Website Bot" // Capitalize the name
     PROJECT_GH_ORG = "eclipse-4diac" // e.g. eclipse-hono
     PROJECT_WEBSITE_REPO = "4diac-website" // e.g. hono-website
@@ -63,7 +63,10 @@ spec:
     }
     stage('Build website (main) with Hugo') {
       when {
-        branch 'main'
+        anyOf {
+          branch "main"
+          branch "master"
+        }
       }
       steps {
         container('hugo') {
@@ -77,6 +80,7 @@ spec:
       when {
         anyOf {
           branch "main"
+          branch "master"
         }
       }
       steps {
