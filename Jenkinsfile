@@ -55,11 +55,7 @@ spec:
             sshagent(['github-bot-ssh']) {
                 sh '''
                     git clone ssh://git@github.com/${PROJECT_GH_ORG}/${PROJECT_WEBSITE_REPO}.git .
-                    if [ "${BRANCH_NAME}" = "main" ]; then
-                      git checkout master
-                    else
-                      git checkout ${BRANCH_NAME}
-                    fi
+                    git checkout master
                 '''
             }
         }
@@ -77,7 +73,7 @@ spec:
         }
       }
     }
-    stage('Push to $env.BRANCH_NAME branch') {
+    stage('Push to master branch') {
       when {
         anyOf {
           branch "main"
@@ -95,11 +91,7 @@ spec:
                   git config user.name "${PROJECT_BOT_NAME}"
                   git commit -m "Website build ${JOB_NAME}-${BUILD_NUMBER}"
                   git log --graph --abbrev-commit --date=relative -n 5
-                  if [ "${BRANCH_NAME}" = "main" ]; then
-                    git push origin HEAD:master
-                  else
-                    git push origin HEAD:${BRANCH_NAME}
-                  fi
+                  git push origin HEAD:master
                 else
                   echo "No changes have been detected since last build, nothing to publish"
                 fi
