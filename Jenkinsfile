@@ -62,12 +62,6 @@ spec:
       }
     }
     stage('Build website (main) with Hugo') {
-      when {
-        anyOf {
-          branch "main"
-          branch "master"
-        }
-      }
       steps {
         container('hugo') {
             dir('hugo') {
@@ -77,12 +71,6 @@ spec:
       }
     }
     stage('Push to master branch') {
-      when {
-        anyOf {
-          branch "main"
-          branch "master"
-        }
-      }
       steps {
         sh 'rm -rf www/* && cp -Rvf hugo/public/* www/'
         dir('www') {
