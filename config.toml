@@ -23,7 +23,6 @@ pluralizeListTitles = false
   logo_width = "55%"
   layout_style = "astro"
   styles = "css/astro.css"
-  js = "js/astro.js"
 # sidebar_layout = "default"
 # featured_content_publish_target = "eclipse_org"
 # js = ""
