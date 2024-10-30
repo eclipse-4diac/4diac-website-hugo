@@ -15,7 +15,7 @@ hide_breadcrumb: true
 ---
 
 # Communication Channels
-{{< supportCards useMatchHeight="true" source="cardsSupport" containerClass="col-xs-24 col-sm-7">}}
+{{< supportCards useMatchHeight="true" source="cardsSupport" containerClass="col-sm-8">}}
 
 # Background
 In order to understand the modelling concepts used in Eclipse 4diac™ it is advisable to get familiar with the IEC 61499 reference model. The following resources provide more information about the IEC 61499 concept and the Eclipse 4diac™ implementation:

@@ -11,7 +11,7 @@ hide_breadcrumb: true
 page_css_file: /4diac/css/download.css
 ---
 
-{{< relCards useMatchHeight="true" source="cardsCurrentRelease" containerClass="col-xs-24 col-sm-7">}}
+{{< relCards useMatchHeight="true" source="cardsCurrentRelease" containerClass="col-xs-24 col-sm-8">}}
 
 The components of Eclipse 4diac are provided under 
 [Eclipse Public License, Version 2.0](https://www.eclipse.org/legal/epl-2.0/)!
