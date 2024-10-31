@@ -7,7 +7,7 @@ headline: >
 subtitle: > 
   <span class="white">Eclipse 4diac™ provides an open source infrastructure for <br>distributed industrial process measurement and control systems <br>based on the IEC 61499 standard.</span>
 tagline: >
-  <br>design <span class="white">once</span> use <span class="white">everywhere</span>.
+  <br>design <span class="white">once</span> use <span class="white">everywhere</span>
 hide_page_title: true
 hide_breadcrumb: true
 main_content_class: "col-md-25 padding-bottom-30"
