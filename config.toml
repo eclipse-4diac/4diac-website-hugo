@@ -41,12 +41,6 @@ pluralizeListTitles = false
   home = ["HTML", "RSS"]
   section = ["HTML"]
 
-[taxonomies]
-  category = "categories"
-  tag = "tags"
-  membership_level = "membership_levels"
-  participation_level = "participation_levels"
-
 [Author]
   name = "Eclipse 4diac Team"
   website = "https://eclipse.dev/4diac/"
