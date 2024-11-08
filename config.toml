@@ -140,8 +140,21 @@ pluralizeListTitles = false
     """
 
 [[menu.main]]
-  name = "Workshops"
+  name = "Winter Schools"
   weight = 1
+  identifier = "events-winterschools"
+  parent = "events"
+  
+[[menu.main]]
+  name = "1st 4days of Eclipse 4diac Winter School" 
+  url = "/events/4diacWinterSchool"
+  weight = 1
+  parent = "events-winterschools"
+  
+
+[[menu.main]]
+  name = "Workshops"
+  weight = 2
   identifier = "events-workshops"
   parent = "events"
 
@@ -159,7 +172,7 @@ pluralizeListTitles = false
 
 [[menu.main]]
   name = "ETFA Workshops"
-  weight = 2
+  weight = 3
   identifier = "events-etfa_workshops"
   parent = "events"
 
