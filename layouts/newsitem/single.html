@@ -3,7 +3,7 @@
   
 <!-- Only add the description if it is set -->
 {{ with .Params.description }}
-  <p>{{ . }}</p> 
+  <p>{{ . | markdownify }}</p> 
 {{ end }}
 
 {{ .Content }} 

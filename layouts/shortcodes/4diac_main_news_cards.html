@@ -55,7 +55,7 @@
       <div class="panel-body">
         <h3 class="fw-700" style="font-size: larger;">{{ .Title }}</h3>
         <p><span style="color: #99a6c3; font-weight: bold;">{{ .Date.Format "2 January, 2006" }}</span></p>
-        <p>{{ .Params.description }}</p>
+        <p>{{ .Params.description | markdownify }}</p>
       </div>
       {{ if isset . "links" }}
       <div class="panel-footer text-center vertical-align">
