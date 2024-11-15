@@ -9,7 +9,8 @@ description: "4 days of learning IEC 61499, Eclipse 4diac, open source and more"
 date: 2024-11-07
 layout: "single"
 hide_page_title: true
-links: [[href: "./programm", text: "Programm"],[href: "./venue", text: "Venue"],[href: "./participation", text: "Participation"],[href: "./organisation", text: "Organisation"]]
+page_css_file: /4diac/css/4daysofe4.css
+links: [[href: "./program", text: "Program"],[href: "./venue", text: "Venue"],[href: "./participation", text: "Participation"],[href: "./organisation", text: "Organisation"]]
 ---
 
 
