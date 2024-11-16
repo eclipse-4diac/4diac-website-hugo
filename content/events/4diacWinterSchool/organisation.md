@@ -20,10 +20,10 @@ Please send all inquiries to
 
 ## Organizing Committee
 - **General Chairs**
-  - [Bianca Wiesmayr](https://www.jku.at/en/lit-cyber-physical-systems-lab/about-us/our-team/di-dr-bianca-wiesmayr-bsc-mlbt), 
+  - [Bianca Wiesmayr](https://www.jku.at/en/lit-cyber-physical-systems-lab/about-us/our-team/di-dr-bianca-wiesmayr-bsc-mlbt), LIT CPS Lab, Johannes Kepler University Linz, Austria 
   - [Lisa Sonnleithner](https://www.jku.at/en/lit-cyber-physical-systems-lab/about-us/our-team/di-dr-lisa-sonnleithner-bsc), LIT CPS Lab, Johannes Kepler University Linz, Austria 
 - **Program Chairs**
-  - [Alois Zoitl](https://www.jku.at/en/lit-cyber-physical-systems-lab/ueber-uns/team/univ-prof-di-dr-alois-zoitl) , LIT CPS Lab, Johannes Kepler University Linz, Austria 
+  - [Alois Zoitl](https://www.jku.at/en/lit-cyber-physical-systems-lab/ueber-uns/team/univ-prof-di-dr-alois-zoitl), LIT CPS Lab, Johannes Kepler University Linz, Austria 
   - [Jörg Walter](https://www.offis.de/offis/person/joerg-walter.html), OFFIS e. V., Oldenburg, Germany
 - **Publicity Chair**  
   - [Friederike Bruns](https://uol.de/informatik/abteilungen/eingebettete-hardware-software-systeme-nebel/personen/msc-friederike-bruns-1), Carl von Ossietzky Universität Oldenburg, Germany 
