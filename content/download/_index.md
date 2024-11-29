@@ -9,6 +9,8 @@ hide_page_title: true
 page_css_file: /4diac/css/support.css
 hide_breadcrumb: true
 page_css_file: /4diac/css/download.css
+sidebar: 
+  - sidebar-downloads
 ---
 
 {{< relCards useMatchHeight="true" source="cardsCurrentRelease" containerClass="col-xs-24 col-sm-8">}}
@@ -16,7 +18,7 @@ page_css_file: /4diac/css/download.css
 The components of Eclipse 4diac are provided under 
 [Eclipse Public License, Version 2.0](https://www.eclipse.org/legal/epl-2.0/)!
 
-## Show your 4diac use
+## Show your Eclipse 4diac use
 
 With these two stickers you can show the world that you are using 4diac. Put it on your web-page, flyers, controllers, laptops, t-shirts...
 
