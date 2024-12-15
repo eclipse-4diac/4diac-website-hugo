@@ -28,3 +28,6 @@ Please send all inquiries to
 - **Publicity Chair**  
   - [Friederike Bruns](https://uol.de/informatik/abteilungen/eingebettete-hardware-software-systeme-nebel/personen/msc-friederike-bruns-1), Carl von Ossietzky Universität Oldenburg, Germany 
 
+
+{{< events/sponsors event="4diacWinterSchool"  year="2025" displayBecomeSponsor=false useMax=false >}}
+

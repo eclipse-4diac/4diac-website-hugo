@@ -11,8 +11,15 @@ layout: "single"
 hide_page_title: true
 page_css_file: /4diac/css/4daysofe4.css
 links: [[href: "../program", text: "Program"],[href: "../venue", text: "Venue"],[href: "../participation", text: "Participation"],[href: "../organisation", text: "Organisation"]]
+container: "container-fluid"
+#hide_sidebar: true
 ---
 
 ### Preliminary Program
-
 {{< image src="../Programm_4daysofE4_2025.svg" alt="Schedule of the 4days of Eclipse 4diac Winter School" width="100%" >}}
+
+
+
+{{< events/sponsors event="4diacWinterSchool"  year="2025" displayBecomeSponsor=false useMax=false >}}
+
+

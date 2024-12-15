@@ -44,13 +44,5 @@ Thus, every session will be paired with practical workshops, allowing participan
 ## Registration Information:
 A small registration fee will apply to cover materials and organizational costs. Details about the fee and registration process will be shared soon.
 
-## Sponsors
-
-[{{< image src="https://www.eclipse.org/eclipse.org-common/themes/solstice/public/images/logo/eclipse-foundation-grey-orange.svg" alt="Eclipse Foundation" height="75px" >}}](https://www.eclipse.org/)
-
-{{<br>}}
-
-[{{< image src="./IEEE-SMC.jpg" alt="IEEE SMC TC Intelligent Industrial Systems" height="75px" >}}](https://sites.google.com/view/ieee-smc-tc-iis/)
-
-
+{{< events/sponsors event="4diacWinterSchool"  year="2025" displayBecomeSponsor=false useMax=false >}}
 

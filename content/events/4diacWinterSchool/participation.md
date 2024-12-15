@@ -19,3 +19,6 @@ links: [[href: "../program", text: "Program"],[href: "../venue", text: "Venue"],
 
 
 For administrative reasons, cancellations are not admitted, but we are happy to transfer registrations to other attendees.
+
+
+{{< events/sponsors event="4diacWinterSchool"  year="2025" displayBecomeSponsor=false useMax=false >}}

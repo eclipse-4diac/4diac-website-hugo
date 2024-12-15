@@ -54,4 +54,5 @@ The nearest major airports are Vienna Airport and Munich Airport. From Vienna th
 {{< image src="../travel_schematic.png" alt="Travel schematic to reach JKU" width="100%" display="block" margin-left="auto" margin-right="auto" >}}
 {{< br >}}
 
+{{< events/sponsors event="4diacWinterSchool"  year="2025" displayBecomeSponsor=false useMax=false >}}
 
