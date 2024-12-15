@@ -1,0 +1,9 @@
+items:
+  - title: Eclipse Foundation
+    url: https://www.eclipse.org
+    image: https://www.eclipse.org/eclipse.org-common/themes/solstice/public/images/logo/eclipse-foundation-grey-orange.svg
+    width: 250px
+  - title: IEEE SMC TC Intelligent Industrial Systems
+    url: https://sites.google.com/view/ieee-smc-tc-iis/
+    image: /4diac/events/4diacwinterschool/IEEE-SMC.jpg
+    width: 320px
