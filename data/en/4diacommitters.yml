@@ -1,0 +1,34 @@
+items:
+  - name: "Alois Zoitl"
+    link: "https://www.jku.at/en/lit-cyber-physical-systems-lab/about-us/our-team/univ-prof-di-dr-alois-zoitl/"
+    twitter_handle: "azoitl"
+    linkedin_handle: "alois-zoitl-a9b05725"
+    img: "azoitl.png"
+    bio: |
+      <p>Alois Zoitl is the project lead of Eclipse 4diac and a committer for <a href="https://github.com/eclipse-gef/gef-classic">Eclipse GEF Classic</a>. 
+      As a professor for Cyber-Physical Systems at Johannes Kepler University Linz, he combines academic expertise with hands-on industry experience.
+      With over 250 publications and multiple patents, Alois has led numerous R&D projects, both industry- and publicly funded, focusing on automation, real-time systems, and distributed intelligence. 
+      He is a senior IEEE member and has been actively involved in the standardization of IEC 61499 since 2009. 
+      He has been convenor of the IEC SC65B/WG15 working group since 2015.</p>
+  - name: "Bianca Wiesmayr"
+    link: "https://www.jku.at/en/lit-cyber-physical-systems-lab/about-us/our-team/di-dr-bianca-wiesmayr-bsc-mlbt/"
+    linkedin_handle: "litcpslab-bianca-wiesmayr"
+    img: "bwiesmayr.jpeg"
+    bio: |
+      <p>Bianca Wiesmayr is part of the project team of Eclipse 4diac. 
+         In addition to her research, she is an active software developer for the open-source development environment Eclipse 4diac. 
+         She researches model-driven methods for developing automation systems. 
+         Her dissertation investigated the use of behavior models for the implementation and maintenance of control software in the domain-specific modeling language defined in IEC 61499. 
+         Many of her results are available open source in Eclipse 4diac. 
+         Additionally, she has worked on improving the usability of the modeling editor.</p>
+  - name: "Jörg Walter"
+    link: "https://www.offis.de/en/offis/person/joerg-walter.html"
+    linkedin_handle: "jörg-walter-681ab8311"
+    email: "joerg.walter@offis.de"
+    img: "jwalter.jpeg"
+    bio: |
+      <p>Dr.-Ing. Jörg Walter is a researcher at OFFIS -- Institute for Information Technology in Oldenburg, Germany. 
+         He manages the research group <a href="https://www.offis.de/en/applications/manufacturing/distributed-computing-and-communication.html">Distributed Computing and Communication</a> in the R&D department Manufacturing at OFFIS. 
+         His group researches embedded system hard- and software in the field of industrial automation systems with a focus on hardware achitectures and design methodology to address the challenges of modern control tasks. 
+         Eclipse 4diac and IEC 61499 are ideal vehicles for this research, since they embrace both, state-of-the-art modeling capabilities and practical applicability for actual production systems.</p>
+      
