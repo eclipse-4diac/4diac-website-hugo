@@ -15,7 +15,7 @@ links: [[href: "../program", text: "Program"],[href: "../venue", text: "Venue"],
 
 ## Contact
 
-Please send all inquiries to
+Please send all inquiries to 4d4d@jku.at
 
 
 ## Organizing Committee
