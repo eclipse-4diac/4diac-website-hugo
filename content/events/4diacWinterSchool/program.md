@@ -20,6 +20,6 @@ container: "container-fluid"
 
 
 
-{{< events/sponsors event="4diacWinterSchool"  year="2025" displayBecomeSponsor=false useMax=false >}}
+{{< events/sponsors event="4diacWinterSchool" year="2025" displayBecomeSponsor=false useMax=false title="Supporters" >}}
 
 

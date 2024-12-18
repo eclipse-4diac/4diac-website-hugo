@@ -34,4 +34,5 @@ We have reserved single rooms in the Hotel Sommerhaus at a discounted rate, whic
 - Single room including breakfast 78 EUR/night with discount code "Winterschool 2025"
 - Discount/reservation expires after 18.1.2025
 
-{{< events/sponsors event="4diacWinterSchool"  year="2025" displayBecomeSponsor=false useMax=false >}}
+{{< events/sponsors event="4diacWinterSchool" year="2025" displayBecomeSponsor=false useMax=false title="Supporters" >}}
+

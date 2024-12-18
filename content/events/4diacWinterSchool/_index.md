@@ -44,5 +44,5 @@ Thus, every session will be paired with practical workshops, allowing participan
 ## Registration Information:
 A small registration fee will apply to cover materials and organizational costs. Details about the fee and registration process will be shared soon.
 
-{{< events/sponsors event="4diacWinterSchool"  year="2025" displayBecomeSponsor=false useMax=false >}}
+{{< events/sponsors event="4diacWinterSchool" year="2025" displayBecomeSponsor=false useMax=false title="Supporters" >}}
 
