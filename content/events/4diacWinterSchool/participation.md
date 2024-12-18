@@ -13,15 +13,18 @@ page_css_file: /4diac/css/4daysofe4.css
 links: [[href: "../program", text: "Program"],[href: "../venue", text: "Venue"],[href: "../participation", text: "Participation"],[href: "../organisation", text: "Organisation"]]
 ---
 
-### Registration details 
-Registration will open in early January. We welcome up to 40 attendees from industry and academia who wish to gain hands-on 
-experience in modern distributed automation. The winter school is also suitable for students in Master's programmes. The registration rate for the full week includes lunches, coffee breaks, and social events. Accommodation is provided at a discount rate (see below).
+### Registration: Early bird rate starts soon!
+We welcome up to 40 attendees from industry and academia who wish to gain hands-on 
+experience in modern distributed automation. The winter school is also suitable for students in Master's and PhD programmes. The registration rate for the full week includes lunches, coffee breaks, and social events. **Early-bird registration deadline: January 26, 2025** 
 
-- Participation fee: EUR 570
-- Discounted fee for academics and students: EUR 420
-- Single day participation: EUR 150 (no social events included) 
+Registrations are allocated at a first come, first served-basis - register soon to secure your place! 
 
-Registration will open soon. 
+- Participation fee (early bird): EUR 570
+- Discounted fee for academics and students (early bird): EUR 420
+- Late registrations starting from 27.1.2025 are available at EUR 700 (no academic discount). 
+- Single day participation: EUR 150 (includes lunch and coffee break, but no social events) 
+
+Registration form will be added here soon.
 
 For administrative reasons, cancellations are not permitted, but we are happy to transfer registrations to other attendees.
 
