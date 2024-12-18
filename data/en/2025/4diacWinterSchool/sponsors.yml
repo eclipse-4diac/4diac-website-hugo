@@ -3,7 +3,23 @@ items:
     url: https://www.eclipse.org
     image: https://www.eclipse.org/eclipse.org-common/themes/solstice/public/images/logo/eclipse-foundation-grey-orange.svg
     width: 250px
+  - title: IEEE Austria Section
+    url: https://www.ieee-austria.org/
+    image: https://www.ieee-austria.org/images/logo/ieee_at_blue_transparent_bg_low_res.png
+    width: 200px
+  - title: IEEE Austria Section, IAS/PELS/IES chapter
+    url: https://www.ieee-austria.org/index.php/chapters/41-ias-pels-ies
+    image: https://www.ieee-austria.org/images/5_Logo_JointChapter_ver3_ohneIEEElogo_tr.png
+    width: 350px
+  - title: IEEE Austria Section, PES Chapter
+    url: https://www.ieee-austria.org/index.php/chapters/43-pes
+    image: /4diac/events/4diacwinterschool/IEEE PES Austria.png
+    width: 150px
   - title: IEEE SMC TC Intelligent Industrial Systems
     url: https://sites.google.com/view/ieee-smc-tc-iis/
     image: /4diac/events/4diacwinterschool/IEEE-SMC.jpg
     width: 320px
+  - title: CDL VaSiCS
+    url: https://www.jku.at/cdl-vasics/
+    image: /4diac/events/4diacwinterschool/CDL-VaSiCS.png
+    width: 135px
