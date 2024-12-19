@@ -390,9 +390,15 @@ pluralizeListTitles = false
 
 [[menu.sidebar]]
   parent = "sidebar-downloads-IDE"
-  name = "Mac OS X"
+  name = "Mac OS X x86"
   url = "https://www.eclipse.org/downloads/download.php?file=/4diac/updates/rc/4diac-ide_3.0.0-macosx.cocoa.x86_64.dmg"
   weight = 3
+
+[[menu.sidebar]]
+  parent = "sidebar-downloads-IDE"
+  name = "Mac OS X aarch64"
+  url = "https://www.eclipse.org/downloads/download.php?file=/4diac/updates/rc/4diac-ide_3.0.0-macosx.cocoa.aarch64.dmg"
+  weight = 4
   
 [[menu.sidebar]]
   parent = "sidebar-downloads"
