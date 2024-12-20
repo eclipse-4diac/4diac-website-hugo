@@ -5,6 +5,7 @@ headline: >
    1<sup>st</sup> 4days of <span class="white">Eclipse 4diac</span> Winter School
 tagline: >
   Venue
+  <span style="float: right;" class="white"><small>Earn 3 ECTS!</small></span>
 description: "The venue of the 1st 4days of Eclipse 4diac Winter School"
 date: 2024-11-07
 layout: "single"
