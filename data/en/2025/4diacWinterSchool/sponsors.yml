@@ -19,7 +19,15 @@ items:
     url: https://sites.google.com/view/ieee-smc-tc-iis/
     image: /4diac/events/4diacwinterschool/IEEE-SMC.jpg
     width: 320px
+  - title: Niedersächsisches Ministerium für Wissenschaft und Kultur
+    image: /4diac/events/4diacwinterschool/NiederSachsen_MinWiKu.png
+    url: https://www.mwk.niedersachsen.de/startseite/
+    width: 320px
   - title: CDL VaSiCS
     url: https://www.jku.at/cdl-vasics/
     image: /4diac/events/4diacwinterschool/CDL-VaSiCS.png
     width: 135px
+  - title: Volkswagen Stiftung
+    url: https://www.volkswagenstiftung.de/
+    image: https://www.volkswagenstiftung.de/themes/VWS/media/images/logo-vwstiftung-dark.svg
+    width: 320px
