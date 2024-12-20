@@ -52,9 +52,7 @@ featured_story: |
     
         <div class="featured-story-jumbotron-links">
             <a class="featured-story-jumbotron-links-button btn btn-primary" href="./events/4diacwinterschool">Learn More</a>
-        <!--    <a class="featured-story-jumbotron-links-button btn btn-primary" href="https://eclipse.zoom.us/meeting/register/tZMsfumsrD8rEt3ZLGzwwTfUJNj9r2YS9UkH#/registration">
-              Part 2: Nov 21
-            </a> -->
+            <a class="featured-story-jumbotron-links-button btn btn-secondary" href="https://conferences.jku.at/4d4d">Register Now!</a> -->
         </div>
     </div>
 ---

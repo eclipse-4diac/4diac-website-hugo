@@ -22,6 +22,10 @@ Whether you are a newcomer eager to learn or a seasoned user looking to deepen y
 At the 4days of Eclipse 4diac Winter School, we believe in &quot;no theory without hands-on experience.&quot; 
 Thus, every session will be paired with practical workshops, allowing participants to immediately apply what they have learned in real-world scenarios.
 
+Our summer school is also suitable for students. 
+The program is designed to provide an enriching experience while helping you advance your studies. 
+By successfully completing this program, you will earn **3 ECTS** (European Credit Transfer and Accumulation System) credits, which are internationally recognized and transferable across higher education institutions in Europe and beyond.
+
 ## Preliminary Program Overview:</h3>
  - Classical Eclipse 4diac and IEC 61499 Topics:
     - **Developing IEC 61499 Solutions:** Learn the fundamentals of developing IEC 61499 automation solutions using Eclipse 4diac.

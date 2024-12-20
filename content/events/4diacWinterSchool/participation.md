@@ -4,7 +4,8 @@ seo_title: "Events"
 headline: > 
    1<sup>st</sup> 4days of <span class="white">Eclipse 4diac</span> Winter School
 tagline: >
-  Program
+  Participation
+  <span style="float: right;" class="white"><small>Earn 3 ECTS!</small></span>
 description: "The Participate in the 1st 4days of Eclipse 4diac Winter School"
 date: 2024-11-07
 layout: "single"
@@ -24,9 +25,15 @@ Registrations are allocated at a first come, first served-basis - register soon 
 - Late registrations starting from 27.1.2025 are available at EUR 700 (no academic discount). 
 - Single day participation: EUR 150 (includes lunch and coffee break, but no social events) 
 
-Registration form will be added here soon.
+Registration via this link [here](https://conferences.jku.at/4d4d).
 
 For administrative reasons, cancellations are not permitted, but we are happy to transfer registrations to other attendees.
+
+### Information for Students
+Our summer school program is designed to provide an enriching academic experience while helping you advance your studies. 
+By successfully completing this program, you will earn **3 ECTS** (European Credit Transfer and Accumulation System) credits, which are internationally recognized and transferable across higher education institutions in Europe and beyond.
+
+We recommend that you consult with your academic advisor or registrar's office to confirm the transferability of these credits to your home institution.
 
 ### Accommodation
 We have reserved single rooms in the Hotel Sommerhaus at a discounted rate, which is the accommodation closest to the venue. 
