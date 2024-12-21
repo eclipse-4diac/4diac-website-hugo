@@ -4,7 +4,7 @@ seo_title: "Events"
 headline: > 
    1<sup>st</sup> 4days of <span class="white">Eclipse 4diac</span> Winter School
 tagline: >
-  Februrary 10 - 14, 2025<br>Johannes Kepler University Linz, Austria
+  February 10 - 14, 2025<br>Johannes Kepler University Linz, Austria
 description: "4 days of learning IEC 61499, Eclipse 4diac, open source and more"
 date: 2024-11-07
 layout: "single"
