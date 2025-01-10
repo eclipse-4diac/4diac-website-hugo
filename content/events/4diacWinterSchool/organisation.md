@@ -26,7 +26,7 @@ Please send all inquiries to 4d4d@jku.at
 - **Program Chairs**
   - [Alois Zoitl](https://www.jku.at/en/lit-cyber-physical-systems-lab/ueber-uns/team/univ-prof-di-dr-alois-zoitl), LIT CPS Lab, Johannes Kepler University Linz, Austria 
   - [Jörg Walter](https://www.offis.de/offis/person/joerg-walter.html), OFFIS e. V., Oldenburg, Germany
-- **Publicity Chair**  
+- **Publicity Chair & Diversity Chair**
   - [Friederike Bruns](https://uol.de/informatik/abteilungen/eingebettete-hardware-software-systeme-nebel/personen/msc-friederike-bruns-1), Carl von Ossietzky Universität Oldenburg, Germany 
 
 
