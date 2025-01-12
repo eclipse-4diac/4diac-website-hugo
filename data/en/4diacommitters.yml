@@ -31,4 +31,12 @@ items:
          He manages the research group <a href="https://www.offis.de/en/applications/manufacturing/distributed-computing-and-communication.html">Distributed Computing and Communication</a> in the R&D department Manufacturing at OFFIS. 
          His group researches embedded system hard- and software in the field of industrial automation systems with a focus on hardware achitectures and design methodology to address the challenges of modern control tasks. 
          Eclipse 4diac and IEC 61499 are ideal vehicles for this research, since they embrace both, state-of-the-art modeling capabilities and practical applicability for actual production systems.</p>
-      
+  - name: "Jose Cabral"
+    link: "https://github.com/cochicde"
+    linkedin_handle: "jose-maria-cabral"
+    img: "jcabral.jpeg"
+    bio: |
+      <p> As part of the Eclipse 4diac team, he is working mainly in the 4diac FORTE code. 
+          After many years working in research in the area of Industrie 4.0, he moved to the industry to work in the areas of robotics and later in the development of medical devices. 
+          He is currently pursuing his PhD in the area of debugging of automation systems at the Johannes Kepler University, Linz, Austria. 
+          His research interests are in the areas of distributed systems, model driven engineering and software development as well as debugging methods for industrial systems.</p>
