@@ -40,3 +40,9 @@ items:
           After many years working in research in the area of Industrie 4.0, he moved to the industry to work in the areas of robotics and later in the development of medical devices. 
           He is currently pursuing his PhD in the area of debugging of automation systems at the Johannes Kepler University, Linz, Austria. 
           His research interests are in the areas of distributed systems, model driven engineering and software development as well as debugging methods for industrial systems.</p>
+  - name: "Monika Wenger"
+    link: https://github.com/moniwe
+    linkedin_handle: "monika-wenger-1786b3304"
+    img: "moniwe.png"
+    bio: |
+      <p>Monika Wenger is part of the Eclipse 4diac team since its start. After many years in research on Industry 4.0, she moved into industry and now works in the field of digital twins. She worked on many parts of Eclipse 4diac, including IDE and function block library developement, recently she fokuses more on bringing 4diac FORTE to different PLCs and implementing IO subsystems on them.</p>
