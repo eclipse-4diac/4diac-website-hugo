@@ -16,13 +16,13 @@ links: [[href: "../program", text: "Program"],[href: "../venue", text: "Venue"],
 
 ### Registration: Early bird rate starts soon!
 We welcome up to 40 attendees from industry and academia who wish to gain hands-on 
-experience in modern distributed automation. The winter school is also suitable for students in Master's and PhD programmes. The registration rate for the full week includes lunches, coffee breaks, and social events. **Early-bird registration deadline: January 26, 2025** 
+experience in modern distributed automation. The winter school is also suitable for students in Master's and PhD programmes. The registration rate for the full week includes lunches, coffee breaks, and social events. **Early-bird registration deadline: January 28, 2025 (final extension!)** 
 
 Registrations are allocated at a first come, first served-basis - register soon to secure your place! 
 
 - Participation fee (early bird): EUR 570
 - Discounted fee for academics and students (early bird): EUR 420
-- Late registrations starting from 27.1.2025 are available at EUR 700 (no academic discount). 
+- Late registrations starting from 29.1.2025 are available at EUR 700 (no academic discount). 
 - Single day participation: EUR 150 (includes lunch and coffee break, but no social events) 
 
 Registration via this link [here](https://conferences.jku.at/4d4d).
