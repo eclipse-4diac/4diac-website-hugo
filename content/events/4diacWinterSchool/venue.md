@@ -1,6 +1,6 @@
 ---
 title: "Venue"
-seo_title: "Events"
+seo_title: "4days of Eclipse 4diac, Venue"
 headline: > 
    1<sup>st</sup> 4days of <span class="white">Eclipse 4diac</span> Winter School
 tagline: >
@@ -16,7 +16,11 @@ links: [[href: "../program", text: "Program"],[href: "../venue", text: "Venue"],
 
 ## Johannes Kepler University, Linz
 
-Further details will come soon!
+### Location
+TN Tower - Room T 405 (4th foor){{< br >}}
+Altenberger Straße 69, 4040 Linz, Austria
+
+[Google Maps](https://maps.app.goo.gl/neQd8NPcWmu8vocEA)
 
 ### Campus Map
 
