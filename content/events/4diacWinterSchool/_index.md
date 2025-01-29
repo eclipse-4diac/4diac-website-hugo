@@ -1,6 +1,6 @@
 ---
 title: "1st 4days of Eclipse 4diac Winter School"
-seo_title: "Events"
+seo_title: "4days of Eclipse 4diac"
 headline: > 
    1<sup>st</sup> 4days of <span class="white">Eclipse 4diac</span> Winter School
 tagline: >
