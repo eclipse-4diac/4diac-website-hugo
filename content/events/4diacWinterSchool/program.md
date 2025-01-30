@@ -16,10 +16,18 @@ container: "container-fluid"
 #hide_sidebar: true
 ---
 
-## Preliminary Program
+## Program Overview
+
 {{< image src="../Programm_4daysofE4_2025.svg" alt="Schedule of the 4days of Eclipse 4diac Winter School" width="100%" >}}
 
+{{< br >}}
 
+{{< events/agenda year="2025" event="4diacWinterSchool" title="Detailed Program" >}}
+
+{{< bootstrap/modal id="eclipsefdn-modal-event-session" >}}
+
+## Speakers
+{{< events/user_bios event="4diacWinterSchool" source="speakers" year="2025" imgRoot="./">}}
 
 {{< events/sponsors event="4diacWinterSchool" year="2025" displayBecomeSponsor=false useMax=false title="Supporters" >}}
 

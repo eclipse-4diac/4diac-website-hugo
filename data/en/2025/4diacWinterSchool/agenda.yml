@@ -1,0 +1,230 @@
+types:
+    - name: "Breaks and Social Events"
+      id: social
+      color: "#fbe99d"
+    - name: Lecture
+      id: lecture 
+      color: "#012269"
+    - name: Interactive Session
+      id: interactive 
+      color: "#99A6C3"
+    - name: Keynote
+      id: keynote 
+      color: "#b6cce1"
+    - name: Industry Report
+      id: ind 
+      color: "#ff950e"
+      
+sets:
+  - name: Mo, 10.02
+    items: 
+      - name: Welcome by the Organizers
+        presenter: 4days of Eclipse 4diac Team
+        time: 13:00-13:30
+        type: demo
+      - name: Get to Know Each Other
+        presenter: 4days of Eclipse 4diac Team
+        time: 13:30-15:00
+        type: interactive
+      - name: Coffee Break
+        time: 15:00-15:30
+        type: social
+      - name: Your First 4days of Eclipse 4diac Project
+        presenter: Lisa Sonnleithner
+        organization: <a href="https://www.jku.at/en/lit-cyber-physical-systems-lab/">LIT CPS Lab, JKU</a>
+        time: 15:30-16:30
+        type: interactive
+      - name: Setup Environment for 4diac IDE Developments
+        presenter: Bianca Wiesmayr
+        organization: <a href="https://www.jku.at/en/lit-cyber-physical-systems-lab/">LIT CPS Lab, JKU</a>
+        time: 15:30-16:30
+        type: interactive
+      - name: "Applications Report: HR Agrartechnik"
+        abstract: "<p>In this presentation, Franz Höpfinger will explore the innovative development and implementation of the <a href=\"https://www.logibus.tech\">logiBUS®</a> system at HR Agrartechnik GmbH. Leveraging state-of-the-art technologies, including Eclipse 4diac™, ISOBUS (ISO 11783), and the principles of IEC 61499, the logiBUS® system has redefined agricultural machinery communication and control.</p>
+            <p>The talk will also showcase how these technologies are integrated into the teaching curriculum at the Meisterschulen am Ostbahnhof, providing hands-on learning experiences for students. Additionally, Franz will present the Hutschienenmoped, an Open Hardware ISOBUS ECU developed as a practical and innovative approach to fostering open hardware solutions.</p>
+            <p>Recognized for its excellence, the logiBUS® system was honored with the prestigious GIL Award by the German Society for Informatics in Agriculture, Forestry, and the Food Industry.</p>
+            <p>Join us to gain insights into cutting-edge advancements in agricultural technology, innovative educational methods, and the future of open hardware in machine communication.</p>"
+        presenter: Franz Höpfinger
+        organization: <a href="https://www.hr-agrartechnik.de/">HR Agrartechnik GmbH</a>
+        time: 16:30-17:00
+        type: ind
+      - name: "Applications Report: Primetals Technologies"
+        presenter: Benjamin Muttenthaler / Ernst Blecha
+        organization: <a href="https://www.primetals.com/">Primetals Technologies Austria GmbH</a>
+        abstract: "<h3>Single source instead of proprietary code</h3>
+           <p>Primetals Technologies (PT) is a leading plant builder, automation and digitalization solutions provider, and metallurgical services partner for the global metals industry. To operate complete plants in the steel and aluminum industry, from the processing of iron ore to the finished product, such as a steel or aluminum strip, many complex automation solutions are required. Developing these solutions presents many challenges: the number of necessary software solutions required for the different types of plants, the need to deliver the solutions on different platforms, and the need to ensure maintainability over many years. In addition, the unique characteristics of each plant and the specific requirements of steel producers demand a high degree of flexibility in automation software development.</p>
+           <p>To stay ahead of future challenges, PT continuously analyzes existing software solutions and develops approaches for a modular software structure. PT is working on a development environment based on the IEC 61499 standard in which automation software can be developed and compiled for different platforms from a single source. To ensure the traceability and quality of software changes PT relies on tools for version control, traceable delivery of artifacts, and a powerful test environment.</p>
+           <p>All this is combined in a development environment that provides developers with all the tools they need to efficiently develop, deploy, maintain, and support high-quality, reusable automation software.</p>"
+        time: 17:00-17:30
+        type: ind
+      - name: "Get Together: Pizza Night"
+        presenter: 4days of Eclipse 4diac Team
+        time: 18:00-21:30
+        type: social
+  - name: Tu, 11.02
+    items: 
+       - name: "Open Source: From Revolutionary Idea to Mainstream"
+         presenter: Marco Jahn
+         abstract: "<p>This session will give a comprehensive overview of open source and its journey from a revolutionary idea to becoming mainstream. We will cover aspects such as licenses, governance, best practices, success stories and the role of open source foundations. We will also discuss why and how to get involved in open source.</p>"
+         organization: <a href="https://www.eclipse.org/">Eclipse Foundation</a>
+         time: 09:00-11:00
+         type: keynote
+       - name: Coffee Break
+         time: 11:00-11:30
+         type: social
+       - name: Introduction to the Main IEC 61499 Concepts
+         presenter: Lisa Sonnleithner
+         organization: <a href="https://www.jku.at/en/lit-cyber-physical-systems-lab/">LIT CPS Lab, JKU</a>
+         time: 11:30-12:30
+         type: lecture
+       - name: Extending 4diac IDE
+         presenter: Bianca Wiesmayr
+         organization: <a href="https://www.jku.at/en/lit-cyber-physical-systems-lab/">LIT CPS Lab, JKU</a>
+         time: 11:30-12:30
+         type: interactive
+       - name: Lunch Break
+         time: 12:30-14:00
+         type: social
+       - name: "Hands-On: Extending your First 4days of Eclipse 4diac Example"
+         presenter: Lisa Sonnleithner
+         organization: <a href="https://www.jku.at/en/lit-cyber-physical-systems-lab/">LIT CPS Lab, JKU</a>
+         time: 14:00-15:00
+         type: interactive
+       - name: "Application Report: Experiences with Eclipse 4diac in Power & Energy Systems"
+         presenter: Thomas Strasser
+         organization: AIT
+         time: 15:00-15:30
+         type: ind
+       - name: Coffee Break
+         time: 15:30-16:00
+         type: social
+       - name: FBs Theory and Hands-on with the 4diac IDE Interpreter
+         presenter: Bianca Wiesmayr
+         organization: <a href="https://www.jku.at/en/lit-cyber-physical-systems-lab/">LIT CPS Lab, JKU</a>
+         time: 16:00-17:00
+       - name: Tour through LIT Factory
+         presenter: Klaus Straka
+         organization: <a href="https://www.jku.at/en/lit-factory/">LIT Factory, JKU</a>
+         time: 17:00-18:00
+  - name: We, 12.02		
+    items: 
+        - name: Decoupling and Structuring Applications with Adapter Interfaces
+          presenter: Alois Zoitl
+          organization: <a href="https://www.jku.at/en/lit-cyber-physical-systems-lab/">LIT CPS Lab, JKU</a>
+          type: lecture
+          time: 09:00-09:45
+        - name: Engineering Safe and Robust Control Systems with Contracts
+          presenter: Jörg Walter
+          organization: <a href="https://www.offis.de/index.html">OFFIS e. V., Oldenburg</a>
+          type: lecture
+          time: 09:45-10:30
+        - name: Coffee Break
+          time: 10:30-11:00
+          type: social
+        - name: Models of Communication and Real-Time Networks
+          presenter: Friederike Bruns
+          organization: Carl von Ossietzky Universität Oldenburg
+          type: lecture
+          time: 11:00-11:45
+        - name: "Combining Event-Based Control with IEC 61499: A novel approach to industrial automation (remote)"
+          presenter: Oscar Miguel Escrig
+          abstract: |
+            <p>The concept of event is the backbone of the programming for distributed control systems that the standard IEC 61499 proposes. 
+               The paradigm shift that this concept implies brings the opportunity to re-think process regulation. 
+               In this sense, event-based control theory seems a suiting approach that matches standard’s implementation characteristics. 
+               Despite the reported benefits of the pairing event-based control and IEC 61499, it is not exempt of some problems that must be avoided. 
+               Identifying, characterizing and addressing these problems has been my main research line through the years, and, in this presentation, I would like to share some of the lessons learned along the way with the audience.</p>
+          organization: <a href="https://www.uji.es/">Universidad Jaume I</a>
+          type: lecture
+          time: 11:45-12:30
+        - name: Lunch Break
+          time: 12:30-14:00
+          type: social
+        - name: Unlocking the IT/OT Convergence with OPC UA
+          presenter: Mainak Majumder
+          organization: <a href="https://www.jku.at/en/lit-cyber-physical-systems-lab/">LIT CPS Lab, JKU</a>
+          type: lecture
+          time: 14:00-15:30
+        - name: Coffee Break
+          time: 15:30-16:00
+          type: social
+        - name:  Manage Your Custom 4diac FORTE Binaries Reliably with 4diac FBE and 4diac IDE
+          presenter: Jörg Walter
+          organization: <a href="https://www.offis.de/index.html">OFFIS e. V., Oldenburg</a>
+          type: interactive
+          time: 15:30-17:00
+        - name:  "Hands-On: Connecting Eclipse 4diac to Factory IO/OIP"
+          presenter: Jörg Walter / Alois Zoitl
+          organization: <a href="https://www.offis.de/index.html">OFFIS e. V., Oldenburg</a> / <a href="https://www.jku.at/en/lit-cyber-physical-systems-lab/">LIT CPS Lab, JKU</a>
+          time: 15:30-17:00
+  - name: Th, 13.02		 
+    items: 
+        - name:  Library Management and Working with Git in 4diac IDE
+          presenter: Michael Oberlehner
+          organization: <a href="https://www.jku.at/en/lit-cyber-physical-systems-lab/">LIT CPS Lab, JKU</a>
+          abstract: |
+             <p>Traditional software engineering offers solutions such as Git and package management systems tailored to exchange artifacts across distributed development teams.</p>
+             <p>Eclipse 4diac brings these essential technologies to industrial automation, adhering the industrial standard IEC 61499. 
+                For source code management, 4diac IDE seamlessly integrates Eclipse’s EGit infrastructure. 
+                To handle deployable artifacts, it provides a built-in library management system, similar to those widely used in traditional software development.</p>
+             <p>This presentation will showcase these features in action, demonstrating how 4diac facilitates library management in industrial automation.</p>
+          type: interactive
+          time: 09:00-10:30
+        - name: Coffee Break
+          time: 10:30-11:00
+          type: social
+        - name:  Programming UAO Devices with 4diac IDE
+          presenter: Pedro Ricardo Corrêa Souza
+          abstract: "Technical session on the plugin developed for 4diac IDE. We will discuss how it is built, its functionalities, and apply it in practice to simple and complex IEC 61499 projects, deploying the plugin in the UAO runtime.</p>"
+          organization: <a href="https://www.aimirimsti.com.br/en">Aimirim</a>
+          type: interactive
+          time: 11:00-11:45
+        - name: "Building Bridges: Collaborating for Inclusion and Innovation in Open Source"
+          presenter: Friederike Bruns
+          organization: Carl von Ossietzky Universität Oldenburg
+          type: lecture
+          time: 11:00-11:45
+        - name: Lunch Break
+          time: 12:30-14:00
+          type: social
+        - name:  "Application Report: Aimirim"
+          presenter: Pedro Ricardo Corrêa Souza
+          abstract: "Use cases of IEC 61499 for our clients, such as Raízen, ExxonMobil, Mondelez, CBA, BAT, and others. 
+            We will showcase these practical implementations, highlighting the context of each of these industries and their challenges, the solution strategies, and the return metrics.</p>"
+          organization: <a href="https://www.aimirimsti.com.br/en">Aimirim</a>
+          type: ind
+          time: 14:00-14:30
+        - name: "Hands-On: Implementing a larger IEC 61499 Application Example"
+          presenter: Alois Zoitl
+          organization: <a href="https://www.jku.at/en/lit-cyber-physical-systems-lab/">LIT CPS Lab, JKU</a>
+          type: interactive
+          time: 14:30-17:30
+        - name: Coffee Break
+          time: 15:30-16:00
+          type: social
+        - name: "Presentation of Results"
+          presenter: All attendees
+          time: 17:30-18:00
+        - name: "BoF Sessions"
+          presenter: All attendees
+          abstract: "<p> Birds of a Feather (BoF) sessions are informal, participant-driven gatherings at conferences and events where attendees with shared interests can discuss specific topics, exchange ideas, and network.</p>"
+          time: 18:00-20:00
+  - name: Fr, 14.02		 
+    items: 
+        - name:  "Defensive Application Design for the Shady Alleys of IEC 61499"
+          presenter: Jörg Walter / Alois Zoitl
+          organization: <a href="https://www.offis.de/index.html">OFFIS e. V., Oldenburg</a> / <a href="https://www.jku.at/en/lit-cyber-physical-systems-lab/">LIT CPS Lab, JKU</a>
+          type: interactive
+          time: 09:00-10:00
+        - name: Coffee Break
+          time: 10:00-10:30
+          type: social
+        - name:  "Extending 4diac FORTE: New Communication Layers and Access to IO"
+          type: interactive
+          presenter: Martin Melik-Merkumians
+          time: 10:30-12:00
+        - name: Farewell
+          presenter: 4days of Eclipse 4diac Team
+          time: 12:00-12:20
+          type: demo
+
