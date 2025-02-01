@@ -123,7 +123,12 @@ sets:
           type: social
         - name: Models of Communication and Real-Time Networks
           presenter: Friederike Bruns
-          organization: Carl von Ossietzky Universität Oldenburg
+          organization: <a href="https://uol.de/informatik/dcis/team/dr-ing-friederike-bruns">Carl von Ossietzky Universität Oldenburg</a>
+          abstract: |
+            <p> Designing Industrial Distributed Control Systems (IDCS) involves balancing functionality, device mapping, and network communication—yet IEC 61499 often abstracts the communication layer, leaving real-time network behavior underrepresented. 
+                To bridge this gap, we introduce messages and channels as novel modeling elements that extend the IEC 61499 standard. These elements provide a structured way to define how data flows across networks, enabling more precise modeling of real-time communication, particularly for networks based on Time Division Multiple Access (TDMA) protocols. 
+                This talk will focus on how these elements work in practice, demonstrating their value in aligning application design with network performance to support robust, time-sensitive systems.
+            </p>
           type: lecture
           time: 11:00-11:45
         - name: "Combining Event-Based Control with IEC 61499: A novel approach to industrial automation (remote)"
@@ -181,7 +186,12 @@ sets:
           time: 11:00-11:45
         - name: "Building Bridges: Collaborating for Inclusion and Innovation in Open Source"
           presenter: Friederike Bruns
-          organization: Carl von Ossietzky Universität Oldenburg
+          organization: <a href="https://uol.de/informatik/dcis/team/dr-ing-friederike-bruns">Carl von Ossietzky Universität Oldenburg</a>
+          abstract: |
+            <p> Diversity is more than a buzzword; it’s a driving force behind meaningful innovation, especially within open-source communities. 
+                In this talk, we will reflect on the multifaceted definition of diversity and we will examine how diverse perspectives, experiences, and problem-solving approaches enhance creativity, strengthen collaboration, and lead to more resilient and impactful projects. 
+                Moving beyond theory, the session will explore practical, everyday strategies that individuals and teams can adopt to create a more welcoming, supportive, and dynamic environment where everyone can thrive and drive innovation forward.
+            </p>
           type: lecture
           time: 11:00-11:45
         - name: Lunch Break
