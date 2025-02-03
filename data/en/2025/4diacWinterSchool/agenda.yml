@@ -231,7 +231,18 @@ sets:
           type: social
         - name:  "Extending 4diac FORTE: New Communication Layers and Access to IO"
           type: interactive
-          presenter: Martin Melik-Merkumians
+          presenter: Martin Melik Merkumians
+          abstract: |
+            <p> 4diac FORTE is a powerful runtime environment for IEC 61499 applications, but its capabilities can be extended to support new communication layers and IO modules.  
+            Communication layers can be presentation layer protocols, like JSON, XML, the IEC 61499 Compliance Profile for Feasibility Demonstrations, or the universally loved raw data layer. They can also be transport layer protocols, like TCP/IP, MQTT, or OPC UA. Depending on the concrete use case, these layers can be used to communicate with other devices, services, or systems, but sometimes the available communication layers are not sufficient to meet the requirements of a specific application.  
+            </p>  
+
+            <p> The same holds true for IO access. While 4diac FORTE brings many IO integrations with it, such as Embrick or Raspberry SPS, sometimes IO modules are a mix of communication and IO access, such as the Beckhoff ADS interface. Still, there are always new IO modules that can be sensors, actuators, or other devices that interact with the physical world.  
+            </p>  
+
+            <p> To support new and veteran 4diac users and developers, in this session, we will explore how to extend 4diac FORTE to support new communication protocols and IO devices, enabling the development of more versatile and adaptable industrial automation solutions.  
+            </p>
+          organization: <a href="https://electrify.at">electrify GmbH</a>
           time: 10:30-12:00
         - name: Farewell
           presenter: 4days of Eclipse 4diac Team
