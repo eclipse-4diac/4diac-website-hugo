@@ -157,11 +157,11 @@ sets:
           presenter: Jörg Walter
           organization: <a href="https://www.offis.de/index.html">OFFIS e. V., Oldenburg</a>
           type: interactive
-          time: 15:30-17:00
+          time: 16:00-17:00
         - name:  "Hands-On: Connecting Eclipse 4diac to Factory IO/OIP"
           presenter: Jörg Walter / Alois Zoitl
           organization: <a href="https://www.offis.de/index.html">OFFIS e. V., Oldenburg</a> / <a href="https://www.jku.at/en/lit-cyber-physical-systems-lab/">LIT CPS Lab, JKU</a>
-          time: 15:30-17:00
+          time: 17:00-18:00
   - name: Th, 13.02		 
     items: 
         - name:  Library Management and Working with Git in 4diac IDE
@@ -193,7 +193,7 @@ sets:
                 Moving beyond theory, the session will explore practical, everyday strategies that individuals and teams can adopt to create a more welcoming, supportive, and dynamic environment where everyone can thrive and drive innovation forward.
             </p>
           type: lecture
-          time: 11:00-11:45
+          time: 11:45-12:30
         - name: Lunch Break
           time: 12:30-14:00
           type: social
