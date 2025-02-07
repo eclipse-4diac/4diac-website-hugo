@@ -17,7 +17,7 @@ links: [[href: "../program", text: "Program"],[href: "../venue", text: "Venue"],
 ## Johannes Kepler University, Linz
 
 ### Location
-TN Tower - Room T 405 (4th foor){{< br >}}
+TN Tower - Room T 405 (4th floor){{< br >}}
 Altenberger Straße 69, 4040 Linz, Austria
 
 [Google Maps](https://maps.app.goo.gl/neQd8NPcWmu8vocEA)
