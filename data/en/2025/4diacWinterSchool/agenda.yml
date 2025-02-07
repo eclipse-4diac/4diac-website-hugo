@@ -242,7 +242,7 @@ sets:
 
             <p> To support new and veteran 4diac users and developers, in this session, we will explore how to extend 4diac FORTE to support new communication protocols and IO devices, enabling the development of more versatile and adaptable industrial automation solutions.  
             </p>
-          organization: <a href="https://electrify.at">electrify GmbH</a>
+          organization: <a href="https://eclipse.dev/4diac/">Eclipse 4diac</a>
           time: 10:30-12:00
         - name: Farewell
           presenter: 4days of Eclipse 4diac Team
