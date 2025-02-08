@@ -240,9 +240,9 @@ sets:
             <p> The same holds true for IO access. While 4diac FORTE brings many IO integrations with it, such as Embrick or Raspberry SPS, sometimes IO modules are a mix of communication and IO access, such as the Beckhoff ADS interface. Still, there are always new IO modules that can be sensors, actuators, or other devices that interact with the physical world.  
             </p>  
 
-            <p> To support new and veteran 4diac users and developers, in this session, we will explore how to extend 4diac FORTE to support new communication protocols and IO devices, enabling the development of more versatile and adaptable industrial automation solutions.  
+            <p> To support new and veteran Eclipse 4diac users and developers, in this session, we will explore how to extend 4diac FORTE to support new communication protocols and IO devices, enabling the development of more versatile and adaptable industrial automation solutions.  
             </p>
-          organization: <a href="https://eclipse.dev/4diac/">Eclipse 4diac</a>
+          organization: <a href="https://electrify.at/">electrify smart energy GmbH</a>
           time: 10:30-12:00
         - name: Farewell
           presenter: 4days of Eclipse 4diac Team
