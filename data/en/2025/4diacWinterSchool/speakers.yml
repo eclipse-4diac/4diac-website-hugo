@@ -75,4 +75,10 @@ items:
     img: "pedro_aimirim.jpg"
     bio: |
       <p>Pedro Ricardo Corrêa Souza is part of technical leadership team of Aimirim as a full-stack developer. He has a PhD in Engineering from Federal University of Uberlândia, is a specialist in numerical methods and a senior programmer.</p>
+  - name: "Thomas Strasser"
+    img: "ThomasStrasser.webp"
+    bio: |
+      <p>Thomas Strasser earned his master's, PhD, and Venia Docendi (habilitation) in automation from Technische Universität Wien (TU Wien). 
+         He has been a senior scientist at the AIT Austrian Institute of Technology’s Center for Energy for over 14 years, focusing on smart grid automation, research project development, and mentoring PhD candidates and junior scientists. 
+         Before AIT, he spent six years as a senior researcher at PROFACTOR, investigating advanced automation and control systems. Thomas Strasser is one of the co-founders of 4diac.</p>
 
