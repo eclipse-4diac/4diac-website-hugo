@@ -41,5 +41,15 @@ We have reserved single rooms in the Hotel Sommerhaus at a discounted rate, whic
 - Single room including breakfast 78 EUR/night with discount code "Winterschool 2025"
 - Discount/reservation expires after 18.1.2025
 
+
+### 4days of Eclipse 4diac 4diac IDE Packages
+
+  - [Windows](https://drive.jku.at/filr/public-link/file-download/0cce88f0948833ad0194ec5ddefc1f8e/67925/9149598502238844872/4diac-ide_4d4d-win32.x86_64.zip)
+  - [Linux](https://drive.jku.at/filr/public-link/file-download/0cce88f0948833ad0194ec60b40f1f92/67924/-2808478643574270225/4diac-ide_4d24d-linux.gtk.x86_64.tar.xz)
+  - MacOS:
+     - [4diac IDE aarch64](https://drive.jku.at/filr/public-link/file-download/0cce88f0948833ad0194ec1bf20f1f4e/67921/-1514391676531256633/4diac-ide_4d4d-macosx.cocoa.aarch64.dmg)
+     - [4diac IDE x86](https://drive.jku.at/filr/public-link/file-download/0cce88f0948833ad0194ec1dd3791f52/67922/-2882545380141171226/4diac-ide_4d4d-macosx.cocoa.x86_64.dmg)
+     - [add ons](https://drive.jku.at/filr/public-link/file-download/0cce88f0948833ad0194ec5901071f8a/67923/8555468865740863601/4d4d_Mac_adons.zip)
+
 {{< events/sponsors event="4diacWinterSchool" year="2025" displayBecomeSponsor=false useMax=false title="Supporters" >}}
 
