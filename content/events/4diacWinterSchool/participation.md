@@ -50,6 +50,7 @@ We have reserved single rooms in the Hotel Sommerhaus at a discounted rate, whic
      - [4diac IDE aarch64](https://drive.jku.at/filr/public-link/file-download/0cce88f0948833ad0194ec1bf20f1f4e/67921/-1514391676531256633/4diac-ide_4d4d-macosx.cocoa.aarch64.dmg)
      - [4diac IDE x86](https://drive.jku.at/filr/public-link/file-download/0cce88f0948833ad0194ec1dd3791f52/67922/-2882545380141171226/4diac-ide_4d4d-macosx.cocoa.x86_64.dmg)
      - [add ons](https://drive.jku.at/filr/public-link/file-download/0cce88f0948833ad0194ec5901071f8a/67923/8555468865740863601/4d4d_Mac_adons.zip)
+  - [Open Industry Project Package](https://nc.offis.de/index.php/s/NKo9gKxxEsAbFr4)
 
 {{< events/sponsors event="4diacWinterSchool" year="2025" displayBecomeSponsor=false useMax=false title="Supporters" >}}
 
