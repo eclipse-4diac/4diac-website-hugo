@@ -19,6 +19,7 @@
 {{ $call_for_action_text := .Site.Params.call_for_action_text }}
 {{ $call_for_action_url := .Site.Params.call_for_action_url }}
 {{ $call_for_action_icon := .Site.Params.call_for_action_icon }}
+{{ $call_for_action_id := .Site.Params.call_for_action_id }}
 
 {{ $hide_cfa := .Site.Params.hide_call_for_action | default .Page.Params.hide_call_for_action | default false }}
 
@@ -33,9 +34,12 @@
             {{ partial "nav.html" . }}
             <div class="header-navbar-end">
                 {{ if not $hide_cfa }}
-                  <a class="header-navbar-end-download-btn btn btn-primary" href="{{ $call_for_action_url }}">
-                      <i class="fa {{ $call_for_action_icon }}" aria-hidden="true"></i>
-                      {{ $call_for_action_text }}
+                   <a 
+                  class="header-navbar-end-download-btn btn btn-primary" 
+                  href="{{ $call_for_action_url }}" 
+                  {{ with $call_for_action_id -}} id="{{ . }}" {{- end }} >
+                  <i class="fa {{ $call_for_action_icon }}" aria-hidden="true"></i>
+                  {{ $call_for_action_text }}
                   </a>
                 {{ end }}
                 <button class="mobile-menu-btn" aria-label="Toggle mobile navigation menu" aria-expanded="false">

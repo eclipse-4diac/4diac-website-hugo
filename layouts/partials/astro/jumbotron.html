@@ -62,12 +62,18 @@
                 {{- with .Params.jumbotron_btn_class | default .Site.Params.jumbotron_btn_class | default "btn btn-primary" }}
                     {{ $.Scratch.Set "jumbotron_btn" . }}
                 {{ end }}
-                <ul class="list-inline">
+                <ul class="featured-jumbotron-links list-inline">
                     {{ range $key,$val := index .Page.Params.links}}
+                        {{ $btn_class := "" }}
+                        {{ with (index $val 2) }}
+                          {{ $btn_class = .class }}
+                        {{ else }}
+                          {{ $btn_class = $.Scratch.Get "jumbotron_btn" }}
+                        {{ end }}
                         <li>
-                            <a class="{{ $.Scratch.Get "jumbotron_btn" }}" href="{{ (index $val 0).href}}">
-                                {{ (index $val 1).text}}
-                            </a>
+                          <a class="{{ $btn_class }}" href="{{ (index $val 0).href}}" {{ with (index $val 3) -}} id="{{ .id | safeHTMLAttr }}" {{- end }}>
+                            {{ (index $val 1).text}}
+                          </a>
                         </li>
                     {{ end }}
                 </ul>
