@@ -146,29 +146,35 @@ pluralizeListTitles = false
   parent = "events"
   
 [[menu.main]]
-  name = "1st 4days of Eclipse 4diac Winter School" 
+  name = "1st 4days of Eclipse 4diac Winter School, 2025" 
   url = "/events/4diacWinterSchool"
   weight = 1
   parent = "events-winterschools"
   
 
 [[menu.main]]
-  name = "Workshops"
+  name = "Community Events"
   weight = 2
-  identifier = "events-workshops"
+  identifier = "events-community"
   parent = "events"
 
 [[menu.main]]
-  name = "4days of 4diac"
-  url = "/events/workshops/2019_4days_of_4diac"
+  name = "Eclipse 4diac Virtual Community Meetings"
+  url = "/events/virt-community"
   weight = 1
-  parent = "events-workshops"
+  parent = "events-community"
 
 [[menu.main]]
-  name = "Eclipse Insight: Cross Domain Engineering"
+  name = "4days of 4diac, 2019"
+  url = "/events/workshops/2019_4days_of_4diac"
+  weight = 2
+  parent = "events-community"
+
+[[menu.main]]
+  name = "Eclipse Insight: Cross Domain Engineering, 2019"
   url = "/events/workshops/2019_eclipse_insight"
   weight = 2
-  parent = "events-workshops"
+  parent = "events-community"
 
 [[menu.main]]
   name = "ETFA Workshops"
