@@ -52,7 +52,6 @@ featured_story: |
     
         <div class="featured-story-jumbotron-links">
             <a class="featured-story-jumbotron-links-button btn btn-primary" href="./events/4diacwinterschool">Learn More</a>
-            <a class="featured-story-jumbotron-links-button btn btn-secondary" href="https://conferences.jku.at/4d4d">Register Now!</a> -->
         </div>
     </div>
 ---
