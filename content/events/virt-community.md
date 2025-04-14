@@ -9,7 +9,7 @@ This regular community meeting is a place for the Eclipse 4diac community to get
 
 The next Eclipse 4diac Virtual Community Meeting will be held on **April 10th, 5pm CEST (UTC +2)**.
 
-You can join the meeting via this **[Zoom Link](https://jku.zoom.us/j/96518171707?pwd=JSJb8s6xCFyHTNJW5yHqqgzBNRaaVf.1)**
+You can join the meeting via this **[Zoom Link](https://jku.zoom.us/j/99840792097?pwd=dj1Deby9bFK4aGkMtLruO9XoHtLpH0.1)**
 
 Our planned agenda is as follows:
 1. Introduction of the attendees
