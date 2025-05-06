@@ -1,3 +1,6 @@
 [submodule "themes/hugo-solstice-theme"]
 	path = themes/hugo-solstice-theme
 	url = https://gitlab.eclipse.org/eclipsefdn/it/webdev/hugo-solstice-theme.git
+[submodule "submodules/4diac-documentation"]
+	path = submodules/4diac-documentation
+	url = hhttps://github.com/eclipse-4diac/4diac-documentation.git	
