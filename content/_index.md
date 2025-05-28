@@ -42,16 +42,16 @@ featured_story: |
     <div class="featured-story-jumbotron jumbotron-item-highlighted">
         <div class="featured-story-jumbotron-content">
             <div class="featured-story-jumbotron-content-title">
-              1<sup>st</sup> 4days of Eclipse 4diac Winter School
+              Eclipse 4diac Virtual Community Meetings 
             </div>
             <p class="featured-story-jumbotron-content-body">
-              Join us for an in-depth exploration of IEC 61499 and Eclipse 4diac. 
-              Whether you are a newcomer eager to learn or a seasoned user looking to deepen your knowledge, this event is designed for every one of you.
+              Join us for a discussion on IEC 61499 and Eclipse 4diac. We welcome interested participants from all background, whether seasoned developer or interested newcomer. 
+              We will demonstrate new developments in Eclipse 4diac, outline our development roadmap, and provide enough room for questions and answers with the project team of Eclipse 4diac.
             </p>
         </div>
     
         <div class="featured-story-jumbotron-links">
-            <a class="featured-story-jumbotron-links-button btn btn-primary" href="./events/4diacwinterschool">Learn More</a>
+            <a class="featured-story-jumbotron-links-button btn btn-primary" href="./events/virt-community">Learn More</a>
         </div>
     </div>
 ---
