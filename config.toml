@@ -262,7 +262,7 @@ pluralizeListTitles = false
 
 [[menu.main]]
   name = "Documentation Start"
-  url = "https://github.com/eclipse-4diac/4diac-documentation/blob/main/src/index.adoc"
+  url = "https://github.com/eclipse-4diac/4diac-documentation/blob/main/src/_index.adoc"
   weight = 1
   parent = "doc-getting_started"
 
@@ -286,19 +286,19 @@ pluralizeListTitles = false
 
 [[menu.main]]
   name = "Step by Step Tutorials"
-  url = "https://github.com/eclipse-4diac/4diac-documentation/blob/main/src/tutorials/index.adoc"
+  url = "https://github.com/eclipse-4diac/4diac-documentation/blob/main/src/tutorials/tutorials.adoc"
   weight = 1
   parent = "doc-using"
 
 [[menu.main]]
   name = "Install Eclipse 4diac"
-  url = "https://github.com/eclipse-4diac/4diac-documentation/blob/main/src/installation/index.adoc"
+  url = "https://github.com/eclipse-4diac/4diac-documentation/blob/main/src/installation/installation.adoc"
   weight = 2
   parent = "doc-using"
 
 [[menu.main]]
   name = "4diac IDE Examples"
-  url = "https://github.com/eclipse-4diac/4diac-documentation/blob/main/src/examples/index.adoc"
+  url = "https://github.com/eclipse-4diac/4diac-documentation/blob/main/src/examples/examples.adoc"
   weight = 3
   parent = "doc-using"
 
@@ -316,19 +316,19 @@ pluralizeListTitles = false
 
 [[menu.main]]
   name = "IO Configuration for the Different Platforms"
-  url = "https://github.com/eclipse-4diac/4diac-documentation/blob/main/src/io_config/index.adoc"
+  url = "https://github.com/eclipse-4diac/4diac-documentation/blob/main/src/io_config/io_config.adoc"
   weight = 1
   parent = "doc-details"
 
 [[menu.main]]
   name = "Communication Protocols"
-  url = "https://github.com/eclipse-4diac/4diac-documentation/blob/main/src/communication/index.adoc"
+  url = "https://github.com/eclipse-4diac/4diac-documentation/blob/main/src/communication/communication.adoc"
   weight = 2
   parent = "doc-details"
 
 [[menu.main]]
   name = "Development of 4diac FORTE and 4diac IDE"
-  url = "https://github.com/eclipse-4diac/4diac-documentation/blob/main/src/development/index.adoc"
+  url = "https://github.com/eclipse-4diac/4diac-documentation/blob/main/src/development/development.adoc"
   weight = 2
   parent = "doc-details"
 
