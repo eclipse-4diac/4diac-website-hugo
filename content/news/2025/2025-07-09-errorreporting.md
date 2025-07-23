@@ -13,7 +13,7 @@ Clicking this button will open a new GitHub issue with the most relevant informa
   - Exception message
   - Stack trace
 
-{{< image src="/4diac/img/news/errordialog.png" alt="4daic IDE error information dialog" width="50%" >}} {{< br >}}
+{{< image src="/4diac/img/news/errordialog.png" alt="4diac IDE error information dialog" width="50%" >}} {{< br >}}
 
 
 This helps us diagnose problems faster and reduces the effort for users when something goes wrong.
