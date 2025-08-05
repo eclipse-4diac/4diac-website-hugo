@@ -19,7 +19,7 @@ spec:
       - name: "HOME"
         value: "/home/jenkins"
     - name: hugo
-      image: eclipsecbi/hugo_extended:0.110.0
+      image: eclipsefdn/hugo-node:h0.144.2-n22.14.0
       command:
       - cat
       tty: true
