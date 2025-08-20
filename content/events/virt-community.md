@@ -7,7 +7,7 @@ layout: "single"
 
 This regular community meeting is a place for the Eclipse 4diac community to get to know each other and to exchange ideas around Eclipse 4diac.
 
-The next Eclipse 4diac Virtual Community Meeting will be held on **August 20, 2025 at 17.00 CEST (UTC+2)**.
+The next Eclipse 4diac Virtual Community Meeting will be held on **October 15, 2025 at 17:00 CEST (UTC+2)**.
 
 You can join the meeting via this **[Zoom Link](https://jku.zoom.us/j/99840792097?pwd=dj1Deby9bFK4aGkMtLruO9XoHtLpH0.1)**
 
@@ -25,7 +25,7 @@ We look forward to an insightful discussion with all of you!
 ## Schedule
 We plan to hold the community meeting approximately every two months:
 - December 17, 2025 at 17:00 CET (UTC+1)
-- October 12, 2025 at 17:00 CEST (UTC+2)
+- October 15, 2025 at 17:00 CEST (UTC+2)
 - August 20, 2025 at 17.00 CEST (UTC+2)
 - June 4, 2025 at 17.00 CEST (UTC+2)
 - April 10, 2025 at 17.00 CEST (UTC+2)
