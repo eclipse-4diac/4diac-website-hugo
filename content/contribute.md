@@ -49,5 +49,5 @@ hide_breadcrumb: true
     - [4diac's Documentation](https://github.com/eclipse-4diac/4diac-documentation/issues)
     - [4diac's Website](https://github.com/eclipse-4diac/4diac-website-hugo/issues)
 
-- For getting started feel free to ask questions in the [4diac discussion forum](http://eclipse.org/forums/eclipse.4diac) and in [4diac's mailing list](https://dev.eclipse.org/mailman/listinfo/4diac-dev).
+- For getting started feel free to ask questions in the [4diac discussion forum](http://eclipse.org/forums/eclipse.4diac) and in [4diac's mailing list](https://www.eclipse.org/mailman/listinfo/4diac-dev).
 - A detailed description on how to contribute code to Eclipse 4diac can be found in our [contribution guide](https://github.com/eclipse-4diac/4diac-documentation/blob/main/src/development/contribute.asciidoc).

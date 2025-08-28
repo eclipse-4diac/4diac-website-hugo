@@ -13,7 +13,7 @@ fordiacTeamGreating: true
  - Following up on initial insights in our previous community evening, our committer Martin Jobst will present the new Structured Text editor, which has excellent editing capabilities that resemble those available for general-purpose programming languages. The sophisticated features can greatly reduce engineering time.
  - We will have enough time for questions and comments from the audience.
 
-Find the details and the Zoom link at our [virtual community events page](/4diac/events/virt-community) 
+Find the details and the Zoom link at our [virtual community events page](/4diac/events/virt-community/) 
 
 Are you an active user of Eclipse 4diac? Consider getting in touch to present your approach in one of the upcoming Virtual Community Evenings. We are interested in your best practices and lessons learnt that can benefit the whole community!
  

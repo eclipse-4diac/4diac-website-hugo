@@ -2,7 +2,7 @@
 
 Thanks for your interest in this project.
 
-[Eclipse 4diac](https://eclipse.dev/4diac) is a Open Source Framework for Industrial Automation & Control. 
+[Eclipse 4diac](https://eclipse.dev/4diac/) is a Open Source Framework for Industrial Automation & Control. 
 It is a reference implementation for the IEC 61499 standard. 
 IEC 61499 defines a domain specific modeling language for developing distributed industrial control solutions.
 IEC 61499 extends IEC 61131-3 by improving the encapsulation of software components for increased re-usability, providing a vendor independent format, and simplifying support for controller to controller communication.
@@ -10,7 +10,7 @@ Its distribution functionality and the inherent support for dynamic reconfigurat
 
 ### What is 4diac Website Hugo
 
-4diac Website Hugo contains the hugo sources for the web page of the [Eclipse 4diac Project](https://eclipse.dev/4diac). 
+4diac Website Hugo contains the hugo sources for the web page of the [Eclipse 4diac Project](https://eclipse.dev/4diac/). 
 
 ## Setting up Your Eclipse and GitHub Account
 

@@ -1,6 +1,6 @@
 # Eclipse 4diac Website Hugo Sources
 
-This repository contains the Hugo sources for the web page of the [Eclipse 4diac Project](https://eclipse.dev/4diac).
+This repository contains the Hugo sources for the web page of the [Eclipse 4diac Project](https://eclipse.dev/4diac/).
 
 
 ## How to Contribute
