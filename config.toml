@@ -19,7 +19,7 @@ pluralizeListTitles = false
   call_for_action_url = "/4diac/download/"
   call_for_action_icon = "fa-download"
   logo = "/4diac/img/4diac_Logo_2024.svg"
-  logo_url = "/4diac"
+  logo_url = "/4diac/"
   logo_width = "55%"
   layout_style = "astro"
   style_overrides="css/4diac_adjustments.css"
@@ -94,7 +94,7 @@ pluralizeListTitles = false
 
 [[menu.main]]
   name = "4diac IDE"
-  url = "/4diac_IDE"
+  url = "/4diac_IDE/"
   weight = 1
   parent = "fordiac-ide"
 
@@ -106,7 +106,7 @@ pluralizeListTitles = false
 
 [[menu.main]]
   name = "4diac FORTE"
-  url = "/4diac_FORTE"
+  url = "/4diac_FORTE/"
   weight = 2
   parent = "fordiac-forte"
 
@@ -118,7 +118,7 @@ pluralizeListTitles = false
 
 [[menu.main]]
   name = "4diac LIB"
-  url = "/4diac_LIB"
+  url = "/4diac_LIB/"
   weight = 3
   parent = "fordiac-lib"
 
@@ -130,7 +130,7 @@ pluralizeListTitles = false
 
 [[menu.main]]
   name = "4diac SYS"
-  url = "/4diac_SYS"
+  url = "/4diac_SYS/"
   weight = 4
   parent = "fordiac-sys"
 
@@ -139,7 +139,7 @@ pluralizeListTitles = false
   name = "News"
   weight = 2
   identifier = "news"
-  url = "/news"
+  url = "/news/"
 
 [[menu.main]]
   name = "Events"
@@ -164,7 +164,7 @@ pluralizeListTitles = false
   
 [[menu.main]]
   name = "1st 4days of Eclipse 4diac Winter School, 2025" 
-  url = "/events/4diacWinterSchool"
+  url = "/events/4diacWinterSchool/"
   weight = 1
   parent = "events-winterschools"
   
@@ -177,19 +177,19 @@ pluralizeListTitles = false
 
 [[menu.main]]
   name = "Eclipse 4diac Virtual Community Meetings"
-  url = "/events/virt-community"
+  url = "/events/virt-community/"
   weight = 1
   parent = "events-community"
 
 [[menu.main]]
   name = "4days of 4diac, 2019"
-  url = "/events/workshops/2019_4days_of_4diac"
+  url = "/events/workshops/2019_4days_of_4diac/"
   weight = 2
   parent = "events-community"
 
 [[menu.main]]
   name = "Eclipse Insight: Cross Domain Engineering, 2019"
-  url = "/events/workshops/2019_eclipse_insight"
+  url = "/events/workshops/2019_eclipse_insight/"
   weight = 2
   parent = "events-community"
 
@@ -201,43 +201,43 @@ pluralizeListTitles = false
 
 [[menu.main]]
   name = "7th 4diac Users' Workshop @ ETFA 2016"
-  url = "/events/etfa/etfa2016"
+  url = "/events/etfa/etfa2016/"
   weight = 1
   parent = "events-etfa_workshops"
 
 [[menu.main]]
   name = "6th 4diac Users' Workshop @ ETFA 2015"
-  url = "/events/etfa/etfa2015"
+  url = "/events/etfa/etfa2015/"
   weight = 2
   parent = "events-etfa_workshops"
 
 [[menu.main]]
   name = "5th 4diac Users' Workshop @ ETFA 2014"
-  url = "/events/etfa/etfa2014"
+  url = "/events/etfa/etfa2014/"
   weight = 3
   parent = "events-etfa_workshops"
 
 [[menu.main]]
   name = "4th 4diac Users' Workshop @ ETFA 2013"
-  url = "/events/etfa/etfa2013"
+  url = "/events/etfa/etfa2013/"
   weight = 4
   parent = "events-etfa_workshops"
 
 [[menu.main]]
   name = "3rd 4diac Users' Workshop @ ETFA 2012"
-  url = "/events/etfa/etfa2012"
+  url = "/events/etfa/etfa2012/"
   weight = 5
   parent = "events-etfa_workshops"
 
 [[menu.main]]
   name = "2nd 4diac Users' Workshop @ ETFA 2011"
-  url = "/events/etfa/etfa2011"
+  url = "/events/etfa/etfa2011/"
   weight = 6
   parent = "events-etfa_workshops"
 
 [[menu.main]]
   name = "1st 4diac Users' Workshop @ ETFA 2010"
-  url = "/events/etfa/etfa2010"
+  url = "/events/etfa/etfa2010/"
   weight = 7
   parent = "events-etfa_workshops"
 
@@ -246,7 +246,7 @@ pluralizeListTitles = false
   name = "Support"
   weight = 4
   identifier = "support"
-  url = "/support"
+  url = "/support/"
   [menu.main.params]
     description = """
     support 4diac.
@@ -256,7 +256,7 @@ pluralizeListTitles = false
   name = "Contribute"
   weight = 5
   identifier = "contribute"
-  url = "/contribute"
+  url = "/contribute/"
   [menu.main.params]
     description = """
     contribute to 4diac.
@@ -279,7 +279,7 @@ pluralizeListTitles = false
 
 [[menu.main]]
   name = "Documentation Start"
-  url = "/doc"
+  url = "/doc/"
   weight = 1
   parent = "doc-getting_started"
 

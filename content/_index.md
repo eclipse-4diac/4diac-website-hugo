@@ -21,19 +21,19 @@ custom_jumbotron_end: |
         Eclipse 4diac provides
     </div>
     <div class="custom-jumbotron-end-link-group">
-        <a class="link-unstyled" href="/4diac/4diac_ide">
+        <a class="link-unstyled" href="/4diac/4diac_ide/">
             <span class="link-overlay">IEC 61499 Engineering Tool</span>
             4diac IDE
         </a>
-        <a class="link-unstyled" href="/4diac/4diac_forte">
+        <a class="link-unstyled" href="/4diac/4diac_forte/">
             <span class="link-overlay">Real-time Capable IEC 61499 Execution Environment</span>
             4diac FORTE
         </a>
-        <a class="link-unstyled" href="/4diac/4diac_lib">
+        <a class="link-unstyled" href="/4diac/4diac_lib/">
             <span class="link-overlay">IEC 61499 Function Block Library</span>
             4diac LIB
         </a>
-        <a class="link-unstyled" href="/4diac/4diac_sys">
+        <a class="link-unstyled" href="/4diac/4diac_sys/">
             <span class="link-overlay">IEC 61499 example systems</span>
             4diac SYS
         </a>
@@ -51,7 +51,7 @@ featured_story: |
         </div>
     
         <div class="featured-story-jumbotron-links">
-            <a class="featured-story-jumbotron-links-button btn btn-primary" href="./events/virt-community">Learn More</a>
+            <a class="featured-story-jumbotron-links-button btn btn-primary" href="./events/virt-community/">Learn More</a>
         </div>
     </div>
 ---
