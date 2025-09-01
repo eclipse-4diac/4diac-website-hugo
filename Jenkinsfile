@@ -43,6 +43,7 @@ spec:
  }
 
   options {
+	disableConcurrentBuilds()
     buildDiscarder(logRotator(numToKeepStr: '5'))
     checkoutToSubdirectory('hugo')
     timeout(time: 60, unit: 'MINUTES')
