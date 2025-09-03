@@ -73,7 +73,7 @@ spec:
       steps {
         container('hugo') {
             dir('hugo') {
-                sh 'hugo -b https://eclipse.dev/${PROJECT_NAME}/'
+                sh 'hugo -b https://eclipse.dev/${PROJECT_NAME}/ --verbose'
             }
         }
       }
