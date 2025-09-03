@@ -7,6 +7,8 @@ disableKinds = []
 enableRobotsTXT = true
 pluralizeListTitles = false
 
+timeout = "120s"
+
 [Params]
 #  google_tag_manager = "GTM-5WLCZXC"
   description = "The Eclipse Foundation provides our global community of individuals and organizations with a mature, scalable, and business-friendly environment for open source software collaboration and innovation."
