@@ -4,7 +4,7 @@ seo_title: "4diac FORTE"
 headline: > 
   What is <span class="white">4diac™ FORTE</span>?
 tagline: >
-  <br><span class="white">4diac™ FORTE is a </span>real-time capable <br>IEC 61499<span class="white"> Run-Time Environmen</span>.
+  <br><span class="white">4diac™ FORTE is a </span>real-time capable <br>IEC 61499<span class="white"> Run-Time Environment</span>.
 description: "This is the 4diac FORTE page of Eclipse 4diac."
 date: 2024-02-15T10:00:00-04:00
 hide_breadcrumb: true
