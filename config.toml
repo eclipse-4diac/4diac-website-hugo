@@ -89,52 +89,40 @@ timeout = "120s"
     """
 
 [[menu.main]]
-  name = "Development Environment"
+  name = "Explore Eclipse 4diac"
   weight = 1
-  identifier = "fordiac-ide"
+  identifier = "fordiac-projects"
   parent = "fordiac"
 
 [[menu.main]]
   name = "4diac IDE"
   url = "/4diac_IDE/"
   weight = 1
-  parent = "fordiac-ide"
-
-[[menu.main]]
-  name = "Run-Time Environment"
-  weight = 2
-  identifier = "fordiac-forte"
-  parent = "fordiac"
+  parent = "fordiac-projects"
 
 [[menu.main]]
   name = "4diac FORTE"
   url = "/4diac_FORTE/"
   weight = 2
-  parent = "fordiac-forte"
+  parent = "fordiac-projects"
 
 [[menu.main]]
-  name = "Function Block Library"
+  name = "4diac FBE"
+  url = "/4diac_FBE/"
   weight = 3
-  identifier = "fordiac-lib"
-  parent = "fordiac"
+  parent = "fordiac-projects"
 
 [[menu.main]]
   name = "4diac LIB"
   url = "/4diac_LIB/"
-  weight = 3
-  parent = "fordiac-lib"
-
-[[menu.main]]
-  name = "Example Projects"
-  weight = 4
-  identifier = "fordiac-sys"
-  parent = "fordiac"
+  weight = 5
+  parent = "fordiac-projects"
 
 [[menu.main]]
   name = "4diac SYS"
   url = "/4diac_SYS/"
-  weight = 4
-  parent = "fordiac-sys"
+  weight = 6
+  parent = "fordiac-projects"
 
 
 [[menu.main]]

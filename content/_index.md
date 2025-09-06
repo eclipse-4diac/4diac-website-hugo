@@ -29,6 +29,10 @@ custom_jumbotron_end: |
             <span class="link-overlay">Real-time Capable IEC 61499 Execution Environment</span>
             4diac FORTE
         </a>
+        <a class="link-unstyled" href="/4diac/4diac_fbe/">
+            <span class="link-overlay">Easy to use Build Environment for 4diac&nbsp;FORTE</span>
+            4diac FBE
+        </a>
         <a class="link-unstyled" href="/4diac/4diac_lib/">
             <span class="link-overlay">IEC 61499 Function Block Library</span>
             4diac LIB
