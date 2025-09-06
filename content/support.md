@@ -17,6 +17,15 @@ hide_breadcrumb: true
 # Communication Channels
 {{< supportCards useMatchHeight="true" source="cardsSupport" containerClass="col-sm-8">}}
 
+# Q&A / Discussions {#discussions}
+You can also ask questions and join discussions on our GitHub repositories. 
+In order to focus the discussions and make them better navigable and explorable each Eclipse 4diac component has its own discussion space:
+
+- **[4diac IDE Discussions](https://github.com/eclipse-4diac/4diac-ide/discussions)**
+- **[4diac FORTE Discussions](https://github.com/eclipse-4diac/4diac-forte/discussions)**
+- **[4diac FBE Discussions](https://github.com/eclipse-4diac/4diac-fbe/discussions)**
+- **[4diac Documentation Discussions](https://github.com/eclipse-4diac/4diac-documentation/discussions)**
+
 # Background
 In order to understand the modelling concepts used in Eclipse 4diac™ it is advisable to get familiar with the IEC 61499 reference model. The following resources provide more information about the IEC 61499 concept and the Eclipse 4diac™ implementation:
 - [Wikipedia article on IEC 61499](https://en.wikipedia.org/wiki/IEC_61499)

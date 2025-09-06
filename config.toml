@@ -149,9 +149,15 @@ timeout = "120s"
   parent = "fordiac-community"
 
 [[menu.main]]
+  name = "Q&A / Discussions"
+  url = "/support/#discussions"
+  weight = 4
+  parent = "fordiac-community"
+
+[[menu.main]]
   name = "Report an Issue"
   url = "https://github.com/eclipse-4diac"
-  weight = 3
+  weight = 5
   parent = "fordiac-community"
 
 
