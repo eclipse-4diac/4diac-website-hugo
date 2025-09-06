@@ -12,4 +12,9 @@ hide_breadcrumb: true
 ---
 
 
-{{< comitter_bios source="4diacommitters" imgRoot="../img/team/">}}
+{{< comitter_bios source="4diaccommitters" imgRoot="../img/team/">}}
+
+## Historical Committers
+
+{{< comitter_bios source="4diacretcommitters" imgRoot="../img/team/">}}
+
