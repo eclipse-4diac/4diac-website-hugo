@@ -1,0 +1,75 @@
+items:
+  - name: "Alois Zoitl"
+    link: "https://www.jku.at/en/lit-cyber-physical-systems-lab/about-us/our-team/univ-prof-di-dr-alois-zoitl/"
+    twitter_handle: "azoitl"
+    linkedin_handle: "alois-zoitl-a9b05725"
+    img: "azoitl.png"
+    bio: |
+      <p>Alois Zoitl is the project lead of Eclipse 4diac and a committer for <a href="https://github.com/eclipse-gef/gef-classic">Eclipse GEF Classic</a>. 
+      As a professor for Cyber-Physical Systems at Johannes Kepler University Linz, he combines academic expertise with hands-on industry experience.
+      With over 250 publications and multiple patents, Alois has led numerous R&D projects, both industry- and publicly funded, focusing on automation, real-time systems, and distributed intelligence. 
+      He is a senior IEEE member and has been actively involved in the standardization of IEC 61499 since 2009. 
+      He has been convenor of the IEC SC65B/WG15 working group since 2015.</p>
+  - name: "Bianca Wiesmayr"
+    link: "https://www.jku.at/en/lit-cyber-physical-systems-lab/about-us/our-team/di-dr-bianca-wiesmayr-bsc-mlbt/"
+    linkedin_handle: "litcpslab-bianca-wiesmayr"
+    img: "bwiesmayr.jpeg"
+    bio: |
+      <p>Bianca Wiesmayr is part of the project team of Eclipse 4diac. 
+         In addition to her research, she is an active software developer for the open-source development environment Eclipse 4diac. 
+         She researches model-driven methods for developing automation systems. 
+         Her dissertation investigated the use of behavior models for the implementation and maintenance of control software in the domain-specific modeling language defined in IEC 61499. 
+         Many of her results are available open source in Eclipse 4diac. 
+         Additionally, she has worked on improving the usability of the modeling editor.</p>
+  - name: "Jörg Walter"
+    link: "https://www.offis.de/en/offis/person/joerg-walter.html"
+    linkedin_handle: "jörg-walter-681ab8311"
+    email: "joerg.walter@offis.de"
+    img: "jwalter.jpeg"
+    bio: |
+      <p>Dr.-Ing. Jörg Walter is a researcher at OFFIS -- Institute for Information Technology in Oldenburg, Germany. 
+         He manages the research group <a href="https://www.offis.de/en/applications/manufacturing/distributed-computing-and-communication.html">Distributed Computing and Communication</a> in the R&D department Manufacturing at OFFIS. 
+         His group researches embedded system hard- and software in the field of industrial automation systems with a focus on hardware achitectures and design methodology to address the challenges of modern control tasks. 
+         Eclipse 4diac and IEC 61499 are ideal vehicles for this research, since they embrace both, state-of-the-art modeling capabilities and practical applicability for actual production systems.</p>
+  - name: "Jose Cabral"
+    link: "https://github.com/cochicde"
+    linkedin_handle: "jose-maria-cabral"
+    img: "jcabral.jpeg"
+    bio: |
+      <p>As part of the Eclipse 4diac team, he is working mainly in the 4diac FORTE code. 
+         After many years working in research in the area of Industrie 4.0, he moved to the industry to work in the areas of robotics and later in the development of medical devices. 
+         He is currently pursuing his PhD in the area of debugging of automation systems at the Johannes Kepler University, Linz, Austria. 
+         His research interests are in the areas of distributed systems, model driven engineering and software development as well as debugging methods for industrial systems.</p>
+  - name: "Martin Jobst"
+    link: "https://github.com/mx990"
+    linkedin_handle: "mx990"
+    bio: |
+      <p>Martin Erich Jobst is a freelance computer scientist from Germany, with nearly a decade of experience contributing to Eclipse 4diac. 
+         His expertise spans low-level embedded development, distributed systems, model-based engineering, compiler design, databases, and network security. 
+         His major contributions to Eclipse 4diac include: the implementation of large parts of the IEC 61131-3 Structured Text (ST) editor, 
+         development of the integrated debugging environment for IEC 61499 function blocks, work on the exporter, deployment, and monitoring infrastructure for the FORTE runtime, 
+         and enhancements to the core classes and data types in FORTE.</p>
+  - name: "Martin Melik Merkumians"
+    link: "https://github.com/MartinMelikMerkumians"
+    linkedin_handle: "martin-melik-merkumians-66a79b25"
+    img: "martin_melik_merkumians.jpg"
+    bio: |
+      <p>Martin Melik Merkumians is Head of Research and Development at the electrify smart energy GmbH. He obtained his diploma in automation technology from TU Wien in 2009, and is currently finalizing his PhD thesis at TU Wien. He is a founding member and regular committer on the various Eclipse 4diac projects, focusing on runtime behavior, language editors, and compatibility to relevant IEC 61131 topics and standards.
+         Before joining electrify smart energy GmbH he was the head of the research group for industrial automation at TU Wien's Automation and Control Institue, where he lead several public and industry-funded R&D projects in the fields of industrial automation and robotics.</p>
+  - name: "Michael Oberlehner"
+    img: "oberlehner_michael.jpg"
+    link: "https://www.jku.at/en/lit-cyber-physical-systems-lab/about-us/our-team/di-michael-oberlehner/"
+    linkedin_handle: "michael-oberlehner-098814224"
+    bio: |
+      <p>Michael is a member of the Eclipse 4diac project team and an active developer of 4diac IDE. 
+         He holds a Master’s degree in Computer Science and is currently in the final phase of his PhD. 
+         His research focuses on library management and refactoring in IEC 61499, which has been integrated into 4diac IDE.</p>
+      <p>Prior to his PhD, Michael gained experience in industry, which gave him valuable insight into the real-world challenges in an industrial environment.</p>
+  - name: "Monika Wenger"
+    link: https://github.com/moniwe
+    linkedin_handle: "monika-wenger-1786b3304"
+    img: "moniwe.png"
+    bio: |
+      <p>Monika Wenger is part of the Eclipse 4diac team since its start. 
+         After many years in research on Industry 4.0, she moved into industry and now works in the field of digital twins. 
+         She worked on many parts of Eclipse 4diac, including IDE and function block library developement, recently she fokuses more on bringing 4diac FORTE to different PLCs and implementing IO subsystems on them.</p>
