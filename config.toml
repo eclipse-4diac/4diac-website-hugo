@@ -124,6 +124,36 @@ timeout = "120s"
   weight = 6
   parent = "fordiac-projects"
 
+[[menu.main]]
+  name = "Our Community"
+  weight = 2
+  identifier = "fordiac-community"
+  parent = "fordiac"
+
+[[menu.main]]
+  name = "Committers"
+  url = "/team/"
+  weight = 1
+  parent = "fordiac-community"
+
+[[menu.main]]
+  name = "Mailing List"
+  url = "https://dev.eclipse.org/mailman/listinfo/4diac-dev"
+  weight = 2
+  parent = "fordiac-community"
+
+[[menu.main]]
+  name = "Matrix Chat"
+  url = "https://chat.eclipse.org/#/room/#eclipse-4diac:matrix.eclipse.org"
+  weight = 3
+  parent = "fordiac-community"
+
+[[menu.main]]
+  name = "Report an Issue"
+  url = "https://github.com/eclipse-4diac"
+  weight = 3
+  parent = "fordiac-community"
+
 
 [[menu.main]]
   name = "News"

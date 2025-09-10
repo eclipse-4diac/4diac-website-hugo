@@ -1,0 +1,15 @@
+items:
+  - name: "Filip Pröstl Andren"
+    bio: |
+      <p>Lorem ipsum</p>
+  - name: "Gerhard Ebenhofer"
+    bio: |
+      <p>Lorem ipsum</p>
+  - name: "Thomas Strasser"
+    link: "https://orcid.org/0000-0002-6415-766X"
+    linkedin_handle: "tistrasser"
+    img: "ThomasStrasser.png"
+    bio: |
+      <p>Thomas Strasser earned his master's, PhD, and Venia Docendi (habilitation) in automation from Technische Universität Wien (TU Wien). 
+         He has been a senior scientist at the AIT Austrian Institute of Technology’s Center for Energy for over 15 years, focusing on smart grid automation, research project development, and mentoring PhD candidates and junior scientists. 
+         Before AIT, he spent six years as a senior researcher at PROFACTOR, investigating advanced automation and control systems. Thomas Strasser is one of the co-founders of 4diac.</p>
