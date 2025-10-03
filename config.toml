@@ -317,7 +317,7 @@ timeout = "120s"
 
 [[menu.main]]
   name = "Understand the Eclipse 4diac Framework"
-  url = "/doc/intro/4diacFramework.html"
+  url = "/doc/intro/4diacframework.html"
   weight = 3
   parent = "doc-getting_started"
 
