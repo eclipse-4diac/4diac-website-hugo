@@ -1,72 +1,77 @@
-
-{{ $containerClass := "col-xs-24 col-sm-5"}}
+<!-- layouts/shortcodes/4diac_main_news_cards.html -->
+{{ $containerClass := .Get "containerClass" | default "col-xs-24 col-sm-8" }}
 {{ $useMatchHeight := .Get "useMatchHeight" | default "false" }}
 
-<!--  <div class="col-md-25 padding-bottom-30"> -->
-<div class="row" >
 
-<div class="card-container col-xs-24 col-sm-6 match-height-item-by-row" >
+<div class="row news-cards-row">
+    <h2>Latest News</h2>
+    <!-- Subscription card -->
+        <div class="card-container{{ with $containerClass }} {{ . }}{{ end }}{{ if eq $useMatchHeight "true" }} match-height-item-by-row{{ end }}" >
     <div class="card-panel panel panel-default" style="background-color: #fff3e3;">
-      <div class="panel-heading" aria-hidden="true">
-        <img class="img cover-image" src="/4diac/img/news.jpeg" alt="Eclipse 4diac News"/>
-      </div>
-      <div class="text-center vertical-align">
-        <a class="btn btn-primary subscribe-btn news-btn-font" 
-            href="https://accounts.eclipse.org/mailing-list/4diac-dev">Subscribe to Mailing list
-		</a>
-	  </div>
-      <div class="text-center vertical-align">
-        <a class="btn btn-primary view-all-btn news-btn-font" 
-        	href="news">View all
-        </a>
-      </div>
-      <div class="text-center vertical-align">
-        <a class="btn btn-primary subscribe-btn news-btn-font" 
-            href="index.xml" title="RSS Feed"><i class="fa fa-rss">&nbsp;</i>Subscribe to our RSS feed
-		</a>
-	  </div>
+        <div class="panel-heading" aria-hidden="true">
+            <img class="img cover-image" src="/4diac/img/news.jpeg" alt="Eclipse 4diac News"/>
+        </div>
+        <div class="text-center vertical-align">
+            <a class="btn btn-primary view-all-btn news-btn-font" href="news">View all</a>
+        </div>
+        <div class="text-center vertical-align">
+            <a class="btn btn-primary subscribe-btn news-btn-font"
+               href="https://accounts.eclipse.org/mailing-list/4diac-dev">Subscribe to Mailing list
+            </a>
+        </div>
+        <div class="text-center vertical-align">
+            <a class="btn btn-primary subscribe-btn news-btn-font" href="index.xml" title="RSS Feed">
+                <i class="fa fa-rss">&nbsp;</i>Subscribe to our RSS feed
+            </a>
+        </div>
     </div>
-  </div>
+</div>
 
-
-  {{ range first 3 (sort (where .Site.RegularPages "Section" "news") "Date" "desc") }} <!-- get the newest 3 news items --> 
-  <a href="{{ .Permalink }}">
-  <div class="card-container{{ with $containerClass }} {{ . }}{{ end }} match-height-item-by-row" >
-    {{ $glyphSet := false }}
-    {{ if or (isset . "glyph") (isset . "glyphSrc") }}
-    {{ $glyphSet = true }}
-    <div class="glyph-highlight">
-      <div class="glyph-container">
-        {{ if .glyph }}
-        <i class="fa {{ .glyph }}"></i>
-        {{ else }}
-        <img class="img margin-auto" src="{{ .glyphSrc }}" />
+    <!-- News cards -->
+    {{ range first 3 (sort (where .Site.RegularPages "Section" "news") "Date" "desc") }}
+    <a href="{{ .Permalink }}">
+    <div class="card-container{{ with $containerClass }} {{ . }}{{ end }}{{ if eq $useMatchHeight "true" }} match-height-item-by-row{{ end }}">
+        {{ $glyphSet := false }}
+        {{ if or (isset . "glyph") (isset . "glyphSrc") }}
+        {{ $glyphSet = true }}
+        <div class="glyph-highlight">
+            <div class="glyph-container">
+                {{ if .glyph }}
+                <i class="fa {{ .glyph }}"></i>
+                {{ else }}
+                <img class="img margin-auto" src="{{ .glyphSrc }}" />
+                {{ end }}
+            </div>
+            <div class="glyph-bottom"></div>
+        </div>
         {{ end }}
-      </div>
-      <div class="glyph-bottom"></div>
+
+        <div class="card-panel panel panel-default{{ if $glyphSet }} with-glyph{{ end }}" style="background-color: #fff3e3;">
+            {{ if isset . "imgSrc" }}
+            <div class="panel-heading" aria-hidden="true">
+                <!-- use single quotes outside to avoid nested double quotes in template defaults -->
+                <img class='img {{ .imgClass | default "img-responsive margin-auto" }}' src='{{ .imgSrc }}' alt='{{ .imgAlt }}'/>
+            </div>
+            {{ end }}
+
+            <div class="panel-body">
+                <h3 class="fw-700" style="font-size: larger;">
+                    {{ .Title }}
+                </h3>
+                <p><span style="color: #99a6c3; font-weight: bold;">{{ .Date.Format "2 January, 2006" }}</span></p>
+                <p>{{ .Params.description | markdownify }}</p>
+            </div>
+
+            {{ if isset . "links" }}
+            <div class="panel-footer text-center vertical-align">
+                {{ range $index, $link := .links }}
+                <a class='{{ if eq .style "button" }}btn {{ $link.linkClass | default "btn-primary" }}{{ else if eq $link.style "text" }}{{ $link.linkClass | default "brand-primary" }}{{ end }}'
+                   href='{{ $link.url }}'{{ with $link.title }} title='{{ . }}'{{ end }}>{{ $link.text }}</a>
+                {{ end }}
+            </div>
+            {{ end }}
+        </div>
     </div>
+    </a>
     {{ end }}
-    <div class="card-panel panel panel-default{{ if $glyphSet }} with-glyph{{ end }}" style="background-color: #fff3e3;">
-      {{ if isset . "imgSrc" }}
-      <div class="panel-heading" aria-hidden="true">
-        <img class="img {{ .imgClass | default "img-responsive margin-auto" }}" src="{{ .imgSrc }}" alt="{{ .imgAlt }}"/>
-      </div>
-      {{ end }}
-      <div class="panel-body">
-        <h3 class="fw-700" style="font-size: larger;">{{ .Title }}</h3>
-        <p><span style="color: #99a6c3; font-weight: bold;">{{ .Date.Format "2 January, 2006" }}</span></p>
-        <p>{{ .Params.description | markdownify }}</p>
-      </div>
-      {{ if isset . "links" }}
-      <div class="panel-footer text-center vertical-align">
-        {{ range $index, $link := .links }} 
-        <a class="{{ if eq .style "button" }}btn {{ $link.linkClass | default "btn-primary" }}{{ else if eq $link.style "text" }}{{ $link.linkClass | default "brand-primary" }}{{ end }}" 
-            href="{{ $link.url }}"{{ with $link.title }} title="{{ . }}"{{ end }}>{{ $link.text }}</a>
-        {{ end }}
-      </div>
-      {{ end }}
-    </div>
-  </div>
-  </a>
-  {{ end }}
 </div>
