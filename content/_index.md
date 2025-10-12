@@ -60,4 +60,4 @@ featured_story: |
     </div>
 ---
 
-{{< 4diac_main_news_cards containerClass="col-xs-24 col-sm-8" useMatchHeight="true" >}}
+{{< 4diac_main_news_cards containerClass="col-xs-24 col-sm-6" useMatchHeight="true" >}}

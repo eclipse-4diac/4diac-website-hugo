@@ -294,7 +294,7 @@ a:visited {
 
 .news-cards-row {
     /* neutralize Bootstrap .row negative margins when not inside .container
-     not the cleanist fix */
+     not the cleanest fix */
     margin-left: 0;
     margin-right: 0;
     padding-left: 15px;
@@ -314,6 +314,13 @@ a:visited {
         }
 }
 
-
-
-
+/* Allow button text wrapping inside news cards.
+ In the theme Solstice, the class .btn enforces white-space: nowrap
+ This fixed the wrapping of the <a> inside the news cards
+ We should swtich to a custom class for the news card buttons
+ */
+.news-cards-row .card-panel .btn {
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}

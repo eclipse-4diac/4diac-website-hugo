@@ -1,31 +1,31 @@
 <!-- layouts/shortcodes/4diac_main_news_cards.html -->
-{{ $containerClass := .Get "containerClass" | default "col-xs-24 col-sm-8" }}
+{{ $containerClass := .Get "containerClass" | default "col-xs-24 col-sm-6" }}
 {{ $useMatchHeight := .Get "useMatchHeight" | default "false" }}
 
 
 <div class="row news-cards-row">
     <h2>Latest News</h2>
     <!-- Subscription card -->
-        <div class="card-container{{ with $containerClass }} {{ . }}{{ end }}{{ if eq $useMatchHeight "true" }} match-height-item-by-row{{ end }}" >
-    <div class="card-panel panel panel-default" style="background-color: #fff3e3;">
-        <div class="panel-heading" aria-hidden="true">
-            <img class="img cover-image" src="/4diac/img/news.jpeg" alt="Eclipse 4diac News"/>
-        </div>
-        <div class="text-center vertical-align">
-            <a class="btn btn-primary view-all-btn news-btn-font" href="news">View all</a>
-        </div>
-        <div class="text-center vertical-align">
-            <a class="btn btn-primary subscribe-btn news-btn-font"
-               href="https://accounts.eclipse.org/mailing-list/4diac-dev">Subscribe to Mailing list
-            </a>
-        </div>
-        <div class="text-center vertical-align">
-            <a class="btn btn-primary subscribe-btn news-btn-font" href="index.xml" title="RSS Feed">
-                <i class="fa fa-rss">&nbsp;</i>Subscribe to our RSS feed
-            </a>
+    <div class="card-container{{ with $containerClass }} {{ . }}{{ end }}{{ if eq $useMatchHeight "true" }} match-height-item-by-row{{ end }}" >
+        <div class="card-panel panel panel-default" style="background-color: #fff3e3;">
+            <div class="panel-heading" aria-hidden="true">
+                <img class="img cover-image" src="/4diac/img/news.jpeg" alt="Eclipse 4diac News"/>
+            </div>
+            <div class="text-center vertical-align">
+                <a class="btn btn-primary view-all-btn news-btn-font" href="news">View all</a>
+            </div>
+            <div class="text-center vertical-align">
+                <a class="btn btn-primary subscribe-btn news-btn-font"
+                   href="https://accounts.eclipse.org/mailing-list/4diac-dev">Subscribe to Mailing list
+                </a>
+            </div>
+            <div class="text-center vertical-align">
+                <a class="btn btn-primary subscribe-btn news-btn-font "  href="index.xml" title="RSS Feed">
+                    <i class="fa fa-rss">&nbsp;</i>Subscribe to our RSS feed
+                </a>
+            </div>
         </div>
     </div>
-</div>
 
     <!-- News cards -->
     {{ range first 3 (sort (where .Site.RegularPages "Section" "news") "Date" "desc") }}
