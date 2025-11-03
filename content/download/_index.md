@@ -6,7 +6,6 @@ date: 2024-10-21T10:00:00-00:00
 headline: > 
   Download <span class="white">Eclipse 4diac™</span>
 hide_page_title: true
-page_css_file: /4diac/css/support.css
 hide_breadcrumb: true
 page_css_file: /4diac/css/download.css
 sidebar: 
