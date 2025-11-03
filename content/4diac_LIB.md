@@ -7,7 +7,6 @@ headline: >
   What is <span class="white">4diac™ LIB</span>?
 tagline: >
   <br><span class="white">4diac™ LIB is a</span> a collection of FBs to help you implement IEC 61499 control solutions.
-hide_breadcrumb: false
 hide_page_title: true
 page_css_file: /4diac/css/lib.css
 hide_breadcrumb: true
