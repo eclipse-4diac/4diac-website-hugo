@@ -1,0 +1,42 @@
+
+{{ define "main" }}
+
+<div class="intro">
+  {{ .Content }}
+  
+  {{ $version := .File.Dir | path.Base | strings.TrimSuffix "/" }}
+
+  {{ $releaseDateFormatted := "TBD" }}
+  {{ if .Params.release_date }}
+    {{ $parsed := time .Params.release_date }}
+    {{ $releaseDateFormatted = $parsed.Format "January 2, 2006" }}
+  {{ end }}
+  
+  <p>Welcome to the Eclipse 4diac project! 
+The Eclipse 4diac {{ $version }} release is planned for {{ $releaseDateFormatted }}. 
+Eclipse 4diac can be downloaded from the project's <a href="/4diac/download">downloads page</a>.</p> 
+
+  <p>Here are some of the more noteworthy items available in this release.</p>
+</div>
+
+
+{{ $order := .Params.components }}
+  {{ if $order }}
+    {{ range $order }}
+      {{ $component := . }}
+      {{ with $.GetPage (printf "%s.md" .) }}
+        {{ $sub := . }}
+        {{/* anchor id from slug or urlized title */}}
+        {{ $id := urlize $component}}
+        <h2 id="{{ $id }}">{{ $sub.Title }}</h2>
+        {{ $sub.Content }}
+      {{ end }}
+    {{ end }}
+  {{ else }}
+    <!-- fallback if no component order is defined -->
+    {{ range .Pages.ByWeight }}
+      {{ .Content }}
+    {{ end }}
+  {{ end }}
+
+{{ end }}
