@@ -123,6 +123,13 @@ timeout = "120s"
   url = "/4diac_SYS/"
   weight = 6
   parent = "fordiac-projects"
+  
+[[menu.main]]
+  name = "New & Noteworthy"
+  url = "/new-and-noteworthy/"
+  weight = 7
+  parent = "fordiac-projects"
+
 
 [[menu.main]]
   name = "Our Community"

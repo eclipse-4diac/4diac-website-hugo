@@ -1,0 +1,35 @@
+
+{{ define "main" }}
+
+<div class="intro">
+</div>
+  {{ .Content }}
+
+<ul>
+{{ range sort .Sections "Title" "desc" }}
+  {{ $version := . }}
+  <li>
+    {{ $releaseDateFormatted := "TBD" }}
+    {{ if $version.Params.release_date }}
+        {{ $parsed := time $version.Params.release_date }}
+        {{ $releaseDateFormatted = $parsed.Format "January 2, 2006" }}
+    {{ end }}
+    
+    {{ $versionNr := .File.Dir | path.Base | strings.TrimSuffix "/" }}
+    
+    <a href="{{ .RelPermalink }}"> Eclipse 4diac {{ $versionNr }} release, {{ $releaseDateFormatted }}:</a>
+    <ul>
+      {{ range $comp := $version.Params.components }}
+        {{ $id := urlize . }}
+        {{ with $version.GetPage (printf "%s.md" $comp) }}
+          <li>
+          <a href="{{ $version.RelPermalink }}#{{ $id }}">{{ .Params.title | default .File.BaseFileName }}</a>
+          </li>
+        {{ end }}
+      {{ end }}
+    </ul>
+  </li>
+{{ end }}
+</ul>
+
+{{ end }}
