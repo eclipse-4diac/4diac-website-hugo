@@ -59,7 +59,7 @@
                     {{ .Title }}
                 </h3>
                 <p><span style="color: #99a6c3; font-weight: bold;">{{ .Date.Format "2 January, 2006" }}</span></p>
-                <p>{{ .Params.description | markdownify }}</p>
+                {{ .Params.description | markdownify }}
             </div>
 
             {{ if isset . "links" }}
