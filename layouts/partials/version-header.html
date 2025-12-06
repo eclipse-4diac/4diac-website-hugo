@@ -1,0 +1,16 @@
+{{/* 
+  Inputs expected:
+  .safeVersion   — string (e.g., "2-1-4")
+*/}}
+
+<div class="panel-heading" role="tab" id="heading-{{ .safeVersion }}">
+  <h4 class="panel-title">
+    <a data-toggle="collapse"
+       data-parent="#versions-accordion"
+       href="#collapse-{{ .safeVersion }}"
+       aria-expanded="false"
+       class="collapsed">
+      {{ .version }}
+    </a>
+  </h4>
+</div>

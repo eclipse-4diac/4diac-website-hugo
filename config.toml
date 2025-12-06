@@ -422,49 +422,93 @@ timeout = "120s"
     
 # Side bar for download page
 [[menu.sidebar]]
-  identifier = "sidebar-downloads"
-  name = "Early Access"
+  identifier = "sidebar-downloads-repos"
+  name = "Source Code"
+  url = "https://github.com/eclipse-4diac"
   weight = 1  
+
+[[menu.sidebar]]
+  parent = "sidebar-downloads-repos"
+  identifier = "sidebar-downloads-repos-IDE"
+  name = "4diac IDE"
+  url = "https://github.com/eclipse-4diac/4diac-ide"
+  weight = 1  
+[[menu.sidebar]]
+  parent = "sidebar-downloads-repos"
+  identifier = "sidebar-downloads-repos-FORTE"
+  name = "4diac FORTE"
+  url = "https://github.com/eclipse-4diac/4diac-forte"
+  weight = 2  
+[[menu.sidebar]]
+  parent = "sidebar-downloads-repos"
+  identifier = "sidebar-downloads-repos-FBE"
+  name = "4diac FBE"
+  url = "https://github.com/eclipse-4diac/4diac-fbe"
+  weight = 3  
+[[menu.sidebar]]
+  parent = "sidebar-downloads-repos"
+  name = "4diac Example Systems"
+  identifier = "sidebar-downloads-repos-examples"
+  url = "https://github.com/eclipse-4diac/4diac-examples"
+  weight = 4  
+[[menu.sidebar]]
+  parent = "sidebar-downloads-repos"
+  identifier = "sidebar-downloads-repos-documentation"
+  name = "4diac Documentation"
+  url = "https://github.com/eclipse-4diac/4diac-documentation"
+  weight = 5  
+[[menu.sidebar]]
+  parent = "sidebar-downloads-repos"
+  name = "4diac Website"
+  identifier = "sidebar-downloads-repos-website"
+  url = "https://github.com/eclipse-4diac/4diac-website-hugo"
+  weight = 5  
+
+[[menu.sidebar]]
+  identifier = "sidebar-downloads"
+  name = "3.1 Early Access"
+  weight = 2  
 
 [[menu.sidebar]]
   parent = "sidebar-downloads"
   identifier = "sidebar-downloads-IDE"
-  name = "4diac IDE 3.0"
+  name = "4diac IDE"
   weight = 1  
   
 [[menu.sidebar]]
   parent = "sidebar-downloads-IDE"
   name = "Linux 64-bit"
-  url = "https://www.eclipse.org/downloads/download.php?file=/4diac/updates/rc/4diac-ide_3.0.0-linux.gtk.x86_64.tar.gz"
+  url = "https://www.eclipse.org/downloads/download.php?file=/4diac/updates/milestone/4diac-ide_3.1.0-linux.gtk.x86_64.tar.gz"
   weight = 1     
+
 
 [[menu.sidebar]]
   parent = "sidebar-downloads-IDE"
   name = "Windows 64-bit"
-  url = "https://www.eclipse.org/downloads/download.php?file=/4diac/updates/rc/4diac-ide_3.0.0-win32.win32.x86_64.zip"
+  url = "https://www.eclipse.org/downloads/download.php?file=/4diac/updates/milestone/4diac-ide_3.1.0-win32.win32.x86_64.zip"
   weight = 2     
 
 [[menu.sidebar]]
   parent = "sidebar-downloads-IDE"
-  name = "Mac OS X x86"
-  url = "https://www.eclipse.org/downloads/download.php?file=/4diac/updates/rc/4diac-ide_3.0.0-macosx.cocoa.x86_64.dmg"
+  name = "macOS Apple Silicon"
+  url = "https://www.eclipse.org/downloads/download.php?file=/4diac/updates/milestone/4diac-ide_3.1.0-macosx.cocoa.aarch64.dmg"
   weight = 3
 
 [[menu.sidebar]]
   parent = "sidebar-downloads-IDE"
-  name = "Mac OS X aarch64"
-  url = "https://www.eclipse.org/downloads/download.php?file=/4diac/updates/rc/4diac-ide_3.0.0-macosx.cocoa.aarch64.dmg"
+  name = "macOS Intel"
+  url = "https://www.eclipse.org/downloads/download.php?file=/4diac/updates/milestone/4diac-ide_3.1.0-macosx.cocoa.x86_64.dmg"
   weight = 4
   
 [[menu.sidebar]]
   parent = "sidebar-downloads"
   identifier = "sidebar-downloads-FORTE"
-  name = "4diac FORTE 3.0"
+  name = "4diac FORTE"
   weight = 2  
   
 [[menu.sidebar]]
   parent = "sidebar-downloads-FORTE"
   name = "4diac FORTE source"
-  url = "https://github.com/eclipse-4diac/4diac-forte/archive/refs/heads/freeze.zip"
+  url = "https://github.com/eclipse-4diac/4diac-forte/archive/refs/heads/3.1.x.zip"
   weight = 1       
     
