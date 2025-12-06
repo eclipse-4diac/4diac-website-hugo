@@ -1,0 +1,94 @@
+{{ $file := .Get "file" | default "downloads" }}
+{{ $languageBase := index .Site.Data .Site.Language.Lang }}
+
+{{ $data := index site.Data $file}}
+{{ if and (ne $languageBase nil) (isset $languageBase $file)  }} 
+  {{ $data = index $languageBase $file }}
+{{ end }}
+
+
+<div class="panel-group" id="versions-accordion" role="tablist">
+
+{{ range $data.releases }}
+    {{ $version := .version }}
+    
+    {{ $parts := split $version "." }}
+    {{ $major := index $parts 0 }}
+    {{ $minor := cond (ge (len $parts) 2) (index $parts 1) "0" }}
+    {{ $patch := cond (ge (len $parts) 3) (index $parts 2) "0" }}
+    {{ $dir := (printf "%s.%s" $major $minor) }}
+    {{ $full := (printf "%s.%s.%s" $major $minor $patch) }}
+    
+    {{ $incubation := "" }}
+    {{ if lt (int $major) 2 }}
+       {{ $incubation = "-incubation"}}
+    {{ end }}
+    
+    {{ $safeVersion := replace $version "." "-" }}
+    
+  <div class="panel panel-default">
+    
+    {{ partial "version-header.html" (dict "safeVersion" $safeVersion "version" $version) }}
+    
+    <div id="collapse-{{ $safeVersion }}"
+       class="panel-collapse collapse"
+       role="tabpanel">
+    <div class="panel-body">
+
+      <div class="row">
+
+        {{ if .ide }}
+        <div class="col-sm-4">
+          <h4>4diac IDE</h4>
+          <ul class="list-unstyled">
+            {{ range .ide }}
+              <li>
+                 <a href="https://www.eclipse.org/downloads/download.php?file=/4diac/releases/{{ $dir }}/4diac-ide/4diac-ide{{ $incubation }}_{{ $full }}-{{ .platform }}">
+                   {{ .label }}
+                 </a>
+              </li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+
+        {{ if .forte }}
+        <div class="col-sm-4">
+          <h4>4diac FORTE</h4>
+          <ul class="list-unstyled">
+            {{ range .forte }}
+              <li>
+                <a href="https://www.eclipse.org/downloads/download.php?file=/4diac/releases/{{ $dir }}/forte/forte{{ $incubation }}_{{ $full }}.{{ .platform }}">
+                  {{ .label }}
+                </a>
+              </li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+
+        {{ if .fbe }}
+        <div class="col-sm-4">
+          <h4>4diac FBE</h4>
+          <ul class="list-unstyled">
+            {{ range .fbe }}
+              <li>
+                <a href="https://www.eclipse.org/downloads/download.php?file=/4diac/releases/{{ $version }}/4diac-fbe/4diac-fbe_{{ $version }}-{{ .platform }}">
+                  {{ .label }}
+                </a>
+              </li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+{{ end }}
+
+</div>
+

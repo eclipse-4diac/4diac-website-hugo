@@ -9,8 +9,11 @@ hide_page_title: true
 hide_breadcrumb: true
 page_css_file: /4diac/css/download.css
 sidebar: 
+  - sidebar-downloads-repos
   - sidebar-downloads
 ---
+
+## Latest Release: Eclipse 4diac 3.0
 
 {{< relCards useMatchHeight="true" source="cardsCurrentRelease" containerClass="col-xs-24 col-sm-8">}}
 
@@ -31,11 +34,11 @@ With these two stickers you can show the world that you are using 4diac. Put it 
 
 ### Releases @ Eclipse 
 
-Under construction
+{{< rel_list file="prev_releases" >}}
 
 ### Pre-Eclipse Releases
 
-Pre-Eclipse releases can be found at [4diac's Sourceforge page](https://sourceforge.net/projects/fordiac/files).
+We are not providing binaries for our pre-eclipse releases. However the tagged source code is still available at [Eclipse 4diac's Sourceforge page](https://sourceforge.net/projects/fordiac).
 
 
 
