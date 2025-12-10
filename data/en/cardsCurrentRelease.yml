@@ -38,4 +38,4 @@ items:
     glyph: fa-gears
     links:
       - text: 4diac FBE Package
-        url: https://github.com/eclipse-4diac/4diac-fbe/archive/refs/tags/3.0.0.zip
+        url: https://github.com/eclipse-4diac/4diac-fbe/releases/download/3.0.0/4diac-fbe-3.0.0.zip
