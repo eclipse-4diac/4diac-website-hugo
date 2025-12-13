@@ -36,9 +36,7 @@ With these two stickers you can show the world that you are using 4diac. Put it 
 
 {{< rel_list file="prev_releases" >}}
 
-### Pre-Eclipse Releases
-
-We are not providing binaries for our pre-eclipse releases. However the tagged source code is still available at [Eclipse 4diac's Sourceforge page](https://sourceforge.net/projects/fordiac).
-
+### Releases Published before 2018
+We are not providing binaries for releases done before 2018. However the tagged source code is still available at [Eclipse 4diac's Sourceforge page](https://sourceforge.net/projects/fordiac).
 
 
