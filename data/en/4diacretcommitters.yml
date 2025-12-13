@@ -4,7 +4,10 @@ items:
       <p>Lorem ipsum</p>
   - name: "Gerhard Ebenhofer"
     bio: |
-      <p>Lorem ipsum</p>
+      <p>Gerhard Ebenhofer joined Eclipse 4diac at its founding, contributing early input to the 4diac IDE. 
+         He holds a diploma in Software Engineering from the University of Applied Sciences Hagenberg (FH Hagenberg) and has been with PROFACTOR since 2006
+         —starting in the Distributed Automation Systems group and later shifting his focus to human–machine interaction, 
+         extended/spatial augmented reality, projection systems, computer vision, and applied AI in manufacturing.</p>
   - name: "Thomas Strasser"
     link: "https://orcid.org/0000-0002-6415-766X"
     linkedin_handle: "tistrasser"
