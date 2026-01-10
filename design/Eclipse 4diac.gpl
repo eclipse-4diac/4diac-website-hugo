@@ -1,0 +1,79 @@
+GIMP Palette
+Name: Eclipse 4diac CI Colors
+Columns: 4
+################################################################################
+# Copyright (c) 2026 Johannes Kepler University Linz
+#
+# This program and the accompanying materials are made available under the
+# terms of the Eclipse Public License 2.0 which is available at
+# http://www.eclipse.org/legal/epl-2.0.
+#
+# SPDX-License-Identifier: EPL-2.0
+#
+# Contributors:
+#   Alois Zoitl - initial API and implementation and/or initial documentation
+################################################################################
+# ==================================================
+# 4diac Blues
+# ==================================================
+0   26   63    4diac Blue Dark
+1   34  105    4diac Blue 
+51  78  135    4diac Blue Medium 1
+90  120 170    4diac Blue Medium 2
+153 166 195    4diac Blue Light
+210 220 235    4diac Blue Pale
+234 240 248    4diac Blue Tint
+
+# ==================================================
+# 4diac Orange 
+# ==================================================
+154 86   0    4diac Orange Ultra Dark
+224 130 12    4diac Orange Dark
+255 149 14    4diac Orange
+255 184 90    4diac Orange Light
+255 230 199   4diac Orange Soft
+255 237 204   4diac Orange Pale
+255 246 236   4diac Orange Tint
+
+# ==================================================
+# 4diac Lime
+# ==================================================
+63  95  0     4diac Lime Ultra Dark
+110 161 31    4diac Lime Dark
+140 200 45    4diac Lime
+181 226 106   4diac Lime Light
+231 244 207   4diac Lime Soft
+238 249 220   4diac Lime Pale
+246 251 239   4diac Lime Tint
+
+# ==================================================
+# 4diac Gray
+# ==================================================
+26  26  26    4diac Gray Ultra Dark
+50  50  50    4diac Dark Gray
+102 102 102   4diac Gray Dark
+153 153 153   4diac Gray
+204 204 204   4diac Gray Light
+230 230 230   4diac Gray Pale
+245 245 245   4diac Gray Tint
+
+255 255 255   White
+
+# ==================================================
+# Diagram Semantic Colors (ONLY for Diagrams and Figures)
+# ==================================================
+
+# Event Connection
+181 226 106  Event Light
+99 179 31    Event Base
+77 143 25    Event Dark
+
+# Data Connection
+153 178 255  Data Light
+51 102 255   Data Base
+38 76 204    Data Dark
+
+# Adapter Connection
+185 150 210  Adapter Light
+132 93 175   Adapter Base
+98 75 135    Adapter Dark

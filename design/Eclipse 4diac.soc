@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2026 Johannes Kepler University Linz
+
+  This program and the accompanying materials are made available under the
+  terms of the Eclipse Public License 2.0 which is available at
+  http://www.eclipse.org/legal/epl-2.0.
+
+  SPDX-License-Identifier: EPL-2.0
+
+  Contributors:
+    Alois Zoitl - initial API and implementation and/or initial documentation
+-->
+
+<office:color-table
+ xmlns:office="http://openoffice.org/2000/office"
+ xmlns:draw="http://openoffice.org/2000/drawing">
+
+
+
+ <!-- 4diac Blue -->
+ <draw:color draw:name="4diac Blue Ultra Dark" draw:color="#001A3F"/>
+ <draw:color draw:name="4diac Blue " draw:color="#012269"/>
+ <draw:color draw:name="4diac Blue Medium 1" draw:color="#334E87"/>
+ <draw:color draw:name="4diac Blue Medium 2" draw:color="#5A78AA"/>
+ <draw:color draw:name="4diac Blue Light" draw:color="#99A6C3"/>
+ <draw:color draw:name="4diac Blue Pale" draw:color="#D2DCEB"/>
+ <draw:color draw:name="4diac Blue Tint" draw:color="#EAF0F8"/>
+
+ <!-- 4diac Orange -->
+ <draw:color draw:name="4diac Orange Ultra Dark" draw:color="#9A5600"/>
+ <draw:color draw:name="4diac Orange Dark" draw:color="#E0820C"/>
+ <draw:color draw:name="4diac Orange" draw:color="#FF950E"/>
+ <draw:color draw:name="4diac Orange Light" draw:color="#FFB85A"/>
+ <draw:color draw:name="4diac Orange Soft" draw:color="#FFE6C7"/>
+ <draw:color draw:name="4diac Orange Pale" draw:color="#FFEDCC"/>
+ <draw:color draw:name="4diac Orange Tint" draw:color="#FFF6EC"/>
+
+ <!-- 4diac Lime -->
+ <draw:color draw:name="4diac Lime Ultra Dark" draw:color="#3F5F00"/>
+ <draw:color draw:name="4diac Lime Dark" draw:color="#6EA11F"/>
+ <draw:color draw:name="4diac Lime" draw:color="#8CC82D"/>
+ <draw:color draw:name="4diac Lime Light" draw:color="#B5E26A"/>
+ <draw:color draw:name="4diac Lime Soft" draw:color="#E7F4CF"/>
+ <draw:color draw:name="4diac Lime Pale" draw:color="#EEF8DC"/>
+ <draw:color draw:name="4diac Lime Tint" draw:color="#F6FBEF"/>
+
+ <!-- 4diac Gray -->
+ <draw:color draw:name="4diac Gray Ultra Dark" draw:color="#1A1A1A"/>
+ <draw:color draw:name="4diac Dark Gray" draw:color="#323232"/>
+ <draw:color draw:name="4diac Gray Dark" draw:color="#666666"/>
+ <draw:color draw:name="4diac Gray" draw:color="#999999"/>
+ <draw:color draw:name="4diac Gray Light" draw:color="#CCCCCC"/>
+ <draw:color draw:name="4diac Gray Pale" draw:color="#E6E6E6"/>
+ <draw:color draw:name="4diac Gray Tint" draw:color="#F5F5F5"/>
+ 
+ <draw:color draw:name="White" draw:color="#FFFFFF"/>
+
+ <!-- Connection Colors (ONLY for Diagrams and Figures) -->
+
+ <!-- Event -->
+ <draw:color draw:name="Event Light" draw:color="#B5E26A"/>
+ <draw:color draw:name="Event Base" draw:color="#63B31F"/>
+ <draw:color draw:name="Event Dark" draw:color="#4D8F19"/>
+
+ <!-- Data -->
+ <draw:color draw:name="Data Light" draw:color="#99B2FF"/>
+ <draw:color draw:name="Data Base" draw:color="#3366FF"/>
+ <draw:color draw:name="Data Dark" draw:color="#264CCC"/>
+
+ <!-- Adapter -->
+ <draw:color draw:name="Adapter Light" draw:color="#B996D2"/>
+ <draw:color draw:name="Adapter Base" draw:color="#845DAF"/>
+ <draw:color draw:name="Adapter Dark" draw:color="#624B87"/>
+
+</office:color-table>
