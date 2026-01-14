@@ -6,7 +6,7 @@ items:
     glyph: fa-github  
 
   - heading: Project Mailing List
-    fullCardLink: https://dev.eclipse.org/mailman/listinfo/4diac-dev
+    fullCardLink: https://accounts.eclipse.org/mailing-list/4diac-dev
     content: Follow and participate in discussions on 4diac. You can subscribe here.
     glyph: fa-envelope-o
 

@@ -145,7 +145,7 @@ timeout = "120s"
 
 [[menu.main]]
   name = "Mailing List"
-  url = "https://dev.eclipse.org/mailman/listinfo/4diac-dev"
+  url = "https://accounts.eclipse.org/mailing-list/4diac-dev"
   weight = 2
   parent = "fordiac-community"
 
