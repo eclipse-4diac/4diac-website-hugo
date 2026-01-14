@@ -26,12 +26,12 @@
 .view-all-btn {
   display: block;
   width: 100%;
-  background-color: #012269;
+  background-color: var(--color-primary);
   border: 0;
 }
 
 .view-all-btn:hover {
-  background-color: #99a6c3;
+  background-color: var(--color-primary-light);
 }
 
 .news-btn-font {
@@ -40,7 +40,7 @@
 }
 
 .news-view-all-font {
-  color: #012269;
+  color: var(--color-primary);
 }
 
 /* --------------------------------------------------------------------------
@@ -53,48 +53,48 @@
 }
 
 .featured-jumbotron.featured-jumbotron-dark .btn-primary {
-  background-color: #fff;
+  background-color: var(--color-bg);
   border: 2px;
   border-color: #ffb85e;
-  color: #012269;
+  color: var(--color-primary);
 }
 
 /* --------------------------------------------------------------------------
-   Jumbotron Link Group - Gradient backgrounds
+   Jumbotron Link Group - Gradient backgrounds (uses CSS variables from 4diac_adjustments.css)
    -------------------------------------------------------------------------- */
 .featured-jumbotron
   .featured-jumbotron-end-custom
   .custom-jumbotron-end-link-group
   a:first-child {
-  background-color: #e6e9f0;
+  background-color: var(--color-gradient-1);
 }
 
 .featured-jumbotron
   .featured-jumbotron-end-custom
   .custom-jumbotron-end-link-group
   a:nth-child(2) {
-  background-color: #d3d9e6;
+  background-color: var(--color-gradient-2);
 }
 
 .featured-jumbotron
   .featured-jumbotron-end-custom
   .custom-jumbotron-end-link-group
   a:nth-child(3) {
-  background-color: #c1cadc;
+  background-color: var(--color-gradient-3);
 }
 
 .featured-jumbotron
   .featured-jumbotron-end-custom
   .custom-jumbotron-end-link-group
   a:nth-child(4) {
-  background-color: #adb9d0;
+  background-color: var(--color-gradient-4);
 }
 
 .featured-jumbotron
   .featured-jumbotron-end-custom
   .custom-jumbotron-end-link-group
   a:nth-child(5) {
-  background-color: #99a7c3;
+  background-color: var(--color-gradient-5);
 }
 
 .featured-jumbotron
@@ -113,7 +113,7 @@
   .featured-jumbotron-end-custom
   .custom-jumbotron-end-link-group
   > a:visited {
-  color: #012269;
+  color: var(--color-primary);
 }
 
 /* --------------------------------------------------------------------------
@@ -173,8 +173,8 @@
   animation-duration: 0.2s;
   animation-name: custom-jumbotron-end-link-overlay-animation;
   animation-timing-function: linear;
-  background-color: #344e87;
-  color: #fff;
+  background-color: var(--color-secondary);
+  color: var(--color-bg);
   display: inline-flex;
   justify-content: center;
   min-height: 100%;
@@ -213,7 +213,7 @@
     min-height: 100%;
   }
   to {
-    color: #fff;
+    color: var(--color-bg);
     min-height: 150%;
   }
 }
