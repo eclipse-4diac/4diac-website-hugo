@@ -26,12 +26,12 @@
 .view-all-btn {
   display: block;
   width: 100%;
-  background-color: var(--color-primary);
+  background-color: var(--4diac-blue);
   border: 0;
 }
 
 .view-all-btn:hover {
-  background-color: var(--color-primary-light);
+  background-color: var(--4diac-blue-light);
 }
 
 .news-btn-font {
@@ -40,7 +40,7 @@
 }
 
 .news-view-all-font {
-  color: var(--color-primary);
+  color: var(--4diac-blue);
 }
 
 /* --------------------------------------------------------------------------
@@ -53,10 +53,10 @@
 }
 
 .featured-jumbotron.featured-jumbotron-dark .btn-primary {
-  background-color: var(--color-bg);
+  background-color: #fff;
   border: 2px;
-  border-color: #ffb85e;
-  color: var(--color-primary);
+  border-color: var(--4diac-orange-light);
+  color: var(--4diac-blue);
 }
 
 /* --------------------------------------------------------------------------
@@ -66,35 +66,35 @@
   .featured-jumbotron-end-custom
   .custom-jumbotron-end-link-group
   a:first-child {
-  background-color: var(--color-gradient-1);
+  background-color: #e6e9f0;
 }
 
 .featured-jumbotron
   .featured-jumbotron-end-custom
   .custom-jumbotron-end-link-group
   a:nth-child(2) {
-  background-color: var(--color-gradient-2);
+  background-color: #d3d9e6;
 }
 
 .featured-jumbotron
   .featured-jumbotron-end-custom
   .custom-jumbotron-end-link-group
   a:nth-child(3) {
-  background-color: var(--color-gradient-3);
+  background-color: #c1cadc;
 }
 
 .featured-jumbotron
   .featured-jumbotron-end-custom
   .custom-jumbotron-end-link-group
   a:nth-child(4) {
-  background-color: var(--color-gradient-4);
+  background-color: #adb9d0;
 }
 
 .featured-jumbotron
   .featured-jumbotron-end-custom
   .custom-jumbotron-end-link-group
   a:nth-child(5) {
-  background-color: var(--color-gradient-5);
+  background-color: #99a7c3;
 }
 
 .featured-jumbotron
@@ -113,7 +113,7 @@
   .featured-jumbotron-end-custom
   .custom-jumbotron-end-link-group
   > a:visited {
-  color: var(--color-primary);
+  color: var(--4diac-blue);
 }
 
 /* --------------------------------------------------------------------------
@@ -173,8 +173,8 @@
   animation-duration: 0.2s;
   animation-name: custom-jumbotron-end-link-overlay-animation;
   animation-timing-function: linear;
-  background-color: var(--color-secondary);
-  color: var(--color-bg);
+  background-color: var(--4diac-blue-medium-1);
+  color: #fff;
   display: inline-flex;
   justify-content: center;
   min-height: 100%;
@@ -213,7 +213,7 @@
     min-height: 100%;
   }
   to {
-    color: var(--color-bg);
+    color: #fff;
     min-height: 150%;
   }
 }
