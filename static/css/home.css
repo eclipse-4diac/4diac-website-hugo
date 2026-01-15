@@ -40,7 +40,7 @@
 }
 
 .news-view-all-font {
-  color: var(--4diac-blue);
+  color: var(--link);
 }
 
 /* --------------------------------------------------------------------------
@@ -53,10 +53,10 @@
 }
 
 .featured-jumbotron.featured-jumbotron-dark .btn-primary {
-  background-color: #fff;
+  background-color: var(--bg);
   border: 2px;
   border-color: var(--4diac-orange-light);
-  color: var(--4diac-blue);
+  color: var(--link);
 }
 
 /* --------------------------------------------------------------------------
@@ -113,7 +113,7 @@
   .featured-jumbotron-end-custom
   .custom-jumbotron-end-link-group
   > a:visited {
-  color: var(--4diac-blue);
+  color: var(--link);
 }
 
 /* --------------------------------------------------------------------------
@@ -174,7 +174,7 @@
   animation-name: custom-jumbotron-end-link-overlay-animation;
   animation-timing-function: linear;
   background-color: var(--4diac-blue-medium-1);
-  color: #fff;
+  color: var(--text-on-dark);
   display: inline-flex;
   justify-content: center;
   min-height: 100%;
@@ -213,7 +213,7 @@
     min-height: 100%;
   }
   to {
-    color: #fff;
+    color: var(--text-on-dark);
     min-height: 150%;
   }
 }
