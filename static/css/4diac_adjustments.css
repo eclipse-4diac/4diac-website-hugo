@@ -18,7 +18,7 @@ body {
   color: var(--text);
   font-family: Roboto, Libre Franklin, Helvetica Neue, Helvetica, Arial,
     sans-serif;
-  font-size: 14px;
+  font-size: var(--text-base);
   line-height: 1.42857143;
 }
 
@@ -138,7 +138,7 @@ h6 {
   background-color: var(--4diac-blue);
   color: var(--4diac-orange);
   margin-bottom: 0;
-  padding-top: 4.5rem;
+  padding-top: var(--space-xl);
   text-align: left;
 }
 
@@ -163,25 +163,25 @@ h6 {
 .featured-jumbotron .h1,
 .featured-jumbotron h1 {
   color: var(--4diac-orange);
-  font-size: 4rem;
+  font-size: var(--text-4xl);
   font-weight: 400;
   letter-spacing: normal;
-  margin-bottom: 1rem;
+  margin-bottom: var(--space-sm);
 }
 
 .featured-jumbotron .featured-jumbotron-subtitle {
-  font-size: 1.8rem;
+  font-size: var(--text-xl);
   font-weight: 400;
-  margin-bottom: 2rem;
+  margin-bottom: var(--space-lg);
 }
 
 .featured-jumbotron .featured-jumbotron-tagline,
 .featured-jumbotron .featured-jumbotron-tagline p {
-  font-size: 3rem;
+  font-size: var(--text-3xl);
 }
 
 .featured-jumbotron .featured-jumbotron-links {
-  margin-bottom: 4rem;
+  margin-bottom: var(--space-xl);
 }
 
 /* --------------------------------------------------------------------------
@@ -289,29 +289,29 @@ h6 {
   .card-container.col-xs-24.col-sm-6,
   .card-container.col-xs-24.col-sm-5 {
     max-width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: var(--container-padding-lg);
+    padding-right: var(--container-padding-lg);
   }
 
   .featured-jumbotron .featured-story-jumbotron {
-    margin-bottom: 2rem;
+    margin-bottom: var(--space-lg);
   }
 
   .featured-jumbotron .featured-jumbotron-end-custom {
     max-width: 100%;
-    padding: 0 15px;
-    margin-top: 2rem;
+    padding: 0 var(--container-padding);
+    margin-top: var(--space-lg);
   }
 
   .featured-jumbotron
     .featured-jumbotron-end-custom
     .custom-jumbotron-end-lead-text {
-    margin-bottom: 1rem;
-    padding: 1rem 0;
+    margin-bottom: var(--space-sm);
+    padding: var(--space-sm) 0;
     text-align: center;
     width: 100%;
     order: 1;
-    font-size: 2rem;
+    font-size: var(--text-lg);
   }
 
   .featured-jumbotron
@@ -319,7 +319,7 @@ h6 {
     .custom-jumbotron-end-link-group {
     margin-left: 0;
     margin-right: 0;
-    margin-bottom: 2rem;
+    margin-bottom: var(--space-lg);
     width: 100%;
     order: 2;
   }
@@ -328,7 +328,7 @@ h6 {
     .featured-jumbotron-end-custom
     .custom-jumbotron-end-link-group
     > a {
-    padding: 1.5rem 1rem;
+    padding: var(--space-md) var(--space-sm);
   }
 
   .featured-jumbotron
@@ -357,14 +357,14 @@ h6 {
   /* Neutralize Bootstrap .row negative margins when not inside .container */
   margin-left: 0;
   margin-right: 0;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: var(--container-padding);
+  padding-right: var(--container-padding);
 }
 
 @media (min-width: 1200px) {
   .news-cards-row {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: var(--container-padding-lg);
+    padding-right: var(--container-padding-lg);
   }
 }
 
