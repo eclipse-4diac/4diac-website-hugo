@@ -1,6 +1,6 @@
 /* ==========================================================================
    4diac Global CSS Adjustments
-   Overrides for Eclipse Solstice theme (https://www.eclipse.org/eclipse.org-common/themes/solstice/docs/)
+   Overrides for Eclipse Astro theme
 
    Breakpoints (mobile-first):
    - 768px:  Tablet
@@ -39,7 +39,7 @@
 }
 
 /* --------------------------------------------------------------------------
-   Base Typography & Colors (Solstice overrides)
+   Base Typography & Colors
    -------------------------------------------------------------------------- */
 body {
   background-color: var(--color-bg);
@@ -84,7 +84,7 @@ h6 {
 }
 
 /* --------------------------------------------------------------------------
-   Buttons (Solstice .btn overrides)
+   Buttons
    -------------------------------------------------------------------------- */
 .btn-primary {
   background-color: var(--color-accent);
@@ -99,7 +99,7 @@ h6 {
 }
 
 /* --------------------------------------------------------------------------
-   Header & Navigation (Solstice header overrides)
+   Header & Navigation
    -------------------------------------------------------------------------- */
 .header-wrapper .nav-link-active:after,
 .header-wrapper .nav-link-active:before {
@@ -160,7 +160,7 @@ h6 {
 }
 
 /* --------------------------------------------------------------------------
-   Jumbotron / Featured Banner (Solstice .featured-jumbotron overrides)
+   Jumbotron / Featured Banner
    -------------------------------------------------------------------------- */
 .featured-jumbotron {
   background-color: var(--color-primary);
@@ -213,7 +213,7 @@ h6 {
 }
 
 /* --------------------------------------------------------------------------
-   News List (Solstice .news-list overrides)
+   News List
    -------------------------------------------------------------------------- */
 .news-list .media-link {
   background-color: var(--color-bg-gray);
@@ -379,7 +379,7 @@ h6 {
 }
 
 /* --------------------------------------------------------------------------
-   News Cards & Card Panels (Solstice grid/card overrides)
+   News Cards & Card Panels
    -------------------------------------------------------------------------- */
 .news-cards-row {
   /* Neutralize Bootstrap .row negative margins when not inside .container */
@@ -396,7 +396,7 @@ h6 {
   }
 }
 
-/* Override Solstice .btn white-space: nowrap to allow button text wrapping */
+/* Override .btn white-space: nowrap to allow button text wrapping */
 .news-cards-row .card-panel .btn {
   white-space: normal;
   overflow-wrap: anywhere;
