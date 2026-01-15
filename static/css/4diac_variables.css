@@ -47,4 +47,18 @@
   --4diac-gray-light: #cccccc;
   --4diac-gray-pale: #e6e6e6;
   --4diac-gray-tint: #f5f5f5;
+
+  /* -----------------------------------------------------
+   * Semantic aliases
+   * ----------------------------------------------------- */
+  --bg: #fff;
+  --bg-muted: var(--4diac-gray-tint);
+  --bg-accent: var(--4diac-orange-tint);
+
+  --text: var(--4diac-gray-dark-mid);
+  --text-muted: var(--4diac-gray-dark);
+  --text-on-dark: #fff;
+
+  --link: var(--4diac-blue);
+  --heading: var(--4diac-blue);
 }
