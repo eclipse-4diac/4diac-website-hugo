@@ -5,13 +5,13 @@ items:
     glyph: fa-desktop
     glyphLink: /4diac/4diac_ide/
     links:
-      - url: "https://www.eclipse.org/downloads/download.php?file=/4diac/releases/3.0/4diac-ide/4diac-ide_3.0.1-linux.gtk.x86_64.tar.gz"
+      - url: "https://www.eclipse.org/downloads/download.php?file=/4diac/releases/3.0/4diac-ide/4diac-ide_3.0.2-linux.gtk.x86_64.tar.gz"
         text: Linux 64-bit
-      - url: "https://www.eclipse.org/downloads/download.php?file=/4diac/releases/3.0/4diac-ide//4diac-ide_3.0.1-macosx.cocoa.aarch64.dmg"
+      - url: "https://www.eclipse.org/downloads/download.php?file=/4diac/releases/3.0/4diac-ide//4diac-ide_3.0.2-macosx.cocoa.aarch64.dmg"
         text: macOS Apple Silicon
-      - url: "https://www.eclipse.org/downloads/download.php?file=/4diac/releases/3.0/4diac-ide/4diac-ide_3.0.1-macosx.cocoa.x86_64.dmg"
+      - url: "https://www.eclipse.org/downloads/download.php?file=/4diac/releases/3.0/4diac-ide/4diac-ide_3.0.2-macosx.cocoa.x86_64.dmg"
         text: macOS Intel
-      - url: "https://www.eclipse.org/downloads/download.php?file=/4diac/releases/3.0/4diac-ide/4diac-ide_3.0.1-win32.win32.x86_64.zip"
+      - url: "https://www.eclipse.org/downloads/download.php?file=/4diac/releases/3.0/4diac-ide/4diac-ide_3.0.2-win32.win32.x86_64.zip"
         text: Windows 64-bit
 
   - heading: 4diac FORTE
@@ -19,7 +19,7 @@ items:
     glyph: fa-microchip
     glyphLink: /4diac/4diac_forte
     links:
-      - url: "https://github.com/eclipse-4diac/4diac-forte/archive/refs/tags/3.0.0.zip"
+      - url: "https://github.com/eclipse-4diac/4diac-forte/archive/refs/tags/3.0.1.zip"
         text: Source
       - text: Prebuilt versions coming soon!
       # - url: "https://www.eclipse.org/downloads/download.php?file=/4diac/releases/2.0/forte/forte_3.0.0.linux.x86_64.zip"
