@@ -14,7 +14,7 @@ hide_breadcrumb: true
 ### Learn how you can contribute to Eclipse 4diac
 #### *From code and testing to usability enhancements, documentation, and industrial feedback. Contributions of all kinds help improve quality, usability, and long-term sustainability.*
 
-## 🚀 Not sure where to start?
+## Not sure where to start?  {.icon-start}
 - **New to Eclipse 4diac?**  
   A good starting point is contributing to 
   [documentation](#documentation-education-community) or helping with 
@@ -39,7 +39,7 @@ where contributors and users discuss topics, answer questions, and help newcomer
 
 ---
 
-## 🔧 Development & Engineering {#development-engineering}
+## Development & Engineering {#development-engineering .icon-dev }
 
 **Who:** Software developers and automation engineers
 
@@ -64,7 +64,7 @@ where contributors and users discuss topics, answer questions, and help newcomer
  - Follow the [contribution guide](/4diac/doc/development/contribute.html) for code contributions
 
 --- 
-## 🧪 Quality, Testing & Bug Wrangling {#quality-testing-bug-wrangling}
+## Quality, Testing & Bug Wrangling {#quality-testing-bug-wrangling  .icon-quality}
 
 *Willing to experiment with Eclipse 4diac? Test the 4diac IDE and 4diac FORTE and help improve stability and release quality.*
 
@@ -89,7 +89,7 @@ Even reproducing a bug, adding a test, or clarifying a report is a highly valuab
 
 
 ---
-## 🎨 UX, UI & Usability {#ux-ui}
+## UX, UI & Usability {#ux-ui .icon-ux }
 *Small usability improvements can have a large impact on the daily user experience.*
 
 **Who:** UX designers, UI engineers, HCI researchers, and usability-focused users
@@ -109,7 +109,7 @@ Even reproducing a bug, adding a test, or clarifying a report is a highly valuab
 
 
 ---
-## 🧩 Function Block Libraries & Ecosystem {#function-block-libraries}
+## Function Block Libraries & Ecosystem {#function-block-libraries .icon-fb }
 *A rich ecosystem of FB libraries lowers the entry barrier for new users and increases industrial adoption.*
 
 **Who:** Automation engineers, domain experts, developers
@@ -123,7 +123,7 @@ Even reproducing a bug, adding a test, or clarifying a report is a highly valuab
 
 
 ---
-## 📚 Documentation, Education & Community {#documentation-education-community}
+## Documentation, Education & Community {#documentation-education-community .icon-docs}
 *This is an excellent entry point for first-time contributors.*
 
 **Who:** Educators, students, users, technical writers
@@ -143,7 +143,7 @@ Improvements, fixes, and new content can be contributed via pull requests and fo
 
 
 ---
-## 🌍 Localization & Accessibility {#localization-accessibility}
+## Localization & Accessibility {#localization-accessibility .icon-l10n}
 *Localization and accessibility contributions help make 4diac IDE available to a broader audience.*
 
 **Who:** Translators, native speakers, accessibility advocates
@@ -159,7 +159,7 @@ Improvements, fixes, and new content can be contributed via pull requests and fo
  - Propose or contribute a new translation 
 
 ---
-## 🏭 Industrial Use, Feedback & Validation {#industrial-use-feedback}
+## Industrial Use, Feedback & Validation {#industrial-use-feedback .icon-industry}
 *Industrial feedback helps ensure that Eclipse 4diac remains practical, robust, and relevant for real automation systems.*
 
 **Who:** Industrial users, system integrators, researchers
@@ -172,7 +172,7 @@ Improvements, fixes, and new content can be contributed via pull requests and fo
  - Share reference architectures or anonymized use cases
 
 ---
-## 📖 Contribution Guide
+## Contribution Guide {.icon-guide }
 
 A detailed description of how to contribute code and documentation to Eclipse 4diac can be found in the [contribution guide](/4diac/doc/development/contribute.html). 
 If you are unsure where to start, feel free to ask on the [discussion forums](../support#discussions), [mailing list](https://accounts.eclipse.org/mailing-list/4diac-dev), or join the regular [Eclipse 4diac Virtual Community Meetings ](/4diac/events/virt-community/) — the community is happy to help!
