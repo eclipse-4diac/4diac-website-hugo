@@ -511,4 +511,277 @@ timeout = "120s"
   name = "4diac FORTE source"
   url = "https://github.com/eclipse-4diac/4diac-forte/archive/refs/heads/3.1.x.zip"
   weight = 1       
-    
+
+###########################################################################################################################
+# Side bar for documenation
+###########################################################################################################################
+[[menu.sidebar]]
+  identifier = "sb-doc"
+  name = "Documentation"
+  url = "/doc"
+  weight = 1  
+
+##################################################################
+[[menu.sidebar]]
+  parent = "sb-doc"
+  identifier = "sb-doc-getting-started"
+  name = "Getting Started"
+  weight = 1  
+[[menu.sidebar]]
+  parent = "sb-doc-getting-started"
+  name = "IEC 61499 101"
+  url = "/doc/intro/iec61499.html"
+  weight = 1
+[[menu.sidebar]]
+  parent = "sb-doc-getting-started"
+  name = "4diac Framework"
+  url = "/doc/intro/4diacframework.html"
+  weight = 2
+
+##################################################################
+[[menu.sidebar]]
+  parent = "sb-doc"
+  identifier = "sb-doc-install"
+  name = "Installation"
+  weight = 2
+[[menu.sidebar]]
+  parent = "sb-doc-install"
+  name = "4diac IDE"
+  url = "/doc/installation/installation.html#_4diacide"
+  weight = 1
+[[menu.sidebar]]
+  parent = "sb-doc-install"
+  name = "4diac FORTE"
+  url = "/doc/installation/installation.html#_4diacforte"
+  weight = 2
+[[menu.sidebar]]
+  parent = "sb-doc-install"
+  name = "4diac FORTE as docker"
+  url = "/doc/installation/docker.html"
+  weight = 3
+[[menu.sidebar]]
+  parent = "sb-doc-install"
+  name = "Autostart 4diac FORTE on Linux"
+  url = "/doc/installation/bootwithforte.html"
+  weight = 4
+
+##################################################################
+[[menu.sidebar]]
+  parent = "sb-doc"
+  identifier = "sb-doc-tutorials"
+  name = "Tutorials"
+  weight = 3
+[[menu.sidebar]]
+  parent = "sb-doc-tutorials"
+  name = "Step 0 - 4diac IDE Overview"
+  url = "/doc/tutorials/overview.html"
+  weight = 1
+[[menu.sidebar]]
+  parent = "sb-doc-tutorials"
+  name = "Step 1 - Use 4diac Locally (Blinking Tutorial)"
+  url = "/doc/tutorials/use4diaclocally.html"
+  weight = 2
+[[menu.sidebar]]
+  parent = "sb-doc-tutorials"
+  name = "Step 2 - Distribute 4diac Applications"
+  url = "/doc/tutorials/distribute4diac.html"
+  weight = 2
+[[menu.sidebar]]
+  parent = "sb-doc-tutorials"
+  name = "Step 3 - Deploy Applications Remotely"
+  url = "/doc/tutorials/use4diacremotely.html"
+  weight = 3
+[[menu.sidebar]]
+  parent = "sb-doc-tutorials"
+  name = "Step 4 - Create Your own Function Block Types"
+  url = "/doc/tutorials/createowntypes.html"
+  weight = 4
+[[menu.sidebar]]
+  parent = "sb-doc-tutorials"
+  name = "Step 5 - Other Basic Features"
+  url = "/doc/tutorials/otheruseful.html"
+  weight = 5
+[[menu.sidebar]]
+  parent = "sb-doc-tutorials"
+  name = "Step 6 - Advanced Features"
+  url = "/doc/tutorials/advancedfeatures.html"
+  weight = 5
+[[menu.sidebar]]
+  parent = "sb-doc-tutorials"
+  name = "Replay Debugger"
+  url = "/doc/other_features/replaydebugger.html"
+  weight = 6
+[[menu.sidebar]]
+  parent = "sb-doc-tutorials"
+  name = "Deploying Applications with OPC UA"
+  url = "/doc/tutorials/opcuadeployment.html"
+  weight = 7
+[[menu.sidebar]]
+  parent = "sb-doc-tutorials"
+  name = "Git Issue Reporting"
+  url = "/doc/tutorials/gitissuereporting.html"
+  weight = 8
+
+##################################################################
+[[menu.sidebar]]
+  parent = "sb-doc"
+  identifier = "sb-doc-examples"
+  name = "Examples"
+  weight = 4
+[[menu.sidebar]]
+  parent = "sb-doc-examples"
+  name = "X+3"
+  url = "/doc/examples/xplus3.html"
+  weight = 1
+[[menu.sidebar]]
+  parent = "sb-doc-examples"
+  name = "PID control on Lego Mindstorm's Motor"
+  url = "/doc/examples/pidmotor.html"
+  weight = 2
+[[menu.sidebar]]
+  parent = "sb-doc-examples"
+  name = "Traffic control example running on a BBB"
+  url = "/doc/examples/bbbtrafficcontrol.html"
+  weight = 3
+
+##################################################################
+[[menu.sidebar]]
+  parent = "sb-doc"
+  identifier = "sb-doc-io"
+  name = "IO Access"
+  weight = 5
+[[menu.sidebar]]
+  parent = "sb-doc-io"
+  name = "PLC01A1"
+  url = "/doc/io_config/plc01a1.html"
+  weight = 1
+[[menu.sidebar]]
+  parent = "sb-doc-io"
+  name = "Revolution Pi"
+  url = "/doc/io_config/revolutionpi.html"
+  weight = 2
+[[menu.sidebar]]
+  parent = "sb-doc-io"
+  name = "Wago PFC200"
+  url = "/doc/io_config/wago_pfc200.html"
+  weight = 3
+
+##################################################################
+[[menu.sidebar]]
+  parent = "sb-doc"
+  identifier = "sb-doc-com"
+  name = "Communication Protocols"
+  weight = 6
+[[menu.sidebar]]
+  parent = "sb-doc-com"
+  name = "OPCA UA"
+  url = "/doc/communication/opcua.html"
+  weight = 1
+[[menu.sidebar]]
+  parent = "sb-doc-com"
+  name = "MQTT with Eclipse Paho"
+  url = "/doc/communication/mqttpaho.html"
+  weight = 2
+[[menu.sidebar]]
+  parent = "sb-doc-com"
+  name = "Modbus"
+  url = "/doc/communication/modbus.html"
+  weight = 3
+[[menu.sidebar]]
+  parent = "sb-doc-com"
+  name = "HTTP"
+  url = "/doc/communication/http.html"
+  weight = 4
+[[menu.sidebar]]
+  parent = "sb-doc-com"
+  name = "OPC DA"
+  url = "/doc/communication/opcDA.html"
+  weight = 5
+[[menu.sidebar]]
+  parent = "sb-doc-com"
+  name = "TSN"
+  url = "/doc/communication/tsn.html"
+  weight = 6
+[[menu.sidebar]]
+  parent = "sb-doc-com"
+  name = "openPOWERLINK"
+  url = "/doc/communication/openpowerlink.html"
+  weight = 7
+[[menu.sidebar]]
+  parent = "sb-doc-com"
+  name = "Communicating with Simulation Tools"
+  url = "/doc/communication/simulation.html"
+  weight = 8
+[[menu.sidebar]]
+  parent = "sb-doc-com"
+  name = "Access BaseX Database with XQuery"
+  url = "/doc/communication/xqueries.html"
+  weight = 9
+[[menu.sidebar]]
+  parent = "sb-doc-com"
+  name = "Arrowhead"
+  url = "/doc/communication/arrowhead.html"
+  weight = 10
+
+##################################################################
+[[menu.sidebar]]
+  parent = "sb-doc"
+  identifier = "sb-doc-spec"
+  name = "Eclipse 4diac Specifications"
+  weight = 7
+[[menu.sidebar]]
+  parent = "sb-doc-spec"
+  name = "Modelling Network Communication in IEC 61499"
+  url = "/doc/specs/FBrunscommunicationmodelWP.pdf"
+  weight = 1
+
+##################################################################
+[[menu.sidebar]]
+  parent = "sb-doc"
+  identifier = "sb-doc-dev"
+  name = "Development Documentation"
+  weight = 8
+[[menu.sidebar]]
+  parent = "sb-doc-dev"
+  name = "Building and Running 4diac IDE from Source"
+  url = "/doc/development/building4diac.html"
+  weight = 1
+[[menu.sidebar]]
+  parent = "sb-doc-dev"
+  name = "SWTBot testing"
+  url = "/doc/development/swtbottestsdocumentation.html"
+  weight = 2
+[[menu.sidebar]]
+  parent = "sb-doc-dev"
+  name = "Monitoring"
+  url = "/doc/development/forte_monitoring.html"
+  weight = 3
+[[menu.sidebar]]
+  parent = "sb-doc-dev"
+  name = "4diac FORTE Communication Architecture"
+  url = "/doc/development/forte_communicationarchitecture.html"
+  weight = 4
+[[menu.sidebar]]
+  parent = "sb-doc-dev"
+  name = "External Event SIFB"
+  url = "/doc/development/externalevent_example.html"
+  weight = 5
+[[menu.sidebar]]
+  parent = "sb-doc-dev"
+  name = "Assuring 4diac FORTE Code Quality"
+  url = "/doc/development/forte_codequality.html"
+  weight = 6
+[[menu.sidebar]]
+  parent = "sb-doc-dev"
+  name = "Contributing to Eclipse 4diac"
+  url = "/doc/development/contribute.html"
+  weight = 7
+
+
+##################################################################
+[[menu.sidebar]]
+  parent = "sb-doc"
+  name = "FAQs"
+  url = "/doc/faq.html"
+  weight = 99
+
