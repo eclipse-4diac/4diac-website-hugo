@@ -412,6 +412,10 @@ h6 {
     background-color: #ff950e
 }
 
+#main-sidebar .submenu-item>a.main-sidebar-item-active {
+    color: #ff950e;
+}
+
 @media (min-width:992px) {
     #main-sidebar:before {
         background-color: #fff3e3;
