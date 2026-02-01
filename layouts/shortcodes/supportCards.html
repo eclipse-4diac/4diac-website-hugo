@@ -45,7 +45,7 @@
         <h3 class="fw-700{{ with .headingClass }} {{ . }}{{ end }}" style="font-size: larger;">{{ .heading }}</h3>
         {{ end }}
         <p><span style="color: #ff950e; font-weight: bold;">{{ .cardDate }}</span></p>
-        <p>{{ .content }}</p>
+        {{ .content | markdownify }}
       </div>
       {{ if isset . "links" }}
       <div class="panel-footer text-center vertical-align">

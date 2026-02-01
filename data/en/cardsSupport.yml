@@ -2,15 +2,36 @@ style: vertical
 items:
   - heading: Github
     fullCardLink: https://github.com/eclipse-4diac
-    content: Eclipse 4diac bugs and enhancements are maintained und discussed using Github. Please submit issues and suggestions on 4diac IDE, 4diac FORTE, libraries, examples as well as the website here.
+    content: |
+      Use GitHub for **concrete, technical topics**.  
+      **Best for:**
+      - Reporting bugs and regressions
+      - Requesting or discussing new features
+      - Component-specific technical questions
+      - Proposing improvements
+
+      Issues and discussions are tracked per component and are the preferred place for technical follow-up and long-term reference.
     glyph: fa-github  
 
   - heading: Project Mailing List
     fullCardLink: https://accounts.eclipse.org/mailing-list/4diac-dev
-    content: Follow and participate in discussions on 4diac. You can subscribe here.
+    content: |
+      The mailing list is suited for **broader or cross-cutting topics**.  
+      **Best for:**
+      - Design discussions spanning multiple components
+      - Project-wide questions or announcements
+      - Topics that benefit from longer-form discussion
     glyph: fa-envelope-o
 
   - heading: Chat
     fullCardLink: https://chat.eclipse.org/#/room/#eclipse-4diac:matrix.eclipse.org
-    content: For a more interactive interaction please try our Matrix channels. 
+    content: |
+      For **informal and quick interaction**, please use our Matrix chat channels.  
+      **Best for:**
+      - Quick questions
+      - Clarifying small issues
+      - Getting in touch with other users and contributors
+
+      Please note that chat is community-driven and responses may vary in time. 
+      For issues that require follow-up or tracking, GitHub is preferred.
     glyph: fa-globe
