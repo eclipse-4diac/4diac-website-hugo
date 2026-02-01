@@ -784,3 +784,64 @@ timeout = "120s"
   url = "/doc/faq.html"
   weight = 99
 
+###########################################################################################################################
+# Side bar for support
+###########################################################################################################################
+
+##################################################################
+[[menu.sidebar]]
+  identifier = "sb-sup-before"
+  name = "Before you ask"
+  weight = 1  
+[[menu.sidebar]]
+  parent = "sb-sup-before"
+  name = "How to get good answers"
+  url = "/support/#before-you-ask"
+  weight = 1  
+
+##################################################################
+[[menu.sidebar]]
+  identifier = "sb-sup-discussion"
+  name = "Discussions"
+  weight = 2  
+[[menu.sidebar]]
+  parent = "sb-sup-discussion"
+  name = "4diac IDE Discussions"
+  url = "https://github.com/eclipse-4diac/4diac-ide/discussions"
+  weight = 1  
+[[menu.sidebar]]
+  parent = "sb-sup-discussion"
+  name = "4diac FORTE Discussions"
+  url = "https://github.com/eclipse-4diac/4diac-forte/discussions"
+  weight = 2  
+[[menu.sidebar]]
+  parent = "sb-sup-discussion"
+  name = "4diac FBE Discussions"
+  url = "https://github.com/eclipse-4diac/4diac-fbe/discussions"
+  weight = 3  
+[[menu.sidebar]]
+  parent = "sb-sup-discussion"
+  name = "4diac Documentation Discussions"
+  url = "https://github.com/eclipse-4diac/4diac-documentation/discussions"
+  weight = 4  
+
+##################################################################
+[[menu.sidebar]]
+  identifier = "sb-sup-new"
+  name = "New to Eclipse 4diac?"
+  weight = 3  
+[[menu.sidebar]]
+  parent = "sb-sup-new"
+  name = "Getting Started"
+  url = "/doc/tutorials/"
+  weight = 1  
+[[menu.sidebar]]
+  parent = "sb-sup-new"
+  name = "IEC 61499 Basics"
+  url = "/doc/intro/iec61499.html"
+  weight = 2  
+[[menu.sidebar]]
+  parent = "sb-sup-new"
+  name = "4diac Concepts & Architecture"
+  url = "/doc/intro/4diacframework.html"
+  weight = 3  
