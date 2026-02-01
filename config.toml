@@ -71,7 +71,6 @@ timeout = "120s"
 
 [permalinks]
   news = "/:sections/:year/:slug/"
-  # news = "/:sections/:year/:month/:day/:slug/"
 
 [blackfriday]
   plainIDAnchors = true
@@ -336,19 +335,19 @@ timeout = "120s"
 
 [[menu.main]]
   name = "Step by Step Tutorials"
-  url = "/doc/tutorials/overview.html"
+  url = "/doc/tutorials/"
   weight = 1
   parent = "doc-using"
 
 [[menu.main]]
   name = "Install Eclipse 4diac"
-  url = "/doc/installation/installation.html"
+  url = "/doc/installation/"
   weight = 2
   parent = "doc-using"
 
 [[menu.main]]
   name = "4diac IDE Examples"
-  url = "/doc/examples/examples.html"
+  url = "/doc/examples/"
   weight = 3
   parent = "doc-using"
 
@@ -366,19 +365,19 @@ timeout = "120s"
 
 [[menu.main]]
   name = "IO Configuration for the Different Platforms"
-  url = "/doc/io_config/io_config.html"
+  url = "/doc/io_config/"
   weight = 1
   parent = "doc-details"
 
 [[menu.main]]
   name = "Communication Protocols"
-  url = "/doc/communication/communication.html"
+  url = "/doc/communication/"
   weight = 2
   parent = "doc-details"
 
 [[menu.main]]
   name = "Development of 4diac FORTE and 4diac IDE"
-  url = "/doc/development/development.html"
+  url = "/doc/development/"
   weight = 2
   parent = "doc-details"
 
