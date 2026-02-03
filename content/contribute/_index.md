@@ -37,6 +37,11 @@ hide_breadcrumb: true
 If you prefer direct interaction, you are welcome to join the regular [**Eclipse 4diac Virtual Community Meetings**](/4diac/events/virt-community/), 
 where contributors and users discuss topics, answer questions, and help newcomers get started.
 
+#### Looking for help or support?
+
+If you came here because you have a question, ran into a problem, or want to discuss usage or design topics, the Support page explains where and how to ask for help.
+→ [Go to the Eclipse 4diac Support page](/4diac/support/)
+
 ---
 
 ## Development & Engineering {#development-engineering .icon-dev }
