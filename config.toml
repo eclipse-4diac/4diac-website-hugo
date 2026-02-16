@@ -546,12 +546,12 @@ timeout = "120s"
 [[menu.sidebar]]
   parent = "sb-doc-install"
   name = "4diac IDE"
-  url = "/doc/installation/installation.html#_4diacide"
+  url = "/doc/installation/overview.html#_4diacide"
   weight = 1
 [[menu.sidebar]]
   parent = "sb-doc-install"
   name = "4diac FORTE"
-  url = "/doc/installation/installation.html#_4diacforte"
+  url = "/doc/installation/overview.html#_4diacforte"
   weight = 2
 [[menu.sidebar]]
   parent = "sb-doc-install"

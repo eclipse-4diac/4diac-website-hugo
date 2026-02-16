@@ -1,7 +1,7 @@
 {{ define "main" }}
   <script>
     if (window.location.pathname.endsWith("/overview.html")) {
-      window.location.href = window.location.pathname.replace("/overview.html", "/");
+      window.location.href = window.location.pathname.replace("/overview.html", "/") + window.location.hash;
     }
   </script>
   {{ .Content }}
