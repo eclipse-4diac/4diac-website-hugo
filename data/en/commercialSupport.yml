@@ -1,0 +1,21 @@
+items:
+  - name: "Johannes Kepler University Linz"
+    link: "https://www.jku.at/en/lit-cyber-physical-systems-lab/"
+    bio: |
+      <p>We are ...</p>
+      <p>We offer ...</p>
+  - name: "Martin Jobst"
+    link: "https://github.com/mx990"
+    linkedin_handle: "mx990"
+    bio: |
+      <p>I am a freelance computer scientist from Germany with nearly a decade of experience contributing to Eclipse 4diac. 
+         My expertise spans low-level embedded development, distributed systems, model‑based engineering, compiler design, databases, and network security. 
+      <p>I offer consulting and commercial support for Eclipse 4diac, including guidance on implementing projects with IEC 61499 and Eclipse 4diac, 
+         extending its features and functionality to meet specific requirements, as well as providing specialized support and training.</p>
+  - name: "Martin Melik Merkumians"
+    link: "https://github.com/MartinMelikMerkumians"
+    linkedin_handle: "martin-melik-merkumians-66a79b25"
+    img: "martin_melik_merkumians.jpg"
+    bio: |
+      <p>I am ...</p>
+      <p>I offer ...</p>

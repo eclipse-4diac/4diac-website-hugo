@@ -75,3 +75,13 @@ See:
 - [IEC 61499 Basics](/4diac/doc/intro/iec61499.html)
 - [Eclipse 4diac Concepts & Architecture](/4diac/doc/intro/4diacframework.html)
 
+
+## Commercial Support
+
+There are also several entities offering commercial support for Eclipse 4diac.
+Please find their contact details below.
+
+{{< commercial_support source="commercialSupport" imgRoot="../img/team/">}}
+
+We are looking forward to helping you with your Eclipse 4diac project.
+
