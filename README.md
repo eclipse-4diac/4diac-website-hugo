@@ -9,7 +9,7 @@ For a complete guide, see the [contribution guide](https://github.com/eclipse-4d
 
 ## License
 
-Eclipse 4diac IDE is licensed under an [EPL 2.0](LICENSE.md).
+Eclipse 4diac website is licensed under an [EPL 2.0](LICENSE.md).
 
 ## Running locally
 
