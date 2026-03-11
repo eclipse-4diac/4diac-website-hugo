@@ -465,7 +465,7 @@ timeout = "120s"
 
 [[menu.sidebar]]
   identifier = "sidebar-downloads"
-  name = "3.1 Early Access"
+  name = "3.2 Early Access"
   weight = 2  
 
 [[menu.sidebar]]
@@ -477,26 +477,26 @@ timeout = "120s"
 [[menu.sidebar]]
   parent = "sidebar-downloads-IDE"
   name = "Linux 64-bit"
-  url = "https://www.eclipse.org/downloads/download.php?file=/4diac/updates/rc/4diac-ide_3.1.0-linux.gtk.x86_64.tar.gz"
+  url = "https://www.eclipse.org/downloads/download.php?file=/4diac/updates/milestone/4diac-ide_3.2.0-linux.gtk.x86_64.tar.gz"
   weight = 1     
 
 
 [[menu.sidebar]]
   parent = "sidebar-downloads-IDE"
   name = "Windows 64-bit"
-  url = "https://www.eclipse.org/downloads/download.php?file=/4diac/updates/rc/4diac-ide_3.1.0-win32.win32.x86_64.zip"
+  url = "https://www.eclipse.org/downloads/download.php?file=/4diac/updates/milestone/4diac-ide_3.2.0-win32.win32.x86_64.zip"
   weight = 2     
 
 [[menu.sidebar]]
   parent = "sidebar-downloads-IDE"
   name = "macOS Apple Silicon"
-  url = "https://www.eclipse.org/downloads/download.php?file=/4diac/updates/rc/4diac-ide_3.1.0-macosx.cocoa.aarch64.dmg"
+  url = "https://www.eclipse.org/downloads/download.php?file=/4diac/updates/milestone/4diac-ide_3.2.0-macosx.cocoa.aarch64.dmg"
   weight = 3
 
 [[menu.sidebar]]
   parent = "sidebar-downloads-IDE"
   name = "macOS Intel"
-  url = "https://www.eclipse.org/downloads/download.php?file=/4diac/updates/rc/4diac-ide_3.1.0-macosx.cocoa.x86_64.dmg"
+  url = "https://www.eclipse.org/downloads/download.php?file=/4diac/updates/milestone/4diac-ide_3.2.0-macosx.cocoa.x86_64.dmg"
   weight = 4
   
 [[menu.sidebar]]
@@ -508,7 +508,7 @@ timeout = "120s"
 [[menu.sidebar]]
   parent = "sidebar-downloads-FORTE"
   name = "4diac FORTE source"
-  url = "https://github.com/eclipse-4diac/4diac-forte/archive/refs/heads/3.1.x.zip"
+  url = "https://github.com/eclipse-4diac/4diac-forte/archive/refs/heads/3.2.x.zip"
   weight = 1       
 
 ###########################################################################################################################

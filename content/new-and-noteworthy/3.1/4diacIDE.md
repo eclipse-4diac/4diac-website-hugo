@@ -23,6 +23,10 @@ Managing large libraries is now easier with support for **Move and Rename refact
     * Re-enabled canvas panning using **Middle Mouse** or **Space + Left Mouse**.
 * **Improved Screen Scaling (HiDPI):** Reworked graphical commands to use absolute positions and sizes, ensuring a stable UI on high-resolution displays.
 * **Dark Mode Optimizations:** Added dedicated dark mode colors for interface bars, comment figures, and NatTable tree arrows to improve readability.
+* **Improved Error Navigation:** Hidden error connections between SubApps are now correctly shown. The “Go to Marker” action now focuses the relevant interface when the connection itself is not visible.
+* **Comment Handling Improvements:** 
+  * Improved default comment size and hover feedback.
+  * Fixed display of multi-line comments and several import/export escaping issues.
 
 ### Functional Improvements
 * **Advanced Event Connection Logic:** When inserting a Function Block into an execution chain, the IDE now intelligently picks the first output event that already has an existing connection as the source.
@@ -32,3 +36,4 @@ Managing large libraries is now easier with support for **Move and Rename refact
 ### Bug Fixes
 * **Stable Type Hashes:** Switched hash generation from XMI to IEC 61499 XML to prevent "unstable" hashes caused by local file references.
 * **Security:** Added path normalization before unzipping files to prevent "Zip Slip" vulnerabilities.
+
