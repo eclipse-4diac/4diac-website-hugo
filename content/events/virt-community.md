@@ -7,7 +7,7 @@ layout: "single"
 
 This regular community meeting is a place for the Eclipse 4diac community to get to know each other and to exchange ideas around Eclipse 4diac.
 
-The next Eclipse 4diac Virtual Community Meeting will be held on **January 28, 2026 at 17:00 CET (UTC+1)**.
+The next Eclipse 4diac Virtual Community Meeting will be held on **April 15, 2026  at 17:00 CEST (UTC+2)**.
 
 You can join the meeting via this **[Zoom Link](https://jku.zoom.us/j/99840792097?pwd=dj1Deby9bFK4aGkMtLruO9XoHtLpH0.1)**
 
@@ -24,6 +24,16 @@ We look forward to an insightful discussion with all of you!
 
 ## Schedule
 We plan to hold the community meeting approximately every month:
+
+- April 15, 2026  at 17:00 CEST (UTC+2)
+- May 13, 2026 at 17:00 CEST (UTC+2)
+- June 10, 2026 at 17:00 CEST (UTC+2)
+- July 8, 2026 at 17:00 CEST (UTC+2)
+- August 12, 2026 at 17:00 CEST (UTC+2)
+- September 9, 2026 at 17:00 CEST (UTC+2)
+
+### Previous Dates
+
 - March 11, 2026 at 17:00 CET (UTC+1)
 - Feb 18, 2026 at 17:00 CET (UTC+1)
 - Jan 28, 2026 at 17:00 CET (UTC+1)
