@@ -10,8 +10,9 @@ page_css_file: /4diac/css/support.css
 hide_breadcrumb: true
 sidebar:
   - sb-sup-before
-  - sb-sup-discussion
   - sb-sup-new
+  - sb-sup-discussion
+  - sb-sup-com
 ---
 
 ### Not sure where to ask your question?
@@ -78,10 +79,22 @@ See:
 
 ## Commercial Support
 
-There are also several entities offering commercial support for Eclipse 4diac.
-Please find their contact details below.
+While the Eclipse 4diac community provides excellent help on a volunteer basis, commercial projects often require shortened response times or tailored solutions.
+Several organizations and individuals offer professional services to help you succeed with your IEC 61499 projects.
 
-{{< commercial_support source="commercialSupport" imgRoot="../img/team/">}}
+**This may include:** 
+* **Industrial Support:** Shortened response times and expert consulting for production-critical systems.
+* **Custom Development:** Implementation of specialized features, 4diac IDE extensions, and tailored runtime capabilities.
+* **Hardware Integration:** Porting and optimization of the 4diac FORTE for custom hardware platforms and I/O systems.
+* **Communication Development:** Integration of new communication protocols and enhancement of existing ones for specialized industrial requirements.
+* **Specialized Training:** Tailored workshops and training sessions for engineering teams, from beginner to advanced levels.
+* **Architecture Review:** Expert analysis and optimization of application designs, control logic, and distributed automation architectures..
+* **Migration & Modernization:** Transition of existing automation solutions toward IEC 61499-based architectures.
+* **Research Collaboration:** Partnerships for industrial and publicly funded R&D projects involving IEC 61499 and Eclipse 4diac.
+* **Long-term Maintenance:** Maintenance and security updates for specific project versions.
+
+
+{{< commercial_support source="commercialSupport">}}
 
 We are looking forward to helping you with your Eclipse 4diac project.
 
