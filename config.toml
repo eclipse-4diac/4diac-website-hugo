@@ -724,7 +724,7 @@ timeout = "120s"
 [[menu.sidebar]]
   identifier = "sb-sup-discussion"
   name = "Discussions"
-  weight = 2  
+  weight = 3
 [[menu.sidebar]]
   parent = "sb-sup-discussion"
   name = "4diac IDE Discussions"
@@ -750,7 +750,7 @@ timeout = "120s"
 [[menu.sidebar]]
   identifier = "sb-sup-new"
   name = "New to Eclipse 4diac?"
-  weight = 3  
+  weight = 2
 [[menu.sidebar]]
   parent = "sb-sup-new"
   name = "Getting Started"
@@ -766,3 +766,15 @@ timeout = "120s"
   name = "4diac Concepts & Architecture"
   url = "/doc/intro/4diacframework.html"
   weight = 3  
+
+##################################################################
+[[menu.sidebar]]
+  identifier = "sb-sup-com"
+  name = "Need Professional Help?"
+  weight = 4
+[[menu.sidebar]]
+  parent = "sb-sup-com"
+  name = "Commercial support"
+  url = "/support/#commercial-support"
+  weight = 1
+
