@@ -14,12 +14,14 @@ items:
   - name: "Martin Jobst"
     type: "Freelance Computer Scientist"
     topics:
-      - "Embedded C++ / FORTE"
-      - "Compiler Design"
-      - "Network Security"
+      - "Industrial Support"
+      - "Custom Development"
+      - "Hardware Integration"
+      - "Architecture Review"
+      - "Long-term Maintenance"
     description: >
-      A long-term contributor providing consulting and commercial support for Eclipse 4diac, including guidance on implementing projects with IEC 61499 and Eclipse 4diac, 
-      extending its features and functionality to meet specific requirements, as well as providing specialized support and training.
+      Martin Jobst is a freelance computer scientist with long-term experience contributing to Eclipse 4diac. 
+      His expertise spans low‑level embedded development, distributed systems, model‑based engineering, compiler design, databases, and network security.
     link: "https://github.com/mx990"
     linkedin_handle: "mx990"
 
