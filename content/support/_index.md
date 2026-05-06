@@ -88,7 +88,7 @@ Several organizations and individuals offer professional services to help you su
 * **Hardware Integration:** Porting and optimization of the 4diac FORTE for custom hardware platforms and I/O systems.
 * **Communication Development:** Integration of new communication protocols and enhancement of existing ones for specialized industrial requirements.
 * **Specialized Training:** Tailored workshops and training sessions for engineering teams, from beginner to advanced levels.
-* **Architecture Review:** Expert analysis and optimization of application designs, control logic, and distributed automation architectures..
+* **Architecture Review:** Expert analysis and optimization of application designs, control logic, and distributed automation architectures.
 * **Migration & Modernization:** Transition of existing automation solutions toward IEC 61499-based architectures.
 * **Research Collaboration:** Partnerships for industrial and publicly funded R&D projects involving IEC 61499 and Eclipse 4diac.
 * **Long-term Maintenance:** Maintenance and security updates for specific project versions.
