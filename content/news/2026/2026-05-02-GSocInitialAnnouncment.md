@@ -1,7 +1,7 @@
 ---
 title: "Welcoming Our Google Summer of Code 2026 Contributors!"
 date: 2026-05-02T00:00:00-00:00
-categories: ["4diacEvents"]
+categories: ["GSoC"]
 type: "newsitem"
 description: |
   We are excited to share that the Eclipse 4diac Project has been selected to participate in Google Summer of Code 2026 and we are welcoming two student contributors who will be working with us over the summer!
