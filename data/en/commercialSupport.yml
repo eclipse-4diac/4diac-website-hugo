@@ -2,14 +2,18 @@ items:
   - name: "LIT Cyber-Physical Systems Lab, Johannes Kepler University Linz"
     type: "Research Institution"
     topics:
-      - "Tooling & Infrastructure"
-      - "IEC 61499 / 4diac Training"
-      - "Architecture Reviews"
-      - "Research Collaborations"
+      - "Custom Development"
+      - "Hardware Integration"
+      - "Communication Development"
+      - "Specialized Training"
+      - "Architecture Review"
+      - "Migration & Modernization"
+      - "Research Collaboration"
     description: >
-      The LIT CPS Lab provides expert-led training and consulting. 
-      We specialize in advancing tool infrastructures and helping partners master distributed control through research-backed application design and specialized workshops.
+        LIT Cyber-Physical Systems Lab researches on software engineering methods for control systems and is a long time contributor to Eclipse 4diac. 
+        They have a strong focus on tool infrastructures, user experience, control software design patterns and quality assessment, and extensions to IEC 61499. 
     link: "https://www.jku.at/lit-cyber-physical-systems-lab/"
+    email: "cps@jku.at"
 
   - name: "Martin Jobst"
     type: "Freelance Computer Scientist"
