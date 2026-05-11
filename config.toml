@@ -529,7 +529,7 @@ timeout = "120s"
 [[menu.sidebar]]
   parent = "sb-doc-tutorials"
   name = "Replay Debugger"
-  url = "/doc/other_features/replaydebugger.html"
+  url = "/doc/tutorials/replaydebugger.html"
   weight = 6
 [[menu.sidebar]]
   parent = "sb-doc-tutorials"
