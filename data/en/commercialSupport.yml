@@ -10,8 +10,8 @@ items:
       - "Migration & Modernization"
       - "Research Collaboration"
     description: >
-        LIT Cyber-Physical Systems Lab researches on software engineering methods for control systems and is a long time contributor to Eclipse 4diac. 
-        They have a strong focus on tool infrastructures, user experience, control software design patterns and quality assessment, and extensions to IEC 61499. 
+        LIT Cyber-Physical Systems Lab researches on software engineering methods for control systems and is a long time contributor to Eclipse 4diac.
+        They have a strong focus on tool infrastructures, user experience, control software design patterns and quality assessment, and extensions to IEC 61499.
     link: "https://www.jku.at/lit-cyber-physical-systems-lab/"
     email: "cps@jku.at"
 
@@ -24,20 +24,24 @@ items:
       - "Architecture Review"
       - "Long-term Maintenance"
     description: >
-      Martin Jobst is a freelance computer scientist with long-term experience contributing to Eclipse 4diac. 
+      Martin Jobst is a freelance computer scientist with long-term experience contributing to Eclipse 4diac.
       His expertise spans low‑level embedded development, distributed systems, model‑based engineering, compiler design, databases, and network security.
     link: "https://github.com/mx990"
     linkedin_handle: "mx990"
 
   - name: "Martin Melik Merkumians"
-    type: "Freelance Computer Scientist"
+    type: "Freelance Automation Engineer & System Architect"
     topics:
-      - "Lorem ipsum"
-      - "dolor sit amet"
-      - "consectetur"
+      - "Industrial Support"
+      - "Custom Development"
+      - "Hardware Integration"
+      - "Communication Development"
+      - "Specialized Training"
+      - "Architecture Review"
+      - "Migration & Modernization"
     description: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+      Martin Melik Merkumians is a system architect and long-term Eclipse 4diac contributor specializing in modern automation architectures.
+      He focuses on applying domain-driven SOA principles to industrial software, designing distributed, service-oriented control architectures that bridge complex process logic with embedded systems.
     link: "https://github.com/MartinMelikMerkumians"
     linkedin_handle: "martin-melik-merkumians-66a79b25"
-      
+
