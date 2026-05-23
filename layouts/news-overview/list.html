@@ -1,0 +1,37 @@
+{{ define "main" }}
+
+  {{ .Content }} 
+
+  {{ $pages := .Data.Pages.ByDate.Reverse }}
+  {{ $paginator := .Paginate $pages 3}}
+  {{ if ne $paginator.NumberOfElements 0 }}
+    <div class="news-list">
+      {{ range $paginator.Pages }}
+        
+        <a href="{{- with .Params.redirect_url | default .Params.link | default .RelPermalink }} {{.}} {{- end }}" class="media media-link">
+          <h4 class="media-heading">{{ .Title | safeHTML }}</h4>
+
+          {{ $newsItems := where .Pages "Type" "newsitem" }}
+          {{ $newsItems = $newsItems.ByDate.Reverse }}
+          {{ if gt (len .Pages) 0 }}
+          <ul class="news-preview-list">
+            {{ range $index, $item := first 5 .Pages }}
+              <li><span class="news-item-date">{{ $item.Date.Format "Jan 2" }}</span>
+                <span class="news-item-sep">–</span>
+                <span class="news-item-title">{{ $item.Title }}</span>
+              </li>
+            {{ end }}
+
+            <div class="news-card-footer">
+              View all news →
+            </div>
+          </ul>
+          {{ end }}
+
+        </a>
+        
+      {{ end }}
+    </div>
+    {{ template "_internal/pagination.html" . }}
+  {{ end }}
+{{ end }}
