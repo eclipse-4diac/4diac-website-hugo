@@ -1,5 +1,8 @@
 {{ define "main" }}
-<!-- a template for news items to  -->
+
+<div class="news-metadata">
+  <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Monday, Jan 2, 2006" }}</time>
+</div>
   
 <!-- Only add the description if it is set -->
 {{ with .Params.description }}
