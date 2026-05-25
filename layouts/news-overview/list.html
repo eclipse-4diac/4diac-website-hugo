@@ -3,7 +3,7 @@
   {{ .Content }} 
 
   {{ $pages := .Data.Pages.ByDate.Reverse }}
-  {{ $paginator := .Paginate $pages 3}}
+  {{ $paginator := .Paginate $pages}}
   {{ if ne $paginator.NumberOfElements 0 }}
     <div class="news-list">
       {{ range $paginator.Pages }}
