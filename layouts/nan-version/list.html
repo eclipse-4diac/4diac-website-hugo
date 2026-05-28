@@ -13,7 +13,7 @@
   {{ end }}
   
   <p>Welcome to the Eclipse 4diac project! 
-The Eclipse 4diac {{ $version }} release is planned for {{ $releaseDateFormatted }}. 
+The Eclipse 4diac {{ $version }} release is scheduled for {{ $releaseDateFormatted }}. 
 Eclipse 4diac can be downloaded from the project's <a href="/4diac/download">downloads page</a>.</p> 
 
   <p>Here are some of the more noteworthy items available in this release.</p>
@@ -22,12 +22,12 @@ Eclipse 4diac can be downloaded from the project's <a href="/4diac/download">dow
 
 {{ $order := .Params.components }}
   {{ if $order }}
-    {{ range $order }}
-      {{ $component := . }}
+    {{ range $index, $component := $order }}
       {{ with $.GetPage (printf "%s.md" .) }}
         {{ $sub := . }}
         {{/* anchor id from slug or urlized title */}}
         {{ $id := urlize $component}}
+        {{ if gt $index 0 }}<hr>{{ end }}
         <h2 id="{{ $id }}">{{ $sub.Title }}</h2>
         {{ $sub.Content }}
       {{ end }}
