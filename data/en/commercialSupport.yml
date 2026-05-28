@@ -15,23 +15,6 @@ items:
     link: "https://www.jku.at/lit-cyber-physical-systems-lab/"
     email: "cps@jku.at"
 
-  - name: "OFFIS - Institute for Information Technology, Oldenburg, Germany"
-    type: "Research Institution"
-    topics:
-      - "Custom Development"
-      - "Hardware Integration"
-      - "Communication Development"
-      - "Specialized Training"
-      - "Architecture Review"
-      - "Migration & Modernization"
-      - "Research Collaboration"
-    description: >
-        OFFIS is a research institute associated with the University of Oldenburg, Germany. Its R&D division Manufacturing, research group Distributed Computing and Communication,
-        is experienced in embedded systems design for industrial automation and other application fields. OFFIS is a long-time contributor to 4diac, working on 4diac FORTE and being
-        the initial developer of 4diac FBE. Their expertise is in system engineering, development methodology, tool automation, deployment, and deeply embedded hard- and software.
-    link: "https://www.offis.de/anwendungen/produktion/distributed-computing-and-communication.html"
-    email: "joerg.walter@offis.de"
-
   - name: "Martin Jobst"
     type: "Freelance Computer Scientist"
     topics:
@@ -61,4 +44,21 @@ items:
       He focuses on applying domain-driven SOA principles to industrial software, designing distributed, service-oriented control architectures that bridge complex process logic with embedded systems.
     link: "https://github.com/MartinMelikMerkumians"
     linkedin_handle: "martin-melik-merkumians-66a79b25"
+
+  - name: "OFFIS - Institute for Information Technology, Oldenburg, Germany"
+    type: "Research Institution"
+    topics:
+      - "Custom Development"
+      - "Hardware Integration"
+      - "Communication Development"
+      - "Specialized Training"
+      - "Architecture Review"
+      - "Migration & Modernization"
+      - "Research Collaboration"
+    description: >
+        OFFIS is a research institute associated with the University of Oldenburg, Germany. Its R&D division Manufacturing, research group Distributed Computing and Communication,
+        is experienced in embedded systems design for industrial automation and other application fields. OFFIS is a long-time contributor to Eclipse 4diac, working on 4diac FORTE and being
+        the initial developer of 4diac FBE. Their expertise is in system engineering, development methodology, tool automation, deployment, and deeply embedded hard- and software.
+    link: "https://www.offis.de/anwendungen/produktion/distributed-computing-and-communication.html"
+    email: "joerg.walter@offis.de"
 
