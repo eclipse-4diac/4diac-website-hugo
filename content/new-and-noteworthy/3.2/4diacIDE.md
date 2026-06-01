@@ -4,7 +4,6 @@ title: 4diac IDE
 ---
 
 ### User Interface & Usability Enhancements
-
  - New grid for all graphical editors that reduces visual clutter to improve focus on content
  - Modernized look of Interface Editor:
    - Cleaner alignment of comments and data types
@@ -17,6 +16,9 @@ title: 4diac IDE
  - Added member access pins for all FB instances
  - Added unified wizard to manage project libraries
  - Removed *Affected Types* dialog when saving types
+ - Updated rules for hiding pins to prevent hiding of connected pins
+   - Tables also reflect that option correctly now
+ - Added feature to reconnect Target Pins to different Source
 
 ### New and changed validations
  - An internal FB may not have the same name as a pin of the surrounding type or instance
@@ -31,8 +33,25 @@ title: 4diac IDE
  - Extract method refactoring now uses the exact selection
  - Update ST code during copy refactoring
 
+### Plant Hierarchy
+ - Added reordering of Nodes and Folders
+ - Improved updating of Comments
+
+### Bulk Editor
+ - Fixed "Open in Bulk Editor" showing in unrelated context menus
+ - Added new context menu to go to selected element of the result table
+ - Added filtering of Internal Attributes in result table
+ - Fixed edge cases for Copy/Paste of result table
+ - Added validation when adding new Attributes
+
 ### Deployment and Monitoring
  - Show resource status in *Debug* view
  - No longer watch internal FBs or variables by default
  - Separated OPC UA deployment into its own optional feature
  - Type hash now only considers Negate and Retain attributes
+
+### Bug Fixes
+- Fixed imports for constants in arrays when creating connections over UntypedSubApps
+- Fixed importing of VarConfigParameter of TypedSubApps
+- Fixed showing Pin-Tooltips to correctly show type/instance information
+- Removed VarConfig column from output tables
