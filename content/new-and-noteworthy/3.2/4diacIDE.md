@@ -51,6 +51,17 @@ title: 4diac IDE
  - Upgraded Eclipse Milo to version 1.1.2
  - Type hash now only considers Negate and Retain attributes
 
+## Replay Debugging
+ - Exact reproduction of the run of an application is possible via the newly developed replay debugging feature
+ - Start the repoduction from:
+   - existing traces generated from 4diac FORTE, or
+   - manually triggered events directly in 4diac IDE
+ - It allows an easy step by step reproduction of an application
+ - The application can be monitored and every step of the reproduction can be fully observed
+ - Create parallel timelines of reproduction by triggering events from existing states
+ - Delete events and timelines when not needed anymore for the analysis
+ - Compare complete states of the application at different stages of the reproduction 
+
 ### Bug Fixes
 - Fixed imports for constants in arrays when creating connections over UntypedSubApps
 - Fixed importing of VarConfigParameter of TypedSubApps
