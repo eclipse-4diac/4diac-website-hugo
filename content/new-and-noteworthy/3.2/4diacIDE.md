@@ -48,6 +48,7 @@ title: 4diac IDE
  - Show resource status in *Debug* view
  - No longer watch internal FBs or variables by default
  - Separated OPC UA deployment into its own optional feature
+ - Upgraded Eclipse Milo to version 1.1.2
  - Type hash now only considers Negate and Retain attributes
 
 ### Bug Fixes
