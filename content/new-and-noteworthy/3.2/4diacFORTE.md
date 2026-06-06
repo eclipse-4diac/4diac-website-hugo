@@ -1,6 +1,6 @@
 ---
 title: 4diac FORTE
-
+description: Improved runtime performance, extended data type support, and upgraded OPC UA connectivity.
 ---
 
 - Improve performance and binary size for floating-point formatting

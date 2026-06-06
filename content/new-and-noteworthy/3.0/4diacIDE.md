@@ -1,6 +1,6 @@
 ---
 title: 4diac IDE
-
+description: Introduced refactoring tools, an interactive ST interpreter, named constants, and an overhauled library system.
 ---
 
 

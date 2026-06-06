@@ -1,6 +1,6 @@
 ---
 title: 4diac IDE
-
+description: Focused on IDE stability, Structured Text (ST) editor precision, and high-DPI graphical rendering.
 ---
 
 4diac IDE 3.0.1 is a maintenance release focusing on improved robustness, correctness, and usability. This page highlights the most important **user-visible changes** since version 3.0.0.

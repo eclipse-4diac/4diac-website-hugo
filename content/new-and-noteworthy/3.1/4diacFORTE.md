@@ -1,6 +1,6 @@
 ---
 title: 4diac FORTE
-
+description: Modularized function library, optimized memory usage, and improved OPC UA communication and runtime diagnostics.
 ---
 
 The 3.1 release of 4diac FORTE introduces significant architectural cleanups, specifically targeting library modularity and communication efficiency.

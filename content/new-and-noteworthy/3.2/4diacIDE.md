@@ -1,6 +1,6 @@
 ---
 title: 4diac IDE
-
+description: Modernized editors, stronger validation, improved refactoring, and streamlined deployment workflows.
 ---
 
 ### User Interface & Usability Enhancements
