@@ -1,6 +1,6 @@
 ---
 title: 4diac IDE
-
+description: Improved struct handling, enhanced refactoring capabilities, and modernized the UI.
 ---
 
 The 3.1 release of the 4diac IDE focuses on modernizing the user interface and providing more powerful tools for managing complex projects and data structures.

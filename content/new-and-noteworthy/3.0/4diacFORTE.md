@@ -1,6 +1,6 @@
 ---
 title: 4diac FORTE
-
+description: Upgraded codebase to C++20, adding advanced array handling, full IEC 61131-3 function support, and data type compliance fixes.
 ---
 
  - Support for ARRAYs with arbitrary boundaries [n..m]

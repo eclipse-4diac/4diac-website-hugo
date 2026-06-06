@@ -1,6 +1,6 @@
 ---
 title: 4diac FBE
-
+description: New build engine that automates 4diac FORTE compilation and multi-target management without manual software installations.
 ---
 
  - New component in 4diac 3.0
