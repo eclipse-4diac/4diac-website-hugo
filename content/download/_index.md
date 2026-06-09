@@ -10,10 +10,9 @@ hide_breadcrumb: true
 page_css_file: /4diac/css/download.css
 sidebar: 
   - sidebar-downloads-repos
-  - sidebar-downloads
 ---
 
-## Latest Release: Eclipse 4diac 3.1
+## Latest Release: Eclipse 4diac 3.2
 
 {{< relCards useMatchHeight="true" source="cardsCurrentRelease" containerClass="col-xs-24 col-sm-8">}}
 
