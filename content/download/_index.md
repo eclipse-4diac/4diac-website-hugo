@@ -10,6 +10,7 @@ hide_breadcrumb: true
 page_css_file: /4diac/css/download.css
 sidebar: 
   - sidebar-downloads-repos
+  - sidebar-early-access-downloads
 ---
 
 ## Latest Release: Eclipse 4diac 3.2
