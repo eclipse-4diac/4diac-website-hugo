@@ -572,8 +572,8 @@ timeout = "120s"
   weight = 5
 [[menu.sidebar]]
   parent = "sb-doc-io"
-  name = "PLC01A1"
-  url = "/doc/io_config/plc01a1.html"
+  name = "GPIOChip"
+  url = "/doc/io_config/gpiochip.html"
   weight = 1
 [[menu.sidebar]]
   parent = "sb-doc-io"
@@ -599,49 +599,59 @@ timeout = "120s"
   weight = 1
 [[menu.sidebar]]
   parent = "sb-doc-com"
-  name = "MQTT with Eclipse Paho"
-  url = "/doc/communication/mqttpaho.html"
+  name = "OPC DA"
+  url = "/doc/communication/opcDA.html"
   weight = 2
-[[menu.sidebar]]
-  parent = "sb-doc-com"
-  name = "Modbus"
-  url = "/doc/communication/modbus.html"
-  weight = 3
 [[menu.sidebar]]
   parent = "sb-doc-com"
   name = "HTTP"
   url = "/doc/communication/http.html"
+  weight = 3
+[[menu.sidebar]]
+  parent = "sb-doc-com"
+  name = "MQTT with Eclipse Paho"
+  url = "/doc/communication/mqttpaho.html"
   weight = 4
 [[menu.sidebar]]
   parent = "sb-doc-com"
-  name = "OPC DA"
-  url = "/doc/communication/opcDA.html"
+  name = "Serial (RS232)"
+  url = "/doc/communication/serial.html"
   weight = 5
-[[menu.sidebar]]
-  parent = "sb-doc-com"
-  name = "TSN"
-  url = "/doc/communication/tsn.html"
-  weight = 6
-[[menu.sidebar]]
-  parent = "sb-doc-com"
-  name = "openPOWERLINK"
-  url = "/doc/communication/openpowerlink.html"
-  weight = 7
 [[menu.sidebar]]
   parent = "sb-doc-com"
   name = "Communicating with Simulation Tools"
   url = "/doc/communication/simulation.html"
+  weight = 6
+[[menu.sidebar]]
+  parent = "sb-doc-com"
+  name = "TSN"
+  url = "/doc/communication/tsn.html"
+  weight = 7
+[[menu.sidebar]]
+  parent = "sb-doc-com"
+  name = "FBDK/IP"
+  url = "/doc/communication/fbdkip.html"
   weight = 8
 [[menu.sidebar]]
   parent = "sb-doc-com"
-  name = "Access BaseX Database with XQuery"
-  url = "/doc/communication/xqueries.html"
+  name = "Modbus"
+  url = "/doc/communication/modbus.html"
   weight = 9
+[[menu.sidebar]]
+  parent = "sb-doc-com"
+  name = "openPOWERLINK"
+  url = "/doc/communication/openpowerlink.html"
+  weight = 10
 [[menu.sidebar]]
   parent = "sb-doc-com"
   name = "Arrowhead"
   url = "/doc/communication/arrowhead.html"
-  weight = 10
+  weight = 11
+[[menu.sidebar]]
+  parent = "sb-doc-com"
+  name = "Access BaseX Database with XQuery"
+  url = "/doc/communication/xqueries.html"
+  weight = 12
 
 ##################################################################
 [[menu.sidebar]]
