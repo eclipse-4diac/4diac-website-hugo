@@ -18,7 +18,7 @@ Our planned agenda is as follows:
 4. Input from the community
 3. Community Q&A - ask your questions to the project team!
 
-We use a publicly available **[Document (Link)](https://docs.google.com/document/d/1XKoy3ec--dxvINVou9o_muGmMFUC0RBq-zF8rmqKj-g/edit?usp=sharing)** to manage the meeting’s agenda. You can add items to it anytime.
+We use a publicly available **[Document (Link)](https://docs.google.com/document/d/1XKoy3ec--dxvINVou9o_muGmMFUC0RBq-zF8rmqKj-g/edit?usp=sharing)** to manage the meeting’s agenda. You can add items to it at any time.
 
 We look forward to an insightful discussion with all of you!
 
@@ -26,6 +26,12 @@ We look forward to an insightful discussion with all of you!
 We plan to hold the community meeting approximately every month:
 
 - September 9, 2026 at 17:00 CEST (UTC+2)
+- October 14, 2026 at 17:00 CEST (UTC+2) 
+- November 11, 2026 at 17:00 CET (UTC+1)
+- December 9, 2026 at 17:00 CET (UTC+1)
+- January 13, 2027 at 17:00 CET (UTC+1) 
+- February 10, 2027 at 17:00 CET (UTC+1)
+- March 10, 2027 at 17:00 CET (UTC+1)
 
 ### Previous Dates
 
