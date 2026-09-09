@@ -13,7 +13,7 @@ sidebar:
   - sidebar-early-access-downloads
 ---
 
-## Latest Release: Eclipse 4diac 3.2
+## Latest Release: Eclipse 4diac 3.3
 
 {{< relCards useMatchHeight="true" source="cardsCurrentRelease" containerClass="col-xs-24 col-sm-8">}}
 
