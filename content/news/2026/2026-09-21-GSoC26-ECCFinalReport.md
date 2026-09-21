@@ -1,3 +1,12 @@
+---
+title: "GSoC 2026 Final Report: Improving the ECC Editor"
+date: 2026-09-21 00:00:00 +0000
+categories: 
+  - GSoC
+type: newsitem
+description: "Google Summer of Code 2026 final report by Vikash Kumar Sinha, describing improvements to the ECC editor in Eclipse 4diac IDE, including state placement, transition routing, connection anchors, breakpoint support, and bendpoint preservation during state movement."
+---
+
 # Google Summer of Code Final Report
 
 ## Improving the ECC Editor in Eclipse 4diac IDE
