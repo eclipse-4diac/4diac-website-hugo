@@ -4,13 +4,7 @@ date: 2026-09-21 00:00:00 +0000
 categories: 
   - GSoC
 type: newsitem
-description: "Google Summer of Code 2026 final report by Vikash Kumar Sinha, describing improvements to the ECC editor in Eclipse 4diac IDE, including state placement, transition routing, connection anchors, breakpoint support, and bendpoint preservation during state movement."
----
-
-# Google Summer of Code Final Report
-
-## Improving the ECC Editor in Eclipse 4diac IDE
-
+description: "Google Summer of Code 2026 final report by Vikash Kumar Sinha, describing improvements to the ECC editor in 4diac IDE, including state placement, transition routing, connection anchors, breakpoint support, and bendpoint preservation during state movement."
 ---
 
 ## Project Information
@@ -59,38 +53,7 @@ During the project, 16 of my pull requests were merged into the Eclipse 4diac ID
 
 ---
 
-# 2. About Eclipse 4diac IDE
-
-Eclipse 4diac IDE is an open-source engineering tool used for developing applications based on the IEC 61499 standard.
-
-IEC 61499 is designed for distributed and event-driven industrial automation systems. It provides a model for developing function blocks that can be distributed across different devices and controllers.
-
-The Eclipse 4diac IDE provides tools for:
-
-- Creating and editing function block types
-- Designing Execution Control Charts
-- Defining states and transitions
-- Configuring event-driven behavior
-- Debugging function block applications
-- Managing distributed automation systems
-- Saving and maintaining IEC 61499 models
-
-The ECC editor is used to model the execution behavior of function blocks. It consists mainly of:
-
-- ECC states
-- Transitions
-- Transition conditions
-- Connection anchors
-- Bendpoints
-- Routing paths
-- Debugging breakpoints
-- Model commands
-
-Because ECC diagrams are graphical representations of the underlying IEC 61499 model, the visual editor and model must always remain synchronized.
-
----
-
-# 3. Summary of Contributions
+# 2. Summary of Contributions
 
 The following 16 pull requests were merged during the project:
 
@@ -113,9 +76,9 @@ The following 16 pull requests were merged during the project:
 
 ---
 
-# 4. Detailed Contributions
+# 3. Detailed Contributions
 
-## 4.1 PR #2189 — Clean CreateECStateCommand to remove screen coordinate dependency
+## 3.1 PR #2189 — Clean CreateECStateCommand to remove screen coordinate dependency
 
 [PR #2189](https://github.com/eclipse-4diac/4diac-ide/pull/2189)
 
@@ -131,7 +94,7 @@ The change resulted in:
 - More predictable state creation behavior
 - Better support for testing and reuse
 
-## 4.2 PR #2209 — Fix EC state placement under zoom
+## 3.2 PR #2209 — Fix EC state placement under zoom
 
 [PR #2209](https://github.com/eclipse-4diac/4diac-ide/pull/2209)
 
@@ -148,7 +111,7 @@ The behavior was tested under:
 
 This made state creation more accurate and predictable.
 
-## 4.3 PR #2226 — Fix zoom-aware coordinate translation in NewStateAction
+## 3.3 PR #2226 — Fix zoom-aware coordinate translation in NewStateAction
 
 [PR #2226](https://github.com/eclipse-4diac/4diac-ide/pull/2226)
 
@@ -166,7 +129,7 @@ This correctly handles:
 
 The change reduced duplicated coordinate-transformation logic and made the implementation better integrated with Eclipse GEF.
 
-## 4.4 PR #2269 — Remove UI dependency from CreateTransitionCommand
+## 3.4 PR #2269 — Remove UI dependency from CreateTransitionCommand
 
 [PR #2269](https://github.com/eclipse-4diac/4diac-ide/pull/2269)
 
@@ -191,7 +154,7 @@ Related callers were updated in:
 
 This improved the separation between model commands and graphical editor state.
 
-## 4.5 PR #2369 — Implement ECStateConnectionAnchor
+## 3.5 PR #2369 — Implement ECStateConnectionAnchor
 
 [PR #2369](https://github.com/eclipse-4diac/4diac-ide/pull/2369)
 
@@ -210,8 +173,7 @@ The implementation considered state boundaries, transition direction, source and
 
 <img width="1316" height="897" alt="image" src="https://github.com/user-attachments/assets/2817d9bd-4180-47e4-9cca-fd9532856c6c" />
 
-
-## 4.6 PR #2421 — Fix ECC transition splines
+## 3.6 PR #2421 — Fix ECC transition splines
 
 [PR #2421](https://github.com/eclipse-4diac/4diac-ide/pull/2421)
 
@@ -229,8 +191,7 @@ The resulting ECC diagrams became easier to read, particularly when multiple tra
 
 <img width="1466" height="768" alt="image" src="https://github.com/user-attachments/assets/d95a5ffe-3c5f-45cc-9c75-5afe352b4925" />
 
-
-## 4.7 PR #2430 — Refactor edge direction
+## 3.7 PR #2430 — Refactor edge direction
 
 [PR #2430](https://github.com/eclipse-4diac/4diac-ide/pull/2430)
 
@@ -246,7 +207,7 @@ This created a cleaner foundation for:
 - Spline generation
 - Direction-dependent rendering
 
-## 4.8 PR #2445 — Fix edge direction aspect ratio
+## 3.8 PR #2445 — Fix edge direction aspect ratio
 
 [PR #2445](https://github.com/eclipse-4diac/4diac-ide/pull/2445)
 
@@ -261,7 +222,7 @@ This improved connection placement for:
 - Diagonal transitions
 - States positioned at different distances
 
-## 4.9 PR #2495 — Fix ECC new router
+## 3.9 PR #2495 — Fix ECC new router
 
 [PR #2495](https://github.com/eclipse-4diac/4diac-ide/pull/2495)
 
@@ -277,7 +238,7 @@ The changes improved the handling of:
 
 The router now produces more stable and understandable transition paths, especially in diagrams containing multiple states and transitions.
 
-## 4.10 PR #2526 — Fix ECC self-loop
+## 3.10 PR #2526 — Fix ECC self-loop
 
 [PR #2526](https://github.com/eclipse-4diac/4diac-ide/pull/2526)
 
@@ -289,8 +250,7 @@ The routing and rendering behavior was corrected so that self-loop transitions a
 
 <img width="392" height="394" alt="image" src="https://github.com/user-attachments/assets/21eabb7f-6109-4c76-82a4-05b4592989fd" />
 
-
-## 4.11 PR #2548 — Fix bug 2546
+## 3.11 PR #2548 — Fix bug 2546
 
 [PR #2548](https://github.com/eclipse-4diac/4diac-ide/pull/2548)
 
@@ -298,7 +258,7 @@ This pull request addressed the ECC-related issue tracked as bug 2546.
 
 The fix was applied to the 3.2.x maintenance branch and targeted the specific incorrect behavior reported in the issue. This helped improve the stability of the maintained Eclipse 4diac release line.
 
-## 4.12 PR #2568 — Implement EvaluatorModelBreakpoint for ECC debugging
+## 3.12 PR #2568 — Implement EvaluatorModelBreakpoint for ECC debugging
 
 [PR #2568](https://github.com/eclipse-4diac/4diac-ide/pull/2568)
 
@@ -313,7 +273,7 @@ Model-level breakpoints:
 - Integrate with debugging infrastructure
 - Support runtime evaluation workflows
 
-## 4.13 PR #2573 — Add support for ECC state model breakpoints
+## 3.13 PR #2573 — Add support for ECC state model breakpoints
 
 [PR #2573](https://github.com/eclipse-4diac/4diac-ide/pull/2573)
 
@@ -325,8 +285,7 @@ This contribution improved the debugging experience by allowing users to reason 
 
 <img width="1280" height="802" alt="image" src="https://github.com/user-attachments/assets/76eb8e27-db15-4c0c-ac29-8ac43aba99de" />
 
-
-## 4.14 PR #2611 — Fix ECC anchor stream optimization
+## 3.14 PR #2611 — Fix ECC anchor stream optimization
 
 [PR #2611](https://github.com/eclipse-4diac/4diac-ide/pull/2611)
 
@@ -341,7 +300,7 @@ The changes helped to:
 - Handle mixed transition collections consistently
 - Prevent overlapping transitions on the same state edge
 
-## 4.15 PR #2884 — Create ECC state on commit of the inline editor
+## 3.15 PR #2884 — Create ECC state on commit of the inline editor
 
 [PR #2884](https://github.com/eclipse-4diac/4diac-ide/pull/2884)
 
@@ -357,7 +316,7 @@ The new workflow allows the user to:
 
 The state is created only after the user commits the name. This makes state creation more direct and intuitive.
 
-## 4.16 PR #2897 — Adjust transition bendpoints when a state is moved
+## 3.16 PR #2897 — Adjust transition bendpoints when a state is moved
 
 [PR #2897](https://github.com/eclipse-4diac/4diac-ide/pull/2897)
 
@@ -378,7 +337,7 @@ This keeps connected transitions visually aligned with the moved state and prese
 
 ---
 
-# 5. Pull Request Summary
+# 4. Pull Request Summary
 
 | No. | PR | Title | Main Contribution |
 |---|---|---|---|
@@ -401,7 +360,7 @@ This keeps connected transitions visually aligned with the moved state and prese
 
 ---
 
-# 6. Future Scope
+# 5. Future Scope
 
 Possible future work includes:
 
@@ -418,7 +377,7 @@ Possible future work includes:
 
 ---
 
-# 7. Conclusion
+# 6. Conclusion
 
 During my GSoC project, I worked on improving the ECC editor of Eclipse 4diac IDE. My contributions covered both user-facing features and internal architectural improvements.
 
@@ -445,7 +404,7 @@ I am grateful to my mentor, Alois Zoitl, the Eclipse 4diac community, and the Ec
 
 ---
 
-# 8. Important Links
+# 7. Important Links
 
 ## Repository
 
