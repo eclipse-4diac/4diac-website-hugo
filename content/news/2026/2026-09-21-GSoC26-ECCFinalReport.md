@@ -156,7 +156,7 @@ This improved the separation between model commands and graphical editor state.
 
 ## 3.5 PR #2369 — Implement ECStateConnectionAnchor
 
-<img width="1316" height="897" alt="image" src="https://github.com/user-attachments/assets/2f2d48f7-4ae1-4dfa-8aaa-36df1564a290" />
+{{< image src="/4diac/img/news/Image-5.jpeg" alt="Transition anchors in the ECC editor" width="70%" >}} {{< br >}}
 
 
 [PR #2369](https://github.com/eclipse-4diac/4diac-ide/pull/2369)
@@ -176,7 +176,7 @@ The implementation considered state boundaries, transition direction, source and
 
 ## 3.6 PR #2421 — Fix ECC transition splines
 
-<img width="1466" height="768" alt="image" src="https://github.com/user-attachments/assets/28840317-a364-43cd-b696-01fb75f2c141" />
+{{< image src="/4diac/img/news/Image-4.jpeg" alt="Spline transitions in the ECC editor" width="70%" >}} {{< br >}}
 
 
 [PR #2421](https://github.com/eclipse-4diac/4diac-ide/pull/2421)
@@ -242,7 +242,7 @@ The router now produces more stable and understandable transition paths, especia
 
 ## 3.10 PR #2526 — Fix ECC self-loop
 
-<img width="392" height="394" alt="image" src="https://github.com/user-attachments/assets/306c053f-f168-4a03-af35-708640dc092e" />
+{{< image src="/4diac/img/news/Image-1.jpeg" alt="Self-loop transition in the ECC editor" width="40%" >}} {{< br >}}
 
 
 [PR #2526](https://github.com/eclipse-4diac/4diac-ide/pull/2526)
@@ -278,9 +278,9 @@ Model-level breakpoints:
 
 ## 3.13 PR #2573 — Add support for ECC state model breakpoints
 
-<img width="1280" height="802" alt="image" src="https://github.com/user-attachments/assets/90fe5982-2c7a-4ab3-a22d-1c730da2dd5d" />
+{{< image src="/4diac/img/news/Image-2.jpeg" alt="Breakpoints view in 4diac IDE" width="100%" >}} {{< br >}}
 
-<img width="1023" height="665" alt="image" src="https://github.com/user-attachments/assets/09ad158a-5385-4ebd-9767-9ff02ea8f2c4" />
+{{< image src="/4diac/img/news/Image-3.jpeg" alt="Debugging the E_CTD function block" width="100%" >}} {{< br >}}
 
 
 [PR #2573](https://github.com/eclipse-4diac/4diac-ide/pull/2573)
