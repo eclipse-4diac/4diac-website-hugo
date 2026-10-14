@@ -1,6 +1,6 @@
 ---
 title: "GSoC 2026 Final Report: Improving the ECC Editor"
-date: 2026-09-21 00:00:00 +0000
+date: 2026-10-14 00:00:00 +0000
 categories: 
   - GSoC
 type: newsitem
@@ -171,8 +171,6 @@ Connection anchors determine where transitions connect to states. Correct anchor
 
 The implementation considered state boundaries, transition direction, source and target positions, and ECC routing requirements.
 
-<img width="1316" height="897" alt="image" src="https://github.com/user-attachments/assets/2817d9bd-4180-47e4-9cca-fd9532856c6c" />
-
 ## 3.6 PR #2421 — Fix ECC transition splines
 
 [PR #2421](https://github.com/eclipse-4diac/4diac-ide/pull/2421)
@@ -188,8 +186,6 @@ The changes improved:
 - Interaction with state geometry
 
 The resulting ECC diagrams became easier to read, particularly when multiple transitions were present.
-
-<img width="1466" height="768" alt="image" src="https://github.com/user-attachments/assets/d95a5ffe-3c5f-45cc-9c75-5afe352b4925" />
 
 ## 3.7 PR #2430 — Refactor edge direction
 
@@ -248,8 +244,6 @@ A self-loop begins and ends at the same state and requires special routing logic
 
 The routing and rendering behavior was corrected so that self-loop transitions are represented properly.
 
-<img width="392" height="394" alt="image" src="https://github.com/user-attachments/assets/21eabb7f-6109-4c76-82a4-05b4592989fd" />
-
 ## 3.11 PR #2548 — Fix bug 2546
 
 [PR #2548](https://github.com/eclipse-4diac/4diac-ide/pull/2548)
@@ -282,8 +276,6 @@ This pull request extended the debugging work by adding breakpoint support for E
 Users need to stop or inspect execution at specific ECC states while debugging function block behavior. The implementation connected ECC states with the breakpoint infrastructure.
 
 This contribution improved the debugging experience by allowing users to reason about execution directly through the ECC model.
-
-<img width="1280" height="802" alt="image" src="https://github.com/user-attachments/assets/76eb8e27-db15-4c0c-ac29-8ac43aba99de" />
 
 ## 3.14 PR #2611 — Fix ECC anchor stream optimization
 
@@ -439,4 +431,4 @@ I am grateful to my mentor, Alois Zoitl, the Eclipse 4diac community, and the Ec
 - **Mentor:** Alois Zoitl
 - **Organization:** Eclipse Foundation
 - **Project:** Eclipse 4diac IDE
-- **Date:** September 20, 2026
+- **Date:** October 14, 2026
