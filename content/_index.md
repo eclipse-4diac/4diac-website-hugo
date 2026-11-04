@@ -5,7 +5,7 @@ date: 2020-03-01T16:09:45-04:00
 headline: > 
   What is <span class="white">Eclipse 4diac™</span>?
 subtitle: > 
-  <span class="white">Eclipse 4diac™ provides an open source infrastructure for <br>distributed industrial process measurement and control systems <br>based on the IEC 61499 standard.</span>
+  <span class="white">Eclipse 4diac™ is an open-source toolchain for developing and running distributed industrial automation applications based on the IEC 61499 standard.</span>
 tagline: >
   design <span class="white">once</span> use <span class="white">everywhere</span>
 hide_page_title: true
@@ -46,11 +46,30 @@ featured_story: |
     <div class="featured-story-jumbotron jumbotron-item-highlighted">
         <div class="featured-story-jumbotron-content">
             <div class="featured-story-jumbotron-content-title">
+              2<sup>nd</sup> 4days of Eclipse 4diac Winter School
+            </div>
+            <p class="featured-story-jumbotron-content-body">
+               <strong>February 8–11, 2027 · JKU Linz, Austria</strong><br>
+                Join us for four days of hands-on learning about IEC 61499 and Eclipse 4diac. 
+                Planned highlights include a hackathon to build larger control applications or contribute to Eclipse 4diac.
+            </p>
+        </div>
+        <div class="featured-story-jumbotron-links">
+            <a class="featured-story-jumbotron-links-button btn btn-primary" href="./events/4diacwinterschool/2027">Learn More</a>
+        <!--    <a class="featured-story-jumbotron-links-button btn btn-primary" href="https://eclipse.zoom.us/meeting/register/tZMsfumsrD8rEt3ZLGzwwTfUJNj9r2YS9UkH#/registration">
+              Part 2: Nov 21
+            </a> -->
+        </div>
+    </div>
+    <div> <br> </div>
+    <div class="featured-story-jumbotron jumbotron-item-highlighted">
+        <div class="featured-story-jumbotron-content">
+            <div class="featured-story-jumbotron-content-title">
               Eclipse 4diac Virtual Community Meetings 
             </div>
             <p class="featured-story-jumbotron-content-body">
-              Join us for a discussion on IEC 61499 and Eclipse 4diac. We welcome interested participants from all background, whether seasoned developer or interested newcomer. 
-              We will demonstrate new developments in Eclipse 4diac, outline our development roadmap, and provide enough room for questions and answers with the project team of Eclipse 4diac.
+              Join the Eclipse 4diac community online to discover recent developments, discuss our roadmap, and exchange ideas with users and developers.
+              Whether you're a newcomer or an experienced contributor, bring your questions, feedback, and ideas!
             </p>
         </div>
     
