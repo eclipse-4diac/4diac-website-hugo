@@ -1,11 +1,10 @@
 ---
 title: "Organisation"
-seo_title: "4days of Eclipse 4diac, Organisation"
+seo_title: "Organisation | 1st 4days of Eclipse 4diac Winter School 2025"
+aliases: ["/events/4diacwinterschool/organisation/"]
 headline: > 
    1<sup>st</sup> 4days of <span class="white">Eclipse 4diac</span> Winter School
-tagline: >
-  Organisation Team
-  <span style="float: right;" class="white"><small>Earn 3 ECTS!</small></span>
+tagline: "Organisation Team · February 10–14, 2025"
 description: "The organisation team of the 1st 4days of Eclipse 4diac Winter School"
 date: 2024-11-07
 layout: "single"

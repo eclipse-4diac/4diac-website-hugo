@@ -188,18 +188,25 @@ timeout = "120s"
     which are collected here:
     """
 
+
 [[menu.main]]
-  name = "Winter Schools"
+  name = "4days of Eclipse 4diac Winter Schools"
   weight = 1
   identifier = "events-winterschools"
   parent = "events"
-  
+
 [[menu.main]]
-  name = "1st 4days of Eclipse 4diac Winter School, 2025" 
-  url = "/events/4diacWinterSchool/"
+  name = "Overview"
+  url = "/events/4diacwinterschool/"
   weight = 1
   parent = "events-winterschools"
-  
+
+[[menu.main]]
+  name = "2025 Edition"
+  url = "/events/4diacwinterschool/2025/"
+  weight = 3
+  parent = "events-winterschools"
+
 
 [[menu.main]]
   name = "Community Events"
