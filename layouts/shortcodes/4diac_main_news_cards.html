@@ -6,7 +6,7 @@
 <div class="row news-cards-row">
     <h2>Latest News</h2>
     <!-- Subscription card -->
-    <div class="card-container{{ with $containerClass }} {{ . }}{{ end }}{{ if eq $useMatchHeight "true" }} match-height-item-by-row{{ end }}" >
+    <div class="card-container {{ with $containerClass }} {{ . }}{{ end }}{{ if eq $useMatchHeight "true" }} match-height-item-by-row{{ end }}" >
         <div class="card-panel panel panel-default" style="background-color: #fff3e3;">
             <div class="panel-heading" aria-hidden="true">
                 <img class="img cover-image" src="/4diac/img/news.jpeg" alt="Eclipse 4diac News"/>
@@ -20,7 +20,7 @@
                 </a>
             </div>
             <div class="text-center vertical-align">
-                <a class="btn btn-primary subscribe-btn news-btn-font "  href="index.xml" title="RSS Feed">
+                <a class="btn btn-primary rss-btn news-btn-font "  href="index.xml" title="RSS Feed">
                     <i class="fa fa-rss">&nbsp;</i>Subscribe to our RSS feed
                 </a>
             </div>
@@ -58,8 +58,10 @@
                 <h3 class="fw-700" style="font-size: larger;">
                     {{ .Title }}
                 </h3>
-                <p><span style="color: #99a6c3; font-weight: bold;">{{ .Date.Format "2 January, 2006" }}</span></p>
-                {{ .Params.description | markdownify }}
+                <p><span style="color: var(--4diac-gray-dark-mid); font-weight: 400;">{{ .Date.Format "2 January, 2006" }}</span></p>
+                <div class="news-card-excerpt">
+                  {{ .Params.description | markdownify }}
+                </div>
             </div>
 
             {{ if isset . "links" }}
