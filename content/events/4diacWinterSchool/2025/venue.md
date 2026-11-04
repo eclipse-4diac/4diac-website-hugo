@@ -1,12 +1,12 @@
 ---
 title: "Venue"
-seo_title: "4days of Eclipse 4diac, Venue"
+seo_title: "Venue | 1st 4days of Eclipse 4diac Winter School 2025"
+aliases: ["/events/4diacwinterschool/venue/"]
 headline: > 
    1<sup>st</sup> 4days of <span class="white">Eclipse 4diac</span> Winter School
 tagline: >
-  Venue
-  <span style="float: right;" class="white"><small>Earn 3 ECTS!</small></span>
-description: "The venue of the 1st 4days of Eclipse 4diac Winter School"
+  Venue · February 10–14, 2025
+description: "Venue and travel information for the 1st 4days of Eclipse 4diac Winter School, held at Johannes Kepler University Linz, Austria."
 date: 2024-11-07
 layout: "single"
 hide_page_title: true
@@ -53,7 +53,8 @@ Please note that train tickets from ÖBB must be purchased in advance at the sta
 
 ### By airplane
 
-The nearest major airports are Vienna Airport and Munich Airport. From Vienna there is a direct train connection to Linz, from Munich you go via Munich Central Station (“Munich Hbf”). There is a direct flight to Linz only from Frankfurt am Main.
+The nearest major airports are Vienna Airport and Munich Airport. From Vienna there is a direct train connection to Linz, from Munich you go via Munich Central Station (“Munich Hbf”). 
+Linz also has a regional airport, although flight connections depend on the current schedule.
 
 {{< br >}}
 {{< image src="../travel_schematic.png" alt="Travel schematic to reach JKU" width="100%" display="block" margin-left="auto" margin-right="auto" >}}
