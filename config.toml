@@ -202,6 +202,12 @@ timeout = "120s"
   parent = "events-winterschools"
 
 [[menu.main]]
+  name = "2027 Edition"
+  url = "/events/4diacwinterschool/2027/"
+  weight = 2
+  parent = "events-winterschools"
+
+[[menu.main]]
   name = "2025 Edition"
   url = "/events/4diacwinterschool/2025/"
   weight = 3
