@@ -24,11 +24,12 @@ The Winter School welcomes newcomers and experienced users alike. Beyond learnin
 
 ### 2nd 4days of Eclipse 4diac Winter School — 2027
 
-**February 2027**
+**February 8–11, 2027 · Johannes Kepler University Linz, Austria**
 
-The second edition of the 4days of Eclipse 4diac Winter School is currently being prepared.
+The second edition builds on the success of the first Winter School, combining IEC 61499 and Eclipse 4diac training with practical workshops, an extended hackathon, and new topics such as open-source security.
 
-Further information about the program, venue, and participation will follow.
+[Explore the 2027 edition]({{< relref "/events/4diacwinterschool/2027/_index.md" >}})
+
 
 ## Previous Editions
 
