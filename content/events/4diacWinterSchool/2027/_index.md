@@ -36,7 +36,7 @@ The following sessions are currently planned.
 - **Advanced Concepts of IEC 61499:**
   Explore advanced features and methodologies for developing complex and large-scale automation systems.
 
--**Developing Eclipse 4diac – Guided Session:**
+- **Developing Eclipse 4diac – Guided Session:**
   Follow an Eclipse 4diac committer as they work through a concrete problem, demonstrating how to investigate, implement, and test bug fixes or extensions to 4diac IDE or 4diac FORTE.
 
 - **Managing 4diac FORTE Builds with FBE:**
