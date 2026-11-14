@@ -4,7 +4,7 @@ date: 2026-11-06T00:00:00-00:00
 categories: ["announcements", "Eclipse 4diac Project News"]
 type: "newsitem"
 description: |
-  We have big news: the Sovereign Tech Fund is investing in Eclipse 4diac! From October 2026 through November 2027, we will tackle a coordinated development effort across the runtime, engineering tools, libraries, and documentation.
+  We have big news: the [Sovereign Tech Fund](https://www.sovereign.tech/programs/fund) is investing in Eclipse 4diac! From October 2026 through November 2027, we will tackle a coordinated development effort across the runtime, engineering tools, libraries, and documentation.
 fordiacTeamGreating: false
 ---
 
