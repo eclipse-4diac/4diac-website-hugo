@@ -45,6 +45,9 @@ The following sessions are currently planned.
 - **Connecting Eclipse 4diac to the Open Industry Project:**
   Use the open-source [Open Industry Project](https://www.openindustryproject.org/) simulation environment to develop and test  IEC 61499 automation applications.
 
+- **Building a Demonstrator using LEGO® MINDSTORMS® EV3:**
+  Eclipse 4diac can be use to deploy software on LEGO® MINDSTORMS® EV3, enabling the prototyping of industrial processes in an educational environment.
+
 - **Eclipse 4diac Hackathon:**
   Participants choose their own challenges and work collaboratively on solutions, with guidance and support from Eclipse 4diac committers. We are considering two themes:
 
